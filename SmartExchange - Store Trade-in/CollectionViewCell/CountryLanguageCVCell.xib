@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="19455" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19454"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Roboto-Regular.ttf">
+            <string>Roboto-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="gTV-IL-0wX" customClass="CountryLanguageCVCell" customModule="TechCheck_Exchange" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="218" height="60"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="218" height="60"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aA0-70-Vkn" customClass="cornerView" customModule="TechCheck_Exchange" customModuleProvider="target">
+                        <rect key="frame" x="1" y="1" width="216" height="58"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Selected" translatesAutoresizingMaskIntoConstraints="NO" id="sJQ-N6-bIu">
+                                <rect key="frame" x="10" y="19" width="20" height="20"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="20" id="Iiw-Kr-moE">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                                    </constraint>
+                                    <constraint firstAttribute="height" constant="20" id="c4k-Mo-Nrs">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="30"/>
+                                    </constraint>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="English" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hCz-hw-xZb">
+                                <rect key="frame" x="40" y="19.5" width="52" height="19"/>
+                                <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="16"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="22"/>
+                                </variation>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="0.34901960780000002" green="0.062745098040000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="sJQ-N6-bIu" firstAttribute="leading" secondItem="aA0-70-Vkn" secondAttribute="leading" constant="10" id="bhj-xK-WTK"/>
+                            <constraint firstItem="sJQ-N6-bIu" firstAttribute="centerY" secondItem="aA0-70-Vkn" secondAttribute="centerY" id="dz1-E6-BhO"/>
+                            <constraint firstItem="hCz-hw-xZb" firstAttribute="centerY" secondItem="sJQ-N6-bIu" secondAttribute="centerY" id="jUp-SM-NJR"/>
+                            <constraint firstItem="hCz-hw-xZb" firstAttribute="leading" secondItem="sJQ-N6-bIu" secondAttribute="trailing" constant="10" id="k8z-Fb-qPj"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <color key="backgroundColor" red="0.34901960780000002" green="0.062745098040000002" blue="0.56862745100000001" alpha="1" colorSpace="calibratedRGB"/>
+            <constraints>
+                <constraint firstAttribute="bottom" secondItem="aA0-70-Vkn" secondAttribute="bottom" constant="1" id="R7K-Mb-H0r"/>
+                <constraint firstItem="aA0-70-Vkn" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" constant="1" id="boL-t6-43B"/>
+                <constraint firstItem="aA0-70-Vkn" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" constant="1" id="fUh-IB-mGa"/>
+                <constraint firstAttribute="trailing" secondItem="aA0-70-Vkn" secondAttribute="trailing" constant="1" id="jUF-L4-xWB"/>
+            </constraints>
+            <size key="customSize" width="218" height="50"/>
+            <connections>
+                <outlet property="baseView" destination="aA0-70-Vkn" id="VtG-GQ-tQJ"/>
+                <outlet property="imgViewTick" destination="sJQ-N6-bIu" id="SA9-LE-UMO"/>
+                <outlet property="lblLanguageName" destination="hCz-hw-xZb" id="z5k-Bx-Xkm"/>
+            </connections>
+            <point key="canvasLocation" x="204.34782608695653" y="113.16964285714285"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <image name="Selected" width="48" height="48"/>
+    </resources>
+</document>

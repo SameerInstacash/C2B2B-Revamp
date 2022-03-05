@@ -1,0 +1,318 @@
+
+/* Class = "UILabel"; text = "Press “START” and run your finger over all the squares until each one turns purple"; ObjectID = "2CK-G6-Uk7"; */
+"2CK-G6-Uk7.text" = "Press “START” and run your finger over all the squares until each one turns purple";
+
+/* Class = "UILabel"; text = "Charger"; ObjectID = "2KF-4F-eA8"; */
+"2KF-4F-eA8.text" = "Charger";
+
+/* Class = "UILabel"; text = "Screen Calibration"; ObjectID = "2ea-Cc-YnN"; */
+"2ea-Cc-YnN.text" = "Screen Calibration";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "2hl-56-xTP"; */
+"2hl-56-xTP.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Checking screen for white or black dot"; ObjectID = "2mH-dO-LyU"; */
+"2mH-dO-LyU.text" = "Checking screen for white or black dot";
+
+/* Class = "UILabel"; text = "Checking Fingerprint Scanner"; ObjectID = "5AV-gV-HZG"; */
+"5AV-gV-HZG.text" = "Checking Fingerprint Scanner";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "6SV-JV-bfk"; */
+"6SV-JV-bfk.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "3/15"; ObjectID = "6p1-wp-7lo"; */
+"6p1-wp-7lo.text" = "3/15";
+
+/* Class = "UILabel"; text = "Vibrator"; ObjectID = "7MA-hU-wHZ"; */
+"7MA-hU-wHZ.text" = "Vibrator";
+
+/* Class = "UITextField"; placeholder = "Type Number"; ObjectID = "8MX-zA-Ald"; */
+"8MX-zA-Ald.placeholder" = "Type Number";
+
+/* Class = "UILabel"; text = "SMART DIAGNOSTICS"; ObjectID = "8Se-bm-hD8"; */
+"8Se-bm-hD8.text" = "SMART DIAGNOSTICS";
+
+/* Class = "UILabel"; text = "11/15"; ObjectID = "8tk-SL-kPF"; */
+"8tk-SL-kPF.text" = "11/15";
+
+/* Class = "UILabel"; text = "2/15"; ObjectID = "9Pf-xO-XQj"; */
+"9Pf-xO-XQj.text" = "2/15";
+
+/* Class = "UILabel"; text = "Auto Rotation"; ObjectID = "9nh-7E-U0N"; */
+"9nh-7E-U0N.text" = "Auto Rotation";
+
+/* Class = "UILabel"; text = "Earphone"; ObjectID = "9nm-c1-vGb"; */
+"9nm-c1-vGb.text" = "Earphone";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "A4L-B0-t0Z"; */
+"A4L-B0-t0Z.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "Aki-6b-6hh"; */
+"Aki-6b-6hh.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "Guide me"; ObjectID = "BPO-eN-S6h"; */
+"BPO-eN-S6h.normalTitle" = "Guide me";
+
+/* Class = "UILabel"; text = "7/15"; ObjectID = "Dbp-dN-F4w"; */
+"Dbp-dN-F4w.text" = "7/15";
+
+/* Class = "UILabel"; text = "Checking Proximity Sensors"; ObjectID = "Djl-YD-KEK"; */
+"Djl-YD-KEK.text" = "Checking Proximity Sensors";
+
+/* Class = "UILabel"; text = "Get ready to smile. We’re making sure this device is selfie-ready!"; ObjectID = "EBC-e7-fPV"; */
+"EBC-e7-fPV.text" = "Get ready to smile. We’re making sure this device is selfie-ready!";
+
+/* Class = "UILabel"; text = "FlashLight"; ObjectID = "ETY-dE-ehW"; */
+"ETY-dE-ehW.text" = "FlashLight";
+
+/* Class = "UILabel"; text = "Checking FlashLight"; ObjectID = "En2-2n-aZu"; */
+"En2-2n-aZu.text" = "Checking FlashLight";
+
+/* Class = "UIButton"; normalTitle = "Guide me"; ObjectID = "F2H-Gj-KJF"; */
+"F2H-Gj-KJF.normalTitle" = "Guide me";
+
+/* Class = "UILabel"; text = "To test WIFI, turn WIFI on and connect to your preferred network then Press “START“"; ObjectID = "FW0-0y-jW2"; */
+"FW0-0y-jW2.text" = "To test WIFI, turn WIFI on and connect to your preferred network then Press “START“";
+
+/* Class = "UILabel"; text = "1. Tap anywhere on the screen to autofocus"; ObjectID = "FsP-Ld-zAV"; */
+"FsP-Ld-zAV.text" = "1. Tap anywhere on the screen to autofocus";
+
+/* Class = "UILabel"; text = "Checking Camera"; ObjectID = "Gxm-zN-nJc"; */
+"Gxm-zN-nJc.text" = "Checking Camera";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "HEA-PK-kvJ"; */
+"HEA-PK-kvJ.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "HMR-ry-TCh"; */
+"HMR-ry-TCh.normalTitle" = "CONTINUE";
+
+/* Class = "UILabel"; text = "Your phone will play some numbers loud, and then type it in the text box provided"; ObjectID = "Hu4-lK-7MK"; */
+"Hu4-lK-7MK.text" = "Your phone will play some numbers loud, and then type it in the text box provided";
+
+/* Class = "UILabel"; text = "TEST RESULT SUMMARY"; ObjectID = "IXT-y0-P0o"; */
+"IXT-y0-P0o.text" = "TEST RESULT SUMMARY";
+
+/* Class = "UILabel"; text = "Touch screen test"; ObjectID = "JQY-Tb-6Q7"; */
+"JQY-Tb-6Q7.text" = "Touch screen test";
+
+/* Class = "UILabel"; text = "Press volume up button"; ObjectID = "Jrj-VT-XUo"; */
+"Jrj-VT-XUo.text" = "Press volume up button";
+
+/* Class = "UILabel"; text = "10/15"; ObjectID = "JvY-uu-QdT"; */
+"JvY-uu-QdT.text" = "10/15";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "KDy-vD-JRe"; */
+"KDy-vD-JRe.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "4/15"; ObjectID = "LOC-En-Tbd"; */
+"LOC-En-Tbd.text" = "4/15";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "LjW-ZX-DQq"; */
+"LjW-ZX-DQq.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "MhZ-Db-yrS"; */
+"MhZ-Db-yrS.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "N0Q-ZL-h33"; */
+"N0Q-ZL-h33.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "NPo-v0-8Gy"; */
+"NPo-v0-8Gy.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Checking Device Rotation"; ObjectID = "Oyb-p3-xPG"; */
+"Oyb-p3-xPG.text" = "Checking Device Rotation";
+
+/* Class = "UILabel"; text = "Checking Speaker"; ObjectID = "Pxr-c5-OL6"; */
+"Pxr-c5-OL6.text" = "Checking Speaker";
+
+/* Class = "UILabel"; text = "9/15"; ObjectID = "QAq-hX-XuF"; */
+"QAq-hX-XuF.text" = "9/15";
+
+/* Class = "UILabel"; text = "Checking Vibrator"; ObjectID = "RIC-d9-Go3"; */
+"RIC-d9-Go3.text" = "Checking Vibrator";
+
+/* Class = "UILabel"; text = "Count how many times your phone has vibrated and then type it in the text box provided"; ObjectID = "RhR-Ca-EAK"; */
+"RhR-Ca-EAK.text" = "Count how many times your phone has vibrated and then type it in the text box provided";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "SmM-nB-eQP"; */
+"SmM-nB-eQP.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "Te2-d9-pBc"; */
+"Te2-d9-pBc.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Microphone"; ObjectID = "Tqh-Nz-7rI"; */
+"Tqh-Nz-7rI.text" = "Microphone";
+
+/* Class = "UILabel"; text = "6/15"; ObjectID = "ULA-OW-rW2"; */
+"ULA-OW-rW2.text" = "6/15";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "Urx-1E-B5C"; */
+"Urx-1E-B5C.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "Via-xW-Ql3"; */
+"Via-xW-Ql3.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Please ensure device rotation option is enabled. Press “START“ and rotate your device as seen below"; ObjectID = "WYL-XV-ZN6"; */
+"WYL-XV-ZN6.text" = "Please ensure device rotation option is enabled. Press “START“ and rotate your device as seen below";
+
+/* Class = "UILabel"; text = "12/15"; ObjectID = "Wxu-rk-zot"; */
+"Wxu-rk-zot.text" = "12/15";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "XUb-jb-wnz"; */
+"XUb-jb-wnz.normalTitle" = "SKIP";
+
+/* Class = "UITextField"; placeholder = "Type Number"; ObjectID = "Y3c-td-3LL"; */
+"Y3c-td-3LL.placeholder" = "Type Number";
+
+/* Class = "UILabel"; text = "15/15"; ObjectID = "YEt-We-4ou"; */
+"YEt-We-4ou.text" = "15/15";
+
+/* Class = "UILabel"; text = "8/15"; ObjectID = "YQi-ky-LFX"; */
+"YQi-ky-LFX.text" = "8/15";
+
+/* Class = "UILabel"; text = "Follow the instructions below to complete check"; ObjectID = "YzQ-7U-i9W"; */
+"YzQ-7U-i9W.text" = "Follow the instructions below to complete check";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "Z92-33-a2N"; */
+"Z92-33-a2N.normalTitle" = "SKIP";
+
+/* Class = "UITextField"; placeholder = "Type Number"; ObjectID = "Ze0-L5-WCh"; */
+"Ze0-L5-WCh.placeholder" = "Type Number";
+
+/* Class = "UILabel"; text = "Dead Pixel"; ObjectID = "akC-th-Ld6"; */
+"akC-th-Ld6.text" = "Dead Pixel";
+
+/* Class = "UILabel"; text = "Checking WiFi"; ObjectID = "as6-3W-et0"; */
+"as6-3W-et0.text" = "Checking WiFi";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "bPs-kf-r8N"; */
+"bPs-kf-r8N.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "c9O-OS-bOT"; */
+"c9O-OS-bOT.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "2. Press capture to take a shot!"; ObjectID = "d83-0p-chR"; */
+"d83-0p-chR.text" = "2. Press capture to take a shot!";
+
+/* Class = "UILabel"; text = "Then you will place your finger on the fingerprint scanner like you normally would during unlock"; ObjectID = "d9Q-oB-O0j"; */
+"d9Q-oB-O0j.text" = "Then you will place your finger on the fingerprint scanner like you normally would during unlock";
+
+/* Class = "UILabel"; text = "Proximity Sensor"; ObjectID = "dYR-Up-NfP"; */
+"dYR-Up-NfP.text" = "Proximity Sensor";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "dkG-Fd-iaC"; */
+"dkG-Fd-iaC.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin"; ObjectID = "e6T-nO-pX2"; */
+"e6T-nO-pX2.text" = "We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin";
+
+/* Class = "UILabel"; text = "Checking Earphone"; ObjectID = "e9M-0J-9KC"; */
+"e9M-0J-9KC.text" = "Checking Earphone";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "eCC-TP-DpT"; */
+"eCC-TP-DpT.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "Please plug-in your charger"; ObjectID = "f7p-MZ-2Te"; */
+"f7p-MZ-2Te.text" = "Please plug-in your charger";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "fNZ-yp-SBB"; */
+"fNZ-yp-SBB.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "Guide me"; ObjectID = "fW1-Ho-fkA"; */
+"fW1-Ho-fkA.normalTitle" = "Guide me";
+
+/* Class = "UILabel"; text = "Volume Button"; ObjectID = "fbN-c0-cIa"; */
+"fbN-c0-cIa.text" = "Volume Button";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "fvx-ui-0WU"; */
+"fvx-ui-0WU.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "First, please enable fingerprint function"; ObjectID = "gJf-dF-Z2n"; */
+"gJf-dF-Z2n.text" = "First, please enable fingerprint function";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "gLZ-yr-tIU"; */
+"gLZ-yr-tIU.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "Wave your hand on the device’s screen"; ObjectID = "gxz-nv-1JT"; */
+"gxz-nv-1JT.text" = "Wave your hand on the device’s screen";
+
+/* Class = "UILabel"; text = "Count how many times your phone's flashLight blinked and then type it in the text box provided"; ObjectID = "h2d-Vj-5OO"; */
+"h2d-Vj-5OO.text" = "Count how many times your phone's flashLight blinked and then type it in the text box provided";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "iXY-2f-LEt"; */
+"iXY-2f-LEt.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Please make sure Bluetooth, GPS and Wifi are enabled on your device and press begin to start the tests"; ObjectID = "jDL-2e-O8U"; */
+"jDL-2e-O8U.text" = "Please make sure Bluetooth, GPS and Wifi are enabled on your device and press begin to start the tests";
+
+/* Class = "UILabel"; text = "14/15"; ObjectID = "lKq-ZX-OvS"; */
+"lKq-ZX-OvS.text" = "14/15";
+
+/* Class = "UILabel"; text = "13/15"; ObjectID = "n8m-MD-PzQ"; */
+"n8m-MD-PzQ.text" = "13/15";
+
+/* Class = "UILabel"; text = "Your microphone will listen your voice for 4 seconds to check your microphone is working or not"; ObjectID = "nD9-sK-FRR"; */
+"nD9-sK-FRR.text" = "Your microphone will listen your voice for 4 seconds to check your microphone is working or not";
+
+/* Class = "UILabel"; text = "Press volume down button"; ObjectID = "nSd-RS-D2q"; */
+"nSd-RS-D2q.text" = "Press volume down button";
+
+/* Class = "UILabel"; text = "Wifi"; ObjectID = "oQ9-R5-4pc"; */
+"oQ9-R5-4pc.text" = "Wifi";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "ooZ-Wm-P1m"; */
+"ooZ-Wm-P1m.normalTitle" = "START";
+
+/* Class = "UILabel"; text = "Biometric Authentication"; ObjectID = "p58-Xm-5rb"; */
+"p58-Xm-5rb.text" = "Biometric Authentication";
+
+/* Class = "UILabel"; text = "1/15"; ObjectID = "pGN-M1-17X"; */
+"pGN-M1-17X.text" = "1/15";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "pas-GF-iUZ"; */
+"pas-GF-iUZ.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "qQ0-ke-8V1"; */
+"qQ0-ke-8V1.normalTitle" = "SKIP";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "r29-VI-D5a"; */
+"r29-VI-D5a.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "rOG-pT-XAx"; */
+"rOG-pT-XAx.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "START"; ObjectID = "rPq-Ay-9XB"; */
+"rPq-Ay-9XB.normalTitle" = "START";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "rcI-Eb-iGM"; */
+"rcI-Eb-iGM.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Checking Charger"; ObjectID = "rkH-at-wgN"; */
+"rkH-at-wgN.text" = "Checking Charger";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "sL1-Qk-AUz"; */
+"sL1-Qk-AUz.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "Checking Microphone"; ObjectID = "t2g-vV-JY1"; */
+"t2g-vV-JY1.text" = "Checking Microphone";
+
+/* Class = "UILabel"; text = "Please plug-in your earphone"; ObjectID = "tXh-5j-lY9"; */
+"tXh-5j-lY9.text" = "Please plug-in your earphone";
+
+/* Class = "UIButton"; normalTitle = "Start"; ObjectID = "tgg-9P-Jxh"; */
+"tgg-9P-Jxh.normalTitle" = "Start";
+
+/* Class = "UILabel"; text = "Checking Volume Buttons"; ObjectID = "vY2-lY-L3q"; */
+"vY2-lY-L3q.text" = "Checking Volume Buttons";
+
+/* Class = "UILabel"; text = "5/15"; ObjectID = "vfQ-RK-Y45"; */
+"vfQ-RK-Y45.text" = "5/15";
+
+/* Class = "UILabel"; text = "Speaker"; ObjectID = "xpB-Fu-gFr"; */
+"xpB-Fu-gFr.text" = "Speaker";
+
+/* Class = "UILabel"; text = "Camera"; ObjectID = "yUG-Vm-IL6"; */
+"yUG-Vm-IL6.text" = "Camera";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "zbg-UJ-QGf"; */
+"zbg-UJ-QGf.normalTitle" = "SKIP";

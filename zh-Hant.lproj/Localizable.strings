@@ -1,0 +1,256 @@
+/* 
+  Localizable.strings
+  TechCheck Exchange
+
+  Created by Sameer Khan on 27/01/22.
+  
+*/
+
+"Welcome to SmartExchange" = "Welcome to SmartExchange";
+"IMEI/Serial:" = "IMEI 號碼";
+"Store Token" = "Store Token";
+"Scan QR" = "點擊掃描QR";
+"Previous Quotation" = "Previous Quotation";
+"Let's Get Started" = "Let's Get Started";
+"Reference Number" = "Reference Number";
+"Order details" = "Order details";
+"Reference No" = "Reference No";
+"Customer" = "Customer";
+"Prefferred time" = "Prefferred time";
+"Email" = "Email";
+"Physical Condition" = "身體狀況";
+"Customer details" = "顧客信息";
+"YOUR QUOTE" = "你的報價";
+"Offered Price" = "手機回收價";
+"Diagnosis Charges" = "手機測試收費";
+"Estimated Amount" = "Estimated Amount";
+"Product details" = "Product details";
+"We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin" = "我們將向您展示 8-10 秒最大亮度的多個彩色屏幕。如果您看到黑點請告訴我們點擊“開始”開始";
+"Quit Diagnosis" = "退出診斷";
+"Are you sure you want to quit?" = "你確定你要退出嗎？";
+"Touch Screen Test" = "觸摸屏測試";
+"Please make sure Bluetooth and GPS are enabled on your device and press begin to start the tests" = "請確保藍牙、行動網路、Wi-Fi 已開啟並連線";
+/////////////////////////////////////////
+"Checking Proximity Sensor" = "檢查接近傳感器";
+"Wave your hand infront of the screen" = "在屏幕前揮手";
+"Checking Hardware Buttons" = "检查硬件按钮";
+"Follow the instructions below to complete check" = "按照以下说明完成检查";
+"Press volume up button" = "按下音量增大按钮";
+"Press volume down button" = "按降低音量按钮";
+"Checking Earphone" = "检查耳机";
+"Please plug-in your earphone" = "请插入您的耳机";
+"Checking Charger" = "检查充电器";
+"Please plug-in your charger" = "请插入您的充电器";
+"Checking Camera" = "检查相机";
+"Get ready to smile. We’re making sure this device is selfie-ready!" = "准备好微笑。我们正在确保此设备已准备好自拍！";
+"1. Tap anywhere on the screen to autofocus" = "1.点击屏幕上的任意位置自动对焦";
+"2. Press capture to take a shot!" = "2.按抓拍拍照！";
+"Checking Face-Id" = "检查 Face-Id";
+"First, enable the face-Id function on your phone" = "首先，开启手机的人脸识别功能";
+"During the test place your face on the scanner as you normally would to unlock your phone" = "在测试期间，将您的脸放在扫描仪上，就像您通常解锁手机一样";
+"Checking fingerprint scanner" = "检查指纹扫描仪";
+"First, please enable fingerprint function" = "首先，请开启指纹功能";
+"Then you will place your finger on the fingerprint scanner like you normally would during unlock" = "然后，您将像通常在解锁过程中一样将手指放在指纹扫描仪上";
+"Enable Biometric" = "启用生物识别";
+"Go to Settings -> Touch ID & Passcode" = "转到设置 -> 触控 ID 和密码";
+"Biometric Authentication Test" = "生物认证测试";
+"WiFi Test" = "无线网络测试";
+"Please make sure Bluetooth and GPS are enabled on your device and press begin to start the tests" = "请确保您的设备上启用了蓝牙和 GPS，然后按开始开始测试";
+"Checking FlashLight" = "检查手电筒";
+"Count how many times your phone's flashLight blinked and then type it in the text box provided" = "计算手机闪光灯闪烁的次数，然后在提供的文本框中输入";
+"FlashLight not working" = "手电筒不工作";
+"FlashLight Test" = "手电筒测试";
+"Defective" = "有缺陷的";
+"Please Enter Reference Number" = "請輸入參考編號";
+"Screen Calibration" = "屏幕校準";
+"SMART DIAGNOSTICS" = "智能診斷";
+"TEST RESULT SUMMARY" = "測試結果摘要";
+"Checking Device Rotation" = "檢查設備旋轉";
+"Choose language" = "選擇語言";
+"Change language of this app including its content." = "更改此應用程序的語言，包括其內容。";
+/////////////////////////////////////////
+"Please enter your name" = "請輸入你的名字";
+"Please enter your email" = "請輸入您的電子郵件";
+"Please enter valid email" = "請輸入有效的電子郵件";
+"Please enter your contact no." = "請輸入您的聯繫電話。";
+"Please accept terms & conditions" = "請接受條款和條件";
+"Display & Touch Screen" = "顯示和触摸屏";
+"2 -3 Minor Scratches" = "輕微刮傷";
+"Heavily Scratched" = "嚴重刮傷";
+"Cracked" = "凹痕";
+"Not working (Loose LCD)" = "不工作";
+"Network Lock / Telco Lock" = "帳號登出 （密碼，iCloud，尋找iPhone）";
+"Device Body (Back Panel / Cover)" = "手機主體(含相機玻璃、側邊、背蓋)";
+"Minor Scratches" = "輕微划痕";
+"Heavy Scratches" = "嚴重划痕";
+"Dented" = "凹痕";
+"Details Synced to the server. Please contact Store Executive for further information" = "詳細信息已同步到服務器。請聯繫店長了解更多信息";
+"Photo Id uploaded successfully!" = "照片ID上傳成功！";
+"Uploading..." = "上傳...";
+"Success" = "成功";
+"Click on ‘Start Test” and take a picture from your camera to run auto-focus test" = "Click on ‘Start Test” and take a picture from your camera to run auto-focus test";
+"Authenticate with Touch Id/ Face Id of your phone" = "Authenticate with Touch Id/ Face Id of your phone";
+
+
+
+
+
+
+
+"Back_camera_auth"="此應用程序無權使用Back Camera。";
+"Error" = "錯誤";
+"Setting" = "設置";
+"Cancel" = "取消";
+"Reader_not_supported_by_the_current_device" = "當前設備不支持讀卡器";
+"header_title" = "申請需要獲得許可才能完成診斷。 完成GPS診斷需要位置請求";
+"Dead_Pixel_Test" = "螢幕烙印測試/ 顯示異常";
+"dead_pixel_msg" = "您在手機螢幕上有發現螢幕烙印測試/ 顯示異常嗎？";
+"Yes" = "是";
+"No" = "否";
+"retry" = "刷新";
+"skip_info" = "如果您跳過此測試，將會導致最終回收價格降低。確認跳過？";
+//"Proximity_Sensor_Diagnosis" = "前方感應器測試";
+"Proximity_Sensor_Diagnosis" = "跳过接近传感器";
+"Checking_Network" = "正在檢測行動網路";
+"Checking_Bluetooth" = "正在檢查藍牙";
+"Checking_WiFi" = "正在檢查無綫網絡";
+"Tests_Complete" = "測試成功！";
+"internet_prompt" = "找不到Internet連接！請確保你有一個有效的互聯網連接";
+"pos_info" = "請確保資料已填寫進POS";
+"reader_info" = "此手機不支持";
+"camer_permission" = "此APP尚未應許使用後方照相機";
+"setting" = "設定";
+"hardware_info" = "硬體按鍵測試";
+"rotation_info" = "翻轉功能測試";
+"portrait_mode" = "請自行將手機翻轉，系統會自動偵測";
+"landscape_mode" = "請自行將手機翻轉，系統會自動偵測";
+"earphone_info" = "耳機功能測試";
+"charger_info" = "充電功能測試";
+"camera_info" = "相機功能測試";
+"fingerprint_info" = "指紋辨識功能測試";
+"invalid_imei" = "錯誤IMEI輸入 ";
+"invalid_serial_info" = "此IMEI輸入無效、錯誤";
+"imei_validation_info" = "請輸入IMEI 號碼";
+"screen_failed_info" = "觸控面板/熒幕測試失敗！";
+"retry_test" = "重試測試？";
+"continue" = "繼續";
+"submit" = "繼續";
+"reference_no" = "訂單號碼";
+"skip" = "跳過測試";
+"rota_info" = "請打開手機螢幕自動翻轉功能，然後點擊”開始測試“並將手機從縱向旋轉到橫向";
+"hard_btn_info" = "請按手機上的以下按鍵或按鈕";
+"Checking_GPS" = "GPS檢測";
+"Checking" = "檢測中";
+"lcd" = "液晶螢幕/螢幕玻璃";
+"cpbp_info" = "手機主體(含相機玻璃、側邊、背蓋)";
+"mobile_place" = "電話號碼";
+"email_place" = "Email";
+"name_place" = "姓名";
+"price_info" = "";
+"user_details_info" = "請輸入個人資料";
+"user_btn_continue" = "完成";
+"upload_btn_text" = "上傳個人身分證";
+"schedule_btn_text" = "上傳個人身分證";
+"cracked" = "破裂";
+"broken" = "破碎";
+"dented" = "凹痕";
+"Not_Working" = "無法正常顯示";
+"flawless" = "完好無缺";
+"Flawless" = "完好無缺";
+"Minor_Scratches" = "輕微刮傷";
+"Heavily_Scratched" = "嚴重刮傷";
+"device_body" = "側邊/背蓋";
+"Phone_Locks" = "帳號登出 （密碼、iCloud、尋找iPhone）";
+"store_token" = "店家編號";
+"Wifi_info" = "WiFi，藍牙或GPS：有缺陷";
+"Proximity_info" = "接近傳感器：不良";
+"camer_info" = "相機：不良";
+"device_info" = "設備生物特徵：有缺陷";
+"mic_info" = "麥克風：不良";
+"speakers_info" = "演講嘉賓：瑕疵";
+
+
+"nfc_info" = "NFC：缺陷";
+"vibrator_info" = "振动器：不良";
+"gsm_info" = "GSM：有缺陷";
+"bluetooth_info" = "藍牙：有缺陷";
+"gps_info" = "GPS：有缺陷";
+
+
+"rotation_skip_title" = "跳过自动旋转";
+"rotation_info" = "自動旋轉：有缺陷";
+"hardware_info" = "硬件按鈕：不良";
+"back" = "back";
+"Device_Status" = "Device Status";
+"valid_email_err" = "Please Enter a valid email Id";
+"main_info" = "請確保您已在POS中輸入詳細信息";
+"screen_info" = "請把螢幕顯示的格子填滿";
+
+
+// Sameer -->> 12/4/21
+"Summary of Test Results" = "檢測結果";
+"Failed and Skipped Tests" = "失敗和跳過的測試";
+"Functional Checks" = "功能檢查";
+"ReTry" = "重新嘗試";
+
+// All Tets Name
+"Dead Pixels" = "屏幕壞點";
+"Screen" = "屏幕";
+"Rotation" ="自動旋轉功能";
+"Proximity" = "感應器";
+"Hardware Buttons" = "手機按鈕";
+"Earphone" = "耳機插孔";
+"Charger" = "記憶體";
+"Camera" = "相機";
+"Fingerprint Scanner" = "Fingerprint Scanner";
+"Face Id" = "Face Id";
+"Face-Id Scanner" = "FACE ID 扫描测试";
+"WIFI" = "Wi-Fi";
+"GPS" = "GPS";
+"Bluetooth" = "藍牙";
+"GSM" = "GSM";
+"Microphone" = "麥克風";
+"Speaker" = "揚聲器";
+"Vibrator" = "震動功能";
+"SMS Verification" = "鏈接功能 電話號碼驗證";
+"Storage" = "存儲";
+"Battery" = "電池";
+
+
+"Checking Speaker" = "檢查喇叭";
+"Your phone will play some numbers out loud, and then type it in the text box provided." = "手機會撥放幾個數字，請將聽到的數字打在輸入處";
+"Start" = "開始";
+"Skip" = "跳過";
+"Submit" = "提交";
+"Enter Number" = "輸入號碼";
+"Speaker Test" = "Speaker Test";
+"If you skip this test there would be a substantial decline in the price offered. Do you still want to skip?" = "如果您跳過此測試，所提供的價格將大幅下降";
+
+
+"failed to record!" = "failed to record!";
+"Checking Microphone" = "Checking Microphone";
+"Click to start button. after that microphone will listen your voice for 4 seconds to check your microphone is working or not" = "按下開始並說話，麥克風會聆聽聲音四秒鐘，以檢查麥克風功能是否正常";
+"Microphone Test" = "Microphone Test";
+
+
+"Checking Vibrator" = "Checking Vibrator";
+"Count how many times your phone has vibrated and then type it in the text box provided" = "計算手機震動的次數，並將次數打在輸入處";
+"Vibrator Test" = "Vibrator Test";
+
+
+"wifi_detail" = "WIFI: Defective";
+
+
+"Checking WiFi" = "Checking WiFi";
+"Testing WiFi" = "Testing WiFi";
+"To test WIFI, turn WIFI on and connect to your preferred network then Press “START“" = "To test WIFI, turn WIFI on and connect to your preferred network then Press “START“";
+
+"I hearby acknowledge that I have read, understand and agree to the Terms and Conditions." = "I hearby acknowledge that I have read, understand and agree to the Terms and Conditions.";
+
+
+"Enable Biometric" = "啟用個人特徵 :指紋，臉孔解鎖";
+"Go to Settings -> Touch ID & Passcode" = "前往設置 ->觸控ID与密碼";
+"Settings" = "設置";
+"Biometric Authentication" = "鉴定个人特徵 :指紋，臉孔解鎖";
+
+"Version" = "版本";

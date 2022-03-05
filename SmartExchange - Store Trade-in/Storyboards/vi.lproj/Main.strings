@@ -1,0 +1,228 @@
+
+/* Class = "UILabel"; text = "IMEI/Serial:"; ObjectID = "05M-c1-DPa"; */
+"05M-c1-DPa.text" = "IMEI/Serial:";
+
+/* Class = "UILabel"; text = "SMART EXCHANGE"; ObjectID = "0S5-0N-5IE"; */
+"0S5-0N-5IE.text" = "SMART EXCHANGE";
+
+/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "0hV-Hj-8Bi"; */
+"0hV-Hj-8Bi.text" = "iPhone 11 Pro Max 256GB";
+
+/* Class = "UILabel"; text = "Scan the QR code from the point of sale or enter the store number"; ObjectID = "1SL-gj-Jf4"; */
+"1SL-gj-Jf4.text" = "Scan the QR code from the point of sale or enter the store number";
+
+/* Class = "UIButton"; normalTitle = "TRADE IN ONLINE"; ObjectID = "1V1-QH-fZE"; */
+"1V1-QH-fZE.normalTitle" = "TRADE IN ONLINE";
+
+/* Class = "UIButton"; normalTitle = "EN"; ObjectID = "2XL-iB-PHA"; */
+"2XL-iB-PHA.normalTitle" = "EN";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "3QA-Wc-SAe"; */
+"3QA-Wc-SAe.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "Version 4.1.18"; ObjectID = "3Rg-gH-hVR"; */
+"3Rg-gH-hVR.text" = "Version 4.1.18";
+
+/* Class = "UILabel"; text = "Please enter ‘Store Token’ and submit or click ‘Scan QR Code’ to begin Diagnostics. To view previous results, click on ‘Previous Quotation’"; ObjectID = "4Jy-Dx-mgs"; */
+"4Jy-Dx-mgs.text" = "Please enter ‘Store Token’ and submit or click ‘Scan QR Code’ to begin Diagnostics. To view previous results, click on ‘Previous Quotation’";
+
+/* Class = "UILabel"; text = "Diagnosis Charges"; ObjectID = "4aM-v7-0W4"; */
+"4aM-v7-0W4.text" = "Diagnosis Charges";
+
+/* Class = "UITextField"; placeholder = "Enter Reference Number"; ObjectID = "5fl-4F-QcF"; */
+"5fl-4F-QcF.placeholder" = "Enter Reference Number";
+
+/* Class = "UIButton"; normalTitle = "NEXT"; ObjectID = "5i7-H1-bYT"; */
+"5i7-H1-bYT.normalTitle" = "NEXT";
+
+/* Class = "UILabel"; text = "Product details"; ObjectID = "5n7-6e-j6O"; */
+"5n7-6e-j6O.text" = "Product details";
+
+/* Class = "UILabel"; text = "SMART EXCHANGE"; ObjectID = "6Ox-iJ-xep"; */
+"6Ox-iJ-xep.text" = "SMART EXCHANGE";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "7fg-uf-owo"; */
+"7fg-uf-owo.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Apple"; ObjectID = "9Yc-D1-ecm"; */
+"9Yc-D1-ecm.text" = "Apple";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "9bx-0V-ed3"; */
+"9bx-0V-ed3.normalTitle" = "SKIP";
+
+/* Class = "UITextField"; placeholder = "Name"; ObjectID = "Aej-Qg-xuS"; */
+"Aej-Qg-xuS.placeholder" = "Name";
+
+/* Class = "UILabel"; text = "Customer details"; ObjectID = "Agw-aC-EWl"; */
+"Agw-aC-EWl.text" = "Customer details";
+
+/* Class = "UILabel"; text = "Welcome to SmartExchange"; ObjectID = "AzM-xO-JIm"; */
+"AzM-xO-JIm.text" = "Welcome to SmartExchange";
+
+/* Class = "UIButton"; normalTitle = "Change Language"; ObjectID = "Btu-8f-FIq"; */
+"Btu-8f-FIq.normalTitle" = "Change Language";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "CV5-CP-Gmj"; */
+"CV5-CP-Gmj.text" = "N/A";
+
+/* Class = "UITextView"; text = "Your take back order #PS12345 has been placed. You can now take your device to the store vendor and complete the order for payment!"; ObjectID = "DRY-fx-v6F"; */
+"DRY-fx-v6F.text" = "Your take back order #PS12345 has been placed. You can now take your device to the store vendor and complete the order for payment!";
+
+/* Class = "UIButton"; normalTitle = "PROCEED"; ObjectID = "Df7-Ok-sA4"; */
+"Df7-Ok-sA4.normalTitle" = "PROCEED";
+
+/* Class = "UILabel"; text = "Estimated Amount"; ObjectID = "EIQ-z3-CR8"; */
+"EIQ-z3-CR8.text" = "Estimated Amount";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "F7F-Km-jzE"; */
+"F7F-Km-jzE.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Prefferred time"; ObjectID = "GvH-R7-d0e"; */
+"GvH-R7-d0e.text" = "Prefferred time";
+
+/* Class = "UILabel"; text = "I accept the terms and conditions"; ObjectID = "Hvs-He-pCP"; */
+"Hvs-He-pCP.text" = "I accept the terms and conditions";
+
+/* Class = "UILabel"; text = "Functional checks"; ObjectID = "HyH-iH-1VC"; */
+"HyH-iH-1VC.text" = "Functional checks";
+
+/* Class = "UIButton"; normalTitle = "Previous Quotation"; ObjectID = "Hyw-fg-hvA"; */
+"Hyw-fg-hvA.normalTitle" = "Previous Quotation";
+
+/* Class = "UILabel"; text = "Apple"; ObjectID = "Ic6-U4-08R"; */
+"Ic6-U4-08R.text" = "Apple";
+
+/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "JVd-JT-GyN"; */
+"JVd-JT-GyN.text" = "iPhone 11 Pro Max 256GB";
+
+/* Class = "UILabel"; text = "SMART EXCHANGE"; ObjectID = "Lf1-IQ-sfz"; */
+"Lf1-IQ-sfz.text" = "SMART EXCHANGE";
+
+/* Class = "UITextField"; placeholder = "Dial *#06# for IMEI Number"; ObjectID = "LjN-K5-Re8"; */
+"LjN-K5-Re8.placeholder" = "Dial *#06# for IMEI Number";
+
+/* Class = "UILabel"; text = "Reference Number"; ObjectID = "NFU-Dj-G1k"; */
+"NFU-Dj-G1k.text" = "Reference Number";
+
+/* Class = "UILabel"; text = "Customer"; ObjectID = "O2T-6k-K7z"; */
+"O2T-6k-K7z.text" = "Customer";
+
+/* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "OOx-Xy-W15"; */
+"OOx-Xy-W15.normalTitle" = "DONE";
+
+/* Class = "UILabel"; text = "Your Trade-in value is RM"; ObjectID = "PB0-MO-bXk"; */
+"PB0-MO-bXk.text" = "Your Trade-in value is RM";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "Q4z-DQ-yLS"; */
+"Q4z-DQ-yLS.placeholder" = "Mobile Number";
+
+/* Class = "UILabel"; text = "Please Enter IMEI of your device"; ObjectID = "RQY-LJ-kh5"; */
+"RQY-LJ-kh5.text" = "Please Enter IMEI of your device";
+
+/* Class = "UILabel"; text = "Order details"; ObjectID = "Ren-oN-XbD"; */
+"Ren-oN-XbD.text" = "Order details";
+
+/* Class = "UILabel"; text = "SCAN STORE CODE"; ObjectID = "SDc-VK-k2a"; */
+"SDc-VK-k2a.text" = "SCAN STORE CODE";
+
+/* Class = "UITextView"; text = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda."; ObjectID = "Sfk-t6-nRk"; */
+"Sfk-t6-nRk.text" = "Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.";
+
+/* Class = "UILabel"; text = "YOUR QUOTE"; ObjectID = "UDb-yE-JUZ"; */
+"UDb-yE-JUZ.text" = "YOUR QUOTE";
+
+/* Class = "UIButton"; normalTitle = "GET STARTED"; ObjectID = "V1P-SZ-MW1"; */
+"V1P-SZ-MW1.normalTitle" = "GET STARTED";
+
+/* Class = "UILabel"; text = "Trade In"; ObjectID = "VMk-Ak-YI1"; */
+"VMk-Ak-YI1.text" = "Trade In";
+
+/* Class = "UILabel"; text = "Offered Price"; ObjectID = "Y8s-0l-dYw"; */
+"Y8s-0l-dYw.text" = "Offered Price";
+
+/* Class = "UILabel"; text = "Display & touch screen"; ObjectID = "b1k-0W-Ksu"; */
+"b1k-0W-Ksu.text" = "Display & touch screen";
+
+/* Class = "UILabel"; text = "Not set"; ObjectID = "b3J-Fr-sSc"; */
+"b3J-Fr-sSc.text" = "Not set";
+
+/* Class = "UILabel"; text = "Reference No"; ObjectID = "bur-As-Ewu"; */
+"bur-As-Ewu.text" = "Reference No";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "cUT-mX-Iz2"; */
+"cUT-mX-Iz2.text" = "N/A";
+
+/* Class = "UIButton"; normalTitle = "UPLOAD ID PROOF"; ObjectID = "d4Q-Dt-tZi"; */
+"d4Q-Dt-tZi.normalTitle" = "UPLOAD ID PROOF";
+
+/* Class = "UIButton"; normalTitle = "UPLOAD ID PROOF"; ObjectID = "dHT-05-UyX"; */
+"dHT-05-UyX.normalTitle" = "UPLOAD ID PROOF";
+
+/* Class = "UILabel"; text = "Welcome to SmartExchange"; ObjectID = "ecP-te-9MB"; */
+"ecP-te-9MB.text" = "Welcome to SmartExchange";
+
+/* Class = "UILabel"; text = "Ref# 250769"; ObjectID = "f5b-if-Ehg"; */
+"f5b-if-Ehg.text" = "Ref# 250769";
+
+/* Class = "UITextField"; placeholder = "Store token"; ObjectID = "hzh-ZY-zZG"; */
+"hzh-ZY-zZG.placeholder" = "Store token";
+
+/* Class = "UIButton"; normalTitle = "LET'S GET STARTED"; ObjectID = "i8b-9O-Mzc"; */
+"i8b-9O-Mzc.normalTitle" = "LET'S GET STARTED";
+
+/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "iEg-oN-5Td"; */
+"iEg-oN-5Td.text" = "iPhone 11 Pro Max 256GB";
+
+/* Class = "UILabel"; text = "Please Enter Your Details Below"; ObjectID = "igo-52-Cvz"; */
+"igo-52-Cvz.text" = "Please Enter Your Details Below";
+
+/* Class = "UILabel"; text = "000000000000000"; ObjectID = "jDx-Zn-OBP"; */
+"jDx-Zn-OBP.text" = "000000000000000";
+
+/* Class = "UILabel"; text = "Email"; ObjectID = "jl2-Ga-pqd"; */
+"jl2-Ga-pqd.text" = "Email";
+
+/* Class = "UILabel"; text = "Please enter the following details to continue"; ObjectID = "kLb-5s-mYi"; */
+"kLb-5s-mYi.text" = "Please enter the following details to continue";
+
+/* Class = "UILabel"; text = "Sameer.khan@getinstacash.in"; ObjectID = "lda-dr-P2o"; */
+"lda-dr-P2o.text" = "Sameer.khan@getinstacash.in";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "mP3-pT-ReU"; */
+"mP3-pT-ReU.text" = "N/A";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "rw4-41-yMJ"; */
+"rw4-41-yMJ.normalTitle" = "SUBMIT";
+
+/* Class = "UILabel"; text = "Order Ref "; ObjectID = "tRJ-3M-R04"; */
+"tRJ-3M-R04.text" = "Order Ref ";
+
+/* Class = "UILabel"; text = "COSMETICS"; ObjectID = "tUA-oh-CiY"; */
+"tUA-oh-CiY.text" = "COSMETICS";
+
+/* Class = "UILabel"; text = "By choosing reboxed you save ewaste and plant 5 trees"; ObjectID = "v0N-qs-NIW"; */
+"v0N-qs-NIW.text" = "By choosing reboxed you save ewaste and plant 5 trees";
+
+/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "vUo-2c-v74"; */
+"vUo-2c-v74.text" = "iPhone 11 Pro Max 256GB";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "vdu-F6-7pT"; */
+"vdu-F6-7pT.normalTitle" = "CONTINUE";
+
+/* Class = "UILabel"; text = "iPhone"; ObjectID = "x4A-3T-wJN"; */
+"x4A-3T-wJN.text" = "iPhone";
+
+/* Class = "UITextField"; placeholder = "Mobile Number"; ObjectID = "yd6-oV-fsD"; */
+"yd6-oV-fsD.placeholder" = "Mobile Number";
+
+/* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "yxh-k8-CXO"; */
+"yxh-k8-CXO.normalTitle" = "CONTINUE";
+
+/* Class = "UIButton"; normalTitle = "CANCEL"; ObjectID = "zNA-S0-FZr"; */
+"zNA-S0-FZr.normalTitle" = "CANCEL";
+
+/* Class = "UIButton"; normalTitle = "Scan QR"; ObjectID = "zqo-4z-4Pz"; */
+"zqo-4z-4Pz.normalTitle" = "Scan QR";
+
+/* Class = "UILabel"; text = "HELP THE PLANET"; ObjectID = "zx1-AO-Zdq"; */
+"zx1-AO-Zdq.text" = "HELP THE PLANET";

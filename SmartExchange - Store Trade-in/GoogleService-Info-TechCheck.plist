@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>949420197784-gou8oa9kd4l4cdu0vs0tunn5l8iorogr.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.949420197784-gou8oa9kd4l4cdu0vs0tunn5l8iorogr</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>949420197784-gqvo5kv6rk8d5jkeccqcalcrnf1afvmj.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyAaZSDxnLqGCZ8xo-nDk1m4mXhyVXhBmgY</string>
+	<key>GCM_SENDER_ID</key>
+	<string>949420197784</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.Reboxed.TechCheck-Exchange</string>
+	<key>PROJECT_ID</key>
+	<string>exchange-reboxed</string>
+	<key>STORAGE_BUCKET</key>
+	<string>exchange-reboxed.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:949420197784:ios:f8096bf354f8f83e43cded</string>
+	<key>DATABASE_URL</key>
+	<string>https://exchange-reboxed-default-rtdb.europe-west1.firebasedatabase.app</string>
+</dict>
+</plist>

@@ -1,0 +1,6 @@
+framework module Pods_SmartExchange___Store_Trade_inTests {
+  umbrella header "Pods-SmartExchange - Store Trade-inTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

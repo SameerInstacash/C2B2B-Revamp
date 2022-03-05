@@ -1,0 +1,319 @@
+/* 
+  Localizable.strings
+  TechCheck Exchange
+
+  Created by Sameer Khan on 27/01/22.
+  
+*/
+
+"Welcome to SmartExchange" = "Selamat datang di Smart Exchange";
+"IMEI/Serial:" = "Imei/Nomor Seri :";
+"Store Token" = "Token Toko";
+"Scan QR" = "Pindai QR";
+"Previous Quotation" = "Rangkuman Sebelumnya";
+"Let's Get Started" = "Ayo Mulai";
+"Reference Number" = "Nomor referensi";
+"Order details" = "Detail pesanan";
+"Reference No" = "nomor referensi";
+"Customer" = "Pelanggan";
+"Prefferred time" = "Waktu yang diinginkan";
+"Email" = "Email";
+"Physical Condition" = "Kondisi fisik";
+"Customer details" = "Detil pelanggan";
+"YOUR QUOTE" = "KUTIPAN ANDA";
+"Offered Price" = "Harga Penawaran";
+"Diagnosis Charges" = "Diagnosa Charger";
+"Estimated Amount" = "Harga Estimasi";
+"Product details" = "Rincian Produk";
+"We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin" = "Kami akan menunjukkan kepada Anda beberapa layar berwarna dengan kecerahan maksimum selama 8-10 detik. Beri tahu kami jika Anda melihat titik hitam, klik \"MULAI\" untuk memulai";
+"Quit Diagnosis" = "Keluar dari Diagnosis";
+"Are you sure you want to quit?" = "Apakah Anda yakin ingin berhenti?";
+"Touch Screen Test" = "Tes Layar Sentuh";
+"Please make sure Bluetooth and GPS are enabled on your device and press begin to start the tests" = "Pastikan Bluetooth, GPS, dan Wifi sudah dinyalakan pada perangkat Anda dan Tekan Mulai untuk menjalankan Tes";
+/////////////////////////////////////////
+"Checking Proximity Sensor" = "Memeriksa Sensor Kedekatan";
+"Wave your hand infront of the screen" = "Lambaikan tangan Anda di depan layar";
+"Checking Hardware Buttons" = "Memeriksa Tombol Perangkat Keras";
+"Follow the instructions below to complete check" = "Ikuti petunjuk di bawah ini untuk menyelesaikan pemeriksaan";
+"Press volume up button" = "Tekan tombol volume atas";
+"Press volume down button" = "Tekan tombol volume bawah";
+"Checking Earphone" = "Memeriksa Earphone";
+"Please plug-in your earphone" = "Silakan pasang earphone Anda";
+"Checking Charger" = "Memeriksa Pengisi Daya";
+"Please plug-in your charger" = "Silakan pasang pengisi daya Anda";
+"Checking Camera" = "Memeriksa Kamera";
+"Get ready to smile. We’re making sure this device is selfie-ready!" = "Bersiaplah untuk tersenyum. Kami memastikan perangkat ini siap untuk selfie!";
+"1. Tap anywhere on the screen to autofocus" = "1. Ketuk di mana saja di layar untuk fokus otomatis";
+"2. Press capture to take a shot!" = "2. Tekan ambil untuk mengambil bidikan!";
+"Checking Face-Id" = "Memeriksa ID Wajah";
+"First, enable the face-Id function on your phone" = "Pertama, aktifkan fungsi ID wajah di ponsel Anda";
+"During the test place your face on the scanner as you normally would to unlock your phone" = "Selama pengujian, letakkan wajah Anda di pemindai seperti biasanya untuk membuka kunci ponsel Anda";
+"Checking fingerprint scanner" = "Memeriksa pemindai sidik jari";
+"First, please enable fingerprint function" = "Pertama, harap aktifkan fungsi sidik jari";
+"Then you will place your finger on the fingerprint scanner like you normally would during unlock" = "Kemudian Anda akan meletakkan jari Anda pada pemindai sidik jari seperti biasanya saat membuka kunci";
+"Enable Biometric" = "Aktifkan Biometrik";
+"Go to Settings -> Touch ID & Passcode" = "Buka Pengaturan -> Sentuh ID & Kode Sandi";
+"Biometric Authentication Test" = "Tes Otentikasi Biometrik";
+"WiFi Test" = "Tes WiFi";
+"Checking FlashLight" = "Memeriksa Senter";
+"Count how many times your phone's flashLight blinked and then type it in the text box provided" = "Hitung berapa kali senter ponsel Anda berkedip lalu ketikkan di kotak teks yang disediakan";
+"FlashLight not working" = "Senter tidak berfungsi";
+"FlashLight Test" = "Uji Senter";
+"Defective" = "Cacat";
+"Please Enter Reference Number" = "Silakan Masukkan Nomor Referensi";
+"Screen Calibration" = "Kalibrasi Layar";
+"SMART DIAGNOSTICS" = "DIAGNOSTIK CERDAS";
+"TEST RESULT SUMMARY" = "RINGKASAN HASIL UJI";
+"Checking Device Rotation" = "Memeriksa Rotasi Perangkat";
+"Choose language" = "Pilih bahasa";
+"Change language of this app including its content." = "Ubah bahasa aplikasi ini termasuk kontennya.";
+/////////////////////////////////////////
+"Please enter your name" = "Silahkan masukan nama anda";
+"Please enter your email" = "Masukkan email Anda";
+"Please enter valid email" = "Silakan masukkan email yang valid";
+"Please enter your contact no." = "Silakan masukkan nomor kontak Anda.";
+"Please accept terms & conditions" = "Harap setujui syarat & ketentuan";
+"Display & Touch Screen" = "Tampilan & Layar Sentuh";
+"2 -3 Minor Scratches" = "2-3 lecet minor";
+"Heavily Scratched" = "Lecet tebal";
+"Cracked" = "Retak";
+"Not working (Loose LCD)" = "Tidak Bekerja";
+"Network Lock / Telco Lock" = "Kunci pada Apple (Koneksi atau Passcode atau iCloud)";
+"Device Body (Back Panel / Cover)" = "Body Perangkat (bagian samping dan belakang)";
+"Minor Scratches" = "Lecet sedikit";
+"Heavy Scratches" = "Lecet tebal/banyak";
+"Dented" = "Penyok";
+"Details Synced to the server. Please contact Store Executive for further information" = "Detail Disinkronkan ke server. Silakan hubungi Store Executive untuk informasi lebih lanjut";
+"Photo Id uploaded successfully!" = "ID Foto berhasil diunggah!";
+"Uploading..." = "Mengunggah...";
+"Success" = "Kesuksesan";
+"Click on ‘Start Test” and take a picture from your camera to run auto-focus test" = "Klik 'Mulai Tes' dan ambil gambar dari kamera Anda untuk menjalankan tes fokus otomatis";
+"Authenticate with Touch Id/ Face Id of your phone" = "Otentikasi dengan Touch Id / Face Id ponsel Anda";
+
+
+
+
+
+
+
+
+"Back_camera_auth"="Aplikasi ini tidak diizinkan untuk menggunakan Kamera Belakang";
+"Error" = "Error";
+"Setting" = "Pengaturan";
+"Cancel" = "Batal";
+"Reader_not_supported_by_the_current_device" = "Pembaca tidak didukung oleh perangkat saat ini";
+"header_title" = "Aplikasi perlu izin berikut untuk menyelesaikan diagnosa. Permintaan Lokasi diperlukan untuk menyelesaikan Diagnosa GPS";
+"Dead_Pixel_Test" = "Tes Pixel Mati";
+"dead_pixel_msg" = "Apakah anda melihat bintik-bintik hitam atau putih di layar?";
+"Yes" = "Ya";
+"No" = "Tidak";
+//"retry" = "Coba lagi";
+"retry" = "ULANGI TES";
+//"skip_info" = "Jika anda melewati tes ini, akan ada pengurangan besar pada harga yang ditawarkan. Anda masih ingin lewati?";
+//"skip_info" = "appdele";
+"skip_info" = "Jika anda melewatu tes ini, akan ada pengurangan pada harga yang ditawarkan. Apakah kamu yakin?";
+"Proximity_Sensor_Diagnosis" = "Lewati Sensor Kedekatan";
+"Checking_Network" = "Memeriksa Koneksi";
+"Checking_Bluetooth" = "Memeriksa Bluetooth";
+"Checking_WiFi" = "Memeriksa Wi-Fi";
+"Tests_Complete" = "Tes Selesai";
+"internet_prompt" = "Silahkan periksa koneksi internet";
+"pos_info" = "Pastikan anda telah memasukkan detail di POS.";
+"reader_info" = "Pembaca tidak didukung oleh perangkat saat ini";
+"camer_permission" = "Aplikasi ini tidak diizinkan untuk menggunakan Kamera Belakang.";
+"setting" = "Pengaturan";
+"price_info" = "";
+"hardware_info" = "Diagnosa Tombol Perangkat Keras";
+"rotation_info" = "Diagnosa Rotasi Otomatis";
+"portrait_mode" = "Sekarang putar perangkat anda kembali ke tampilan Potret.";
+"landscape_mode" = "Silakan alihkan Perangkat ke Tampilan Lanskap.";
+"earphone_info" = "Diagnosa Earphone Jack";
+"charger_info" = "Diagnosa Charger Perangkat";
+"camera_info" = "Diagnosa Kamera";
+"fingerprint_info" = "Diagnosa Pemindai Sidik Jari";
+"faceId_info" = "Diagnosis Pemindai Sidik Jari";
+"invalid_imei" = "Nomor IMEI yang dimasukkan tidak valid.";
+"invalid_serial_info" = "Nomor SERIAL/IMEI yang Dimasukkan Tidak Valid";
+"imei_validation_info" = "Silahkan Masukkan Nomor IMEI 15-digit yang valid";
+"screen_failed_info" = "Diagnosa Tes Layar Gagal";
+"retry_test" = "Apakah anda ingin Tes ulang kembali";
+"continue" = "Lanjutkan";
+"submit" = "Kirim";
+"reference_no" = "Nomor referensi";
+"skip" = "Lewati";
+"rota_info" = "Aktifkan Layar Rotasi Otomatis, kemudian tekan \"Mulai Tes\"dan putar kembali perangkat anda dari posisi Portrait ke Lanskap";
+"hard_btn_info" = "Silahkan tekan tombol terkait pada Hp Anda";
+"Checking_GPS" = "Mengecek GPS...";
+"lcd" = "Kaca LCD/Layar";
+"cpbp_info" = "Body Perangkat (bagian samping dan belakang)";
+"mobile_place" = "Nomor Hp";
+"email_place" = "Alamat email";
+"name_place" = "Nama";
+"user_details_info" = "Silahkan isi rincian dibawah ini untuk melanjutkan";
+"user_btn_continue" = "Lanjutkan";
+"upload_btn_text" = "Unggah Bukti ID";
+"schedule_btn_text" = "Jadwal kunjungan";
+"cracked" = "Retak";
+"broken" = "Patah";
+"dented" = "Penyok";
+"Not_Working" = "Tidak berfungsi";
+"flawless" = "Mulus";
+"Flawless" = "Mulus";
+"Minor_Scratches" = "2-3 lecet minor";
+"Heavily_Scratched" = "Lecet tebal";
+"device_body" = "Body Perangkat";
+"Phone_Locks" = "Kunci Telepon";
+"store_token" = "Token Toko";
+
+"Wifi_info" = "WiFi, Bluetooth, atau GPS: Tidak Berfungsi";
+"Proximity_info" = "Sensor Jarak: Tidak Berfungsi";
+"camer_info" = "Kamera : Tidak Berfungsi";
+"device_info" = "Biometrik Perangkat: Tidak Berfungsi";
+
+"mic_info" = "Mikrofon : Tidak Berfungsi";
+"speakers_info" = "Spiker : Tidak Berfungsi ";
+
+"nfc_info" = "NFC : Tidak Berfungsi";
+"vibrator_info" = "Alat Getar : Tidak Berfungsi";
+"gsm_info" = "GSM : Tidak Berfungsi";
+"bluetooth_info" = "Bluetooth : Tidak Berfungsi";
+"gps_info" = "GPS : Tidak Berfungsi";
+
+"rotation_skip_title" = "Lewati Rotasi Otomatis";
+"rotation_info" = "Rotasi Otomatis : Tidak Berfungsi";
+"hardware_info" = "Tombol Perangkat Keras: Tidak Berfungsi";
+
+"back" = "Kembali";
+"Device_Status" = "Status Perangkat";
+"valid_email_err" = "Silakan Masukkan Id email yang valid";
+"change_language" = "Ganti Bahasa";
+"ol_info_text" = "Please enter an Email Id to receive link for submitting the Device Physical Condition Images";
+"ol_verification_title" = "Link Sent";
+"ol_verification_desc" = "You will receive an e-mail from us shortly Please wait for a few seconds.\n \n Do not close this screen \n \n Take a video of this screen using alternative phone. \n \n Wait for success message afer shooting the video";
+"Enable_camera" = "Aktifkan Kamera";
+"Enable_photolibrary" = "Aktifkan Perpustakaan Foto";
+"Enable_microphone" = "Aktifkan Mikrofon";
+"Enable_location" = "Aktifkan Lokasi";
+"advice" = "Harap anda mengizinkan pengecekan perangkat untuk mendapatkan nilai yang akurat";
+"advice_additional" = "Anda juga dapat mengelola izin di pengaturan";
+"swipe_to_hide" = "Geser untuk menyembunyikan";
+"imei_info" = "Silahkan masukkan nomor Imei perangkat anda";
+"main_info" = "Silakan masukkan 'Token Toko' dan kirimkan atau klik 'Pindai Kode QR' untuk memulai Diagnostik. Untuk melihat hasil sebelumnya, klik 'Rangkuman Sebelumnya'";
+"screen_info" = "Klik 'Mulai Tes', lalu sentuh di sepanjang kotak";
+"cust_info" = "Silahkan isi rincian dibawah ini untuk melanjutkan";
+
+
+"Connect to Wifi/Internet" = "Terhubung ke Wifi/Internet";
+"Active Sim Card" = "Kartu Sim Aktif";
+"Set up Fingerprint (if applicable)" = "Siapkan Sidik Jari (jika ada)";
+"Enable NFC (if applicable)" = "Aktifkan NFC (jika ada)";
+"Enable Auto-Rotate Screen" = "Aktifkan Layar Putar Otomatis";
+"Disable Silent Mode" = "Nonaktifkan Mode Senyap";
+"Enable bluetooth" = "Aktifkan Bluetooth";
+"Ensure device region code is not LL" = "Pastikan kode wilayah perangkat bukan LL";
+
+
+// Sameer -->> 12/4/21
+"Summary of Test Results" = "Ringkasan Hasil Tes";
+"Failed and Skipped Tests" = "Gagal dan Lewati Tes";
+"Functional Checks" = "Cek Fungsi";
+//"ReTry" = "Coba lagi";
+"ReTry" = "ULANGI TES";
+
+// All Tets Name
+"Dead Pixels" = "Piksel Mati";
+"Screen" = "Layar";
+"Rotation" ="Rotasi";
+"Proximity" = "Proximity";
+"Hardware Buttons" = "Tombol Perangkat Keras";
+"Earphone" = "Earphone";
+"Charger" = "Pengisi daya";
+"Camera" = "Kamera";
+"Fingerprint Scanner" = "Pemindai Sidik Jari";
+"Face Id" = "ID Wajah";
+"Face-Id Scanner" = "Pemindai ID Wajah";
+"WIFI" = "WIFI";
+"GPS" = "GPS";
+"Bluetooth" = "Bluetooth";
+"GSM" = "GSM";
+"Microphone" = "Mikrofon";
+"Speaker" = "Spiker";
+"Vibrator" = "Alat Getar";
+"SMS Verification" = "Verifikasi SMS";
+"Storage" = "Penyimpanan";
+"Battery" = "Baterai";
+
+ 
+"Checking Speaker" = "Memeriksa Spiker";
+"Your phone will play some numbers out loud, and then type it in the text box provided." = "Silahkan masukkan nomor yang disebutkan pada kotak yang disediakan";
+"Start" = "Mulai";
+"Skip" = "Lewati";
+"Submit" = "Kirim";
+"Enter Number" = "Masukkan Nomor";
+"Speaker Test" = "Tes Spiker";
+"If you skip this test there would be a substantial decline in the price offered. Do you still want to skip?" = "Jika anda melewati tes ini, akan ada pengurangan besar pada harga yang ditawarkan. Anda masih ingin lewati?";
+
+
+"failed to record!" = "gagal merekam!";
+"Checking Microphone" = "Cek Mikrofon";
+"Click to start button. after that microphone will listen your voice for 4 seconds to check your microphone is working or not" = "Klik Tombol Mulai untuk memulai. Setelah itu mikrofon akan mendengarkan suara Anda selama 4 detik untuk memeriksa apakah mikrofon Anda berfungsi atau tidak";
+"Microphone Test" = "Tes Mikrofon!";
+
+
+"Checking Vibrator" = "Cek alat getar";
+"Count how many times your phone has vibrated and then type it in the text box provided" = "Hitung berapa kali ponsel Anda bergetar lalu ketikkan di kotak teks yang disediakan";
+"Vibrator Test" = "Vibrator Test";
+
+
+"wifi_detail" = "Wifi : Tidak Berfungsi";
+
+"Checking WiFi" = "Memeriksa Wi-Fi...";
+"Testing WiFi" = "Tes Wifi";
+"To test WIFI, turn WIFI on and connect to your preferred network then Press “START“" = "Untuk menguji WIFI, nyalakan WIFI dan sambungkan ke jaringan pilihan Anda lalu Tekan \"MULAI\"";
+
+"I hearby acknowledge that I have read, understand and agree to the Terms and Conditions." = "Dengan ini saya menyatakan bahwa saya telah membaca, memahami dan menyetujui Syarat dan Ketentuan";
+
+
+"No Data Found" = "Tidak ada data ditemukan";
+"Please Check Internet connection." = "Silahkan cek koneksi internet anda";
+"Please Enter Valid Store Token" = "Silahkan masukkan Token Toko yang valid";
+"Please Enter Store Token." = "Silahkan masukkan Token Toko";
+"Store Token Not Valid" = "Token Toko tidak valid";
+"Trade In Online" = "Tukar Tambah Online";
+"SmartExchange" = "SmartExchange";
+"Please Enter your details below" = "Please Enter your details below";
+"PROCEED" = "PROSES";
+"Something went wrong!!" = "Ada yang salah!!";
+"Your Trade-in value is" = "Nilai tukar tambah anda adalah";
+"Do not delete" = "Jangan hapus";
+"Factory Reset" = "Reset Pabrik";
+"Your Order ID is" = "Nomor pesanan anda adalah";
+"You will be contacted within 24 hours to verify your order and schedule the pick-up." = "Anda akan dihubungi dalam waktu 24 jam untuk memverifikasi pesanan dan penjadwalan penjemputan.";
+"'SmartExchage Trade-in app' or" = "Aplikasi Tukar Tambah SmartExchage' atau";
+"your device before the collection." = "perangkat Anda sebelum pengambilan";
+"The final trade-in value will be quoted to you by our logistic personnel." = "Nilai tukar tambah akhir akan diberikan kepada Anda oleh personel logistik kami";
+"You are only required to erase and remove your passcode and accounts upon agreeing to the final trade-in value." = "Anda hanya akan diminta untuk menghapus kode sandi dan akun Anda setelah menyetujui nilai akhir tukar tambah";
+"For any queries, please call CompAsia’s hotline at 03-7931 3417 (08:30am-06:00pm Mon - Fri)" = "Untuk pertanyaan, silakan hubungi hotline CompAsia di 03-7931 3417 (08:30-18:00 Sen - Jum)";
+"Thank you for completing the SmartExchage Trade-in Diagnostic Test. Please walk-in to any SmartExchage stores to finalize your transaction." = "Terima kasih telah menyelesaikan Tes Diagnostik Trade-in SmartExchage. Silakan kunjungi toko-toko yang bekerjasama dengan SmartExchage mana pun untuk menyelesaikan transaksi Anda";
+"Please agree Terms & Conditions" = "Harap setujui Syarat & Ketentuan";
+"Please Enter Bank Holders Name" = "Silahkan masukkan nama rekening Bank";
+"Please Enter Bank Account Number" = "Silahkan masukkan nomor rekening Bank";
+"Please select Bank Name" = "Silahkan pilih nama Bank";
+"Please wait for the results to sync to the server!" = "Harap tunggu hingga hasilnya disinkronkan ke server!";
+
+
+"Enable Biometric" = "Aktifkan Biometrik";
+"Go to Settings -> Touch ID & Passcode" = "Buka Pengaturan -> Touch ID & Kode Sandi";
+"Settings" = "Settings";
+"Biometric Authentication" = "Otentikasi Biometrik";
+
+"Version" = "Versi";
+
+
+
+"Please Accept terms to continue" = "Harap Terima persyaratan untuk melanjutkan";
+"Please Enter a valid name" = "Harap Masukkan nama yang valid";
+"Please Enter a valid mobile number" = "Silakan Masukkan nomor ponsel yang valid";
+"Locked" = "Terkunci";
+//"Unlocked" = "Buka Kunci";
+"Unlocked" = "Terbuka";
