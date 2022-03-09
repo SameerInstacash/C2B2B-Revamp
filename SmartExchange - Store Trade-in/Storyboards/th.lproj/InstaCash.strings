@@ -254,6 +254,9 @@
 /* Class = "UILabel"; text = "Your microphone will listen your voice for 4 seconds to check your microphone is working or not"; ObjectID = "nD9-sK-FRR"; */
 "nD9-sK-FRR.text" = "Your microphone will listen your voice for 4 seconds to check your microphone is working or not";
 
+/* Class = "UILabel"; text = "Rotation"; ObjectID = "nNg-9r-yGF"; */
+"nNg-9r-yGF.text" = "Rotation";
+
 /* Class = "UILabel"; text = "Press volume down button"; ObjectID = "nSd-RS-D2q"; */
 "nSd-RS-D2q.text" = "Press volume down button";
 

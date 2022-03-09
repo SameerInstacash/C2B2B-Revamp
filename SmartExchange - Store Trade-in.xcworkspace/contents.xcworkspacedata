@@ -2,7 +2,7 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:/Users/sameerkhan/Desktop/InstaCash Projects/C2B2B Revamp/February-22/23:2:22/SmartExchange - Store Trade-in/SmartExchange - Store Trade-in.xcodeproj">
+      location = "group:SmartExchange - Store Trade-in.xcodeproj">
    </FileRef>
    <FileRef
       location = "group:Pods/Pods.xcodeproj">

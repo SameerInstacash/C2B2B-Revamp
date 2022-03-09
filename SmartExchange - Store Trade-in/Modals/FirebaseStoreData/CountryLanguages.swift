@@ -8,7 +8,7 @@
 
 import UIKit
 import Foundation
-import Firebase
+import FirebaseCore
 import FirebaseDatabase
 
 class CountryLanguages: NSObject {

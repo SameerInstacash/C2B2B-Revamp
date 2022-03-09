@@ -7,10 +7,10 @@ target 'SmartExchange - Store Trade-in' do
 
   # Pods for SmartExchange - Store Trade-in
 
-    pod 'Firebase/Analytics'
-    pod 'Firebase/Crashlytics'
-    pod 'Firebase/Database'
-    pod 'Firebase/Messaging'
+    pod 'FirebaseAnalytics'
+    pod 'FirebaseCrashlytics'
+    pod 'FirebaseDatabase'
+    pod 'FirebaseMessaging'
     pod 'SwiftyJSON'
     pod 'PopupDialog'
     pod 'DKCamera'
@@ -22,9 +22,7 @@ target 'SmartExchange - Store Trade-in' do
     pod 'QRCodeReader.swift'
     pod 'Alamofire'
     pod 'AlamofireImage'
-    #pod 'Intercom'
     pod 'DropDown'
-
 
   target 'SmartExchange - Store Trade-inTests' do
     inherit! :search_paths

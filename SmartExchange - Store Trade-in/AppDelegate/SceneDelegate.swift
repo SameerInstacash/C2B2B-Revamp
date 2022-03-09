@@ -1,14 +1,14 @@
 //
 //  SceneDelegate.swift
-//  TechCheck Exchange
+//  SmartExchange - Store Trade-in
 //
-//  Created by Sameer Khan on 12/07/21.
+//  Created by Sameer Khan on 05/03/22.
 //
 
 import UIKit
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
-
+    
     var window: UIWindow?
 
     @available(iOS 13.0, *)

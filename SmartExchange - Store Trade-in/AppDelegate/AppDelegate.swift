@@ -1,16 +1,16 @@
 //
 //  AppDelegate.swift
-//  TechCheck Exchange
+//  SmartExchange - Store Trade-in
 //
-//  Created by Sameer Khan on 12/07/21.
+//  Created by Sameer Khan on 05/03/22.
 //
 
 import UIKit
-import Firebase
+import FirebaseCore
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
     var window: UIWindow?
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {

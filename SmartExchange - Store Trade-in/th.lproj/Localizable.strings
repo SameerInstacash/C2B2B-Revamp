@@ -1,0 +1,306 @@
+/* 
+  Localizable.strings
+  SmartExchange - Store Trade-in
+
+  Created by Sameer Khan on 05/03/22.
+  
+*/
+
+"Welcome to SmartExchange" = " ยินดีต้อนรับสู่ Smart Exchange";
+"IMEI/Serial:" = "รหัส IMEI / ซีเรียล:";
+"Store Token" = "โทเค็นร้านค้า";
+"Scan QR" = "สแกนรหัส QR";
+"Previous Quotation" = "ใบเสนอราคาก่อนหน้า";
+"Let's Get Started" = "มาเริ่มกันเลย";
+"Reference Number" = "รหัสอ้างอิง";
+"Order details" = "รายละเอียดการสั่งซื้อ";
+"Reference No" = "เลขอ้างอิง";
+"Customer" = "ลูกค้า";
+"Prefferred time" = "เวลาที่ต้องการ";
+"Email" = "อีเมล";
+"Physical Condition" = "สภาพร่างกาย";
+"Customer details" = "รายละเอียดลูกค้า";
+"YOUR QUOTE" = "คำพูดของคุณ";
+"Offered Price" = "ราคาเสนอ";
+"Diagnosis Charges" = "ค่าธรรมเนียมการตรวจสอบ";
+"Estimated Amount" = "จำนวนเงินโดยประมาณ";
+"Product details" = "รายละเอียดสินค้า";
+"We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin" = "เราจะแสดงหน้าจอหลายสีให้คุณเห็นโดยให้ความสว่างสูงสุดเป็นเวลา 8-10 วินาที โปรดแจ้งให้เราทราบหากคุณเห็นจุดสีดำ คลิก “เริ่มต้น” เพื่อเริ่มต้น";
+"Quit Diagnosis" = "ออกจากการวินิจฉัย";
+"Are you sure you want to quit?" = "คุณแน่ใจหรือว่าต้องการลาออก";
+"Touch Screen Test" = "การทดสอบหน้าจอสัมผัส";
+"Please make sure Bluetooth and GPS are enabled on your device and press begin to start the tests" = "โปรดตรวจสอบว่าได้เปิด Bluetooth, GPS และ Wifi แล้วในค่าตั้งเครื่อง และกดเริ่มเพื่อเริ่มการตรวจสอบ";
+/////////////////////////////////////////
+"Checking Proximity Sensor" = "การตรวจสอบพรอกซิมิตี้เซนเซอร์";
+"Wave your hand infront of the screen" = "โบกมือให้หน้าจอ";
+"Checking Hardware Buttons" = "การตรวจสอบปุ่มฮาร์ดแวร์";
+"Follow the instructions below to complete check" = "ปฏิบัติตามคำแนะนำด้านล่างเพื่อทำการตรวจสอบให้เสร็จสิ้น";
+"Press volume up button" = "กดปุ่มเพิ่มระดับเสียง";
+"Press volume down button" = "กดปุ่มลดเสียง";
+"Checking Earphone" = "กำลังตรวจสอบหูฟัง";
+"Please plug-in your earphone" = "กรุณาเสียบหูฟังของคุณ";
+"Checking Charger" = "กำลังตรวจสอบเครื่องชาร์จ";
+"Please plug-in your charger" = "กรุณาเสียบสายชาร์จของคุณ";
+"Checking Camera" = "กำลังตรวจสอบกล้อง";
+"Get ready to smile. We’re making sure this device is selfie-ready!" = "เตรียมยิ้มได้เลย เรากำลังตรวจสอบให้แน่ใจว่าอุปกรณ์นี้พร้อมสำหรับเซลฟี่!";
+"1. Tap anywhere on the screen to autofocus" = "1. แตะที่ใดก็ได้บนหน้าจอเพื่อโฟกัสอัตโนมัติ";
+"2. Press capture to take a shot!" = "2. กดแคปเพื่อถ่าย!";
+"Checking Face-Id" = "การตรวจสอบ ID ใบหน้า";
+"First, enable the face-Id function on your phone" = "ขั้นแรก ให้เปิดใช้งานฟังก์ชัน face-Id บนโทรศัพท์ของคุณ";
+"During the test place your face on the scanner as you normally would to unlock your phone" = "ระหว่างการทดสอบ ให้วางใบหน้าของคุณบนสแกนเนอร์ตามปกติเพื่อปลดล็อกโทรศัพท์";
+"Checking fingerprint scanner" = "การตรวจสอบเครื่องสแกนลายนิ้วมือ";
+"First, please enable fingerprint function" = "ขั้นแรก โปรดเปิดใช้งานฟังก์ชันลายนิ้วมือ";
+"Then you will place your finger on the fingerprint scanner like you normally would during unlock" = "จากนั้นคุณจะวางนิ้วของคุณบนเครื่องสแกนลายนิ้วมือเหมือนปกติในระหว่างการปลดล็อค";
+"Enable Biometric" = "เปิดใช้งานไบโอเมตริกซ์";
+"Go to Settings -> Touch ID & Passcode" = "ไปที่การตั้งค่า -> Touch ID & รหัสผ่าน";
+"Biometric Authentication Test" = "การทดสอบยืนยันตัวตนด้วยไบโอเมตริกซ์";
+"WiFi Test" = "ทดสอบ WiFi";
+"Checking FlashLight" = "กำลังตรวจสอบไฟฉาย";
+"Count how many times your phone's flashLight blinked and then type it in the text box provided" = "นับจำนวนครั้งที่ไฟแฟลชในโทรศัพท์ของคุณกะพริบ แล้วพิมพ์ลงในกล่องข้อความที่ให้มา";
+"FlashLight not working" = "ไฟฉายไม่ทำงาน";
+"FlashLight Test" = "การทดสอบแสงแฟลช";
+"Defective" = "ชำรุด";
+"Please Enter Reference Number" = "กรุณาใส่หมายเลขอ้างอิง";
+"Screen Calibration" = "การปรับเทียบหน้าจอ";
+"SMART DIAGNOSTICS" = "การวินิจฉัยอย่างชาญฉลาด";
+"TEST RESULT SUMMARY" = "สรุปผลการทดสอบ";
+"Checking Device Rotation" = "กำลังตรวจสอบการหมุนของอุปกรณ์";
+"Choose language" = "เลือกภาษา";
+"Change language of this app including its content." = "เปลี่ยนภาษาของแอพนี้รวมถึงเนื้อหา";
+/////////////////////////////////////////
+"Please enter your name" = "กรุณากรอกชื่อของคุณ";
+"Please enter your email" = "กรุณากรอกอีเมล์ของคุณ";
+"Please enter valid email" = "กรุณากรอกอีเมลที่ถูกต้อง";
+"Please enter your contact no." = "กรุณาใส่เบอร์ติดต่อของคุณ";
+"Please accept terms & conditions" = "โปรดยอมรับข้อกำหนดและเงื่อนไข";
+"Display & Touch Screen" = "จอแสดงผลและหน้าจอสัมผัส";
+"2 -3 Minor Scratches" = "มีรอยเล็กน้อย 2-3 รอย";
+"Heavily Scratched" = "มีรอยมาก";
+"Cracked" = "ราคาเสนอ";
+"Not working (Loose LCD)" = "ไม่ทำงาน";
+"Network Lock / Telco Lock" = "ล็อคโทรศัพท์สำหรับ Apple (ล็อคเครือข่ายหรือเครือข่ายหรือรหัสผ่านหรือ iCloud)";
+"Device Body (Back Panel / Cover)" = "ตัวเครื่อง (ด้านข้างและด้านหลัง)";
+"Minor Scratches" = "ถลอก";
+"Heavy Scratches" = "รอยขีดข่วนหนัก";
+"Dented" = "มีรอยบุบ";
+"Details Synced to the server. Please contact Store Executive for further information" = "รายละเอียดซิงค์กับเซิร์ฟเวอร์ กรุณาติดต่อผู้บริหารร้านสำหรับข้อมูลเพิ่มเติม";
+"Photo Id uploaded successfully!" = "อัปโหลดรหัสรูปภาพสำเร็จแล้ว!";
+"Uploading..." = "กำลังอัพโหลด...";
+"Success" = "ความสำเร็จ";
+"Click on ‘Start Test” and take a picture from your camera to run auto-focus test" = "คลิกที่ 'เริ่มการทดสอบ' และถ่ายภาพจากกล้องของคุณเพื่อเรียกใช้การทดสอบโฟกัสอัตโนมัติ";
+"Authenticate with Touch Id/ Face Id of your phone" = "ยืนยันด้วยนิ้วมือของท่านบแป้น Touch ID";
+
+
+
+
+
+
+
+
+"Back_camera_auth"="แอปนี้ไม่ได้รับอนุญาตให้ใช้กล้องหลัง";
+"Error" = "ความผิดพลาด";
+"Setting" = "การตั้งค่า";
+"Cancel" = "ยกเลิก";
+"Reader_not_supported_by_the_current_device" = "เครื่องอ่านไม่รองรับเครื่องอุปกรณ์";
+"header_title" = "แอปพลิเคชันต้องได้รับอนุญาตก่อนทำการวินิจฉัย ต้องยินยอมข้อมูลสถานะของอุปกรณ์ก่อนการวินิจฉัย GPS";
+"Dead_Pixel_Test" = "การทดสอบ Dead Pixel";
+"dead_pixel_msg" = "ท่านเห็นจุดดำหรือขาวบนหน้าจอหรือไม่?";
+"Yes" = "ใช่";
+"No" = "ไม่ใช่";
+"retry" = "ลองทำใหม่";
+//"skip_info" = "หากท่านข้ามการตรวจสอบเครื่อง ราคาเสนออาจลดลงอย่างมาก ท่านยังต้องการข้ามหรือไม่?";
+"skip_info" = "หากท่านข้ามการตรวจสอบเครื่อง ราคาเสนออาจลดลง ท่านแน่ใจไหม?";
+//"Proximity_Sensor_Diagnosis" = "กำลังตรวจสอบ proximity เซ็นเซอร์";
+"Proximity_Sensor_Diagnosis" = "ข้ามพร็อกซิมิตีเซนเซอร์";
+"Checking_Network" = "กำลังตรวจสอบเน็ตเวิร์ก";
+"Checking_Bluetooth" = "กำลังตรวจสอบ bluetooth";
+"Checking_WiFi" = "กำลังตรวจสอบ WiFi";
+"Tests_Complete" = "การตรวจสอบเสร็จสมบูรณ์!";
+"internet_prompt" = "กรุณาตรวจการเชื่อมต่ออินเทอร์เน็ต";
+"pos_info" = "โปรดตรวจสอบว่าท่านได้ป้อนข้อมูลเข้า POS";
+"reader_info" = "เครื่องอ่านไม่รองรับเครื่องอุปกรณ์";
+"camer_permission" = "แอปนี้ไม่ได้รับอนุญาตให้ใช้กล้องหลัง";
+"setting" = "การตั้งค่า";
+"hardware_info" = "การตรวจสอบปุ่มฮาร์ดแวร์";
+"rotation_info" = "การตรวจสอบการหมุนอัตโนมัติ";
+"portrait_mode" = "โปรดปรับเครื่องให้เป็นมุมมองแนวตั้ง (portrait view)";
+"landscape_mode" = "โปรดปรับเครื่องให้เป็นมุมมองแนวนอน (landscape view)";
+"earphone_info" = "การตรวจสอบแจ็คหูฟัง";
+"charger_info" = "การตรวจสอบอุปกรณ์ชาร์จ";
+"camera_info" = "การตรวจสอบกล้อง";
+"fingerprint_info" = "การตรวจสอบสแกนเนอร์ลายนิ้วมือ";
+"invalid_imei" = "รหัส IMEI ที่ป้อนไม่ถูกต้อง";
+"invalid_serial_info" = "หมายเลข Serial/ หมายเลข IMEI ที่ใส่ไม่ถูกต้อง";
+"imei_validation_info" = "โปรดป้อนรหัส IMEI 15 หลักที่ถูกต้อง";
+"screen_failed_info" = "การทดสอบหน้าจอล้มเหลว!";
+"retry_test" = "ท่านต้องการตรวจสอบอีกครั้งหรือไม่";
+"continue" = "ไปต่อ";
+"submit" = "ยื่น";
+"reference_no" = "รหัสอ้างอิง";
+"skip" = "ข้าม";
+"rota_info" = "โปรดเปิดค่าตั้งให้หน้าจอหมุนอัตโนมัติ จากนั้นกด 'เริ่มการตรวจสอบ' และปรับเครื่องจากแนวตั้งเป็นมุมมองแนวนอน";
+"hard_btn_info" = "โปรดกดปุ่มต่อไปนี้บนโทรศัพท์ของท่าน";
+"Checking_GPS" = "กำลังตรวจสอบ GPS ...";
+"lcd" = "จอ LCD / กระจกหน้าจอ";
+"cpbp_info" = "ตัวเครื่อง (ด้านข้างและด้านหลัง)";
+"mobile_place" = "เบอร์มือถือ";
+"email_place" = "อีเมล";
+"name_place" = "ชื่อ";
+"price_info" = "";
+"user_details_info" = "โปรดป้อนข้อมูลต่อไปนี้เพื่อดำเนินการต่อ";
+"user_btn_continue" = "ไปต่อ";
+"upload_btn_text" = "อัพโหลดเอกสารยืนยันตัวตน";
+"schedule_btn_text" = "ลงทะเบียนนัด";
+"cracked" = "แตก";
+"broken" = "เสีย";
+"dented" = "มีรอยบุบ";
+"Not_Working" = "ไม่ทำงาน";
+"flawless" = "ไม่มีรอย";
+"Flawless" = "ไม่มีรอย";
+"Minor_Scratches" = "มีรอยเล็กน้อย 2-3 รอย";
+"Heavily_Scratched" = "มีรอยมาก";
+"device_body" = "ตัวเครื่อง";
+"Phone_Locks" = "ติดล้อคสำหรับเครื่องApple";
+"store_token" = "โทเค็นร้านค้า";
+"Wifi_info" = "WiFi, Bluetooth หรือ GPS: มีข้อบกพร่อง";
+"Proximity_info" = "พร็อกซิมิตี้เซนเซอร์: ชำรุด";
+"camer_info" = "กล้อง: มีข้อบกพร่อง";
+"device_info" = "อุปกรณ์ชีวภาพ: มีข้อบกพร่อง";
+"mic_info" = "ไมโครโฟน: มีข้อบกพร่อง";
+"speakers_info" = "ลำโพง: มีข้อบกพร่อง";
+
+
+"nfc_info" = "NFC: มีข้อบกพร่อง";
+"vibrator_info" = "เครื่องสั่น: มีข้อบกพร่อง";
+"gsm_info" = "GSM: มีข้อบกพร่อง";
+"bluetooth_info" = "บลูทู ธ: มีข้อบกพร่อง";
+"gps_info" = "จีพีเอส: มีข้อบกพร่อง";
+
+
+"rotation_skip_title" = "ข้ามการหมุนอัตโนมัติ";
+"rotation_info" = "Auto Roatation: มีข้อบกพร่อง";
+"hardware_info" = "ปุ่มฮาร์ดแวร์: ชำรุด";
+"back" = "กลับ";
+"Device_Status" = "Device Status";
+"valid_email_err" = "Please Enter a valid email Id";
+"main_info" = "โปรดป้อน ‘Store Token’ และส่งหรือคลิก ‘สแกนรหัส QR’ เพื่อเริ่มการวินิจฉัย หากต้องการดูผลลัพธ์ก่อนหน้าคลิกที่ 'ใบเสนอราคาก่อนหน้า''";
+"screen_info" = "คลิก 'เริ่มการทดสอบ' จากนั้นปัดไปตามช่องสี่เหลี่ยม";
+"cust_info" = "โปรดป้อนข้อมูลต่อไปนี้เพื่อดำเนินการต่อ";
+
+
+// Sameer -->> 12/4/21
+"Summary of Test Results" = "สรุปผลการทดสอบ";
+"Failed and Skipped Tests" = "การทดสอบล้มเหลวข้ามการทดสอบ";
+"Functional Checks" = "ตรวจสอบฟังก์ชัน";
+"ReTry" = "ลองใหม่อีกครั้ง";
+
+// All Tets Name
+"Dead Pixels" = "Dead Pixels";
+"Screen" = "หน้าจอ";
+"Rotation" = "การหมุนหน้าจออัตโนมัติ";
+"Proximity" = "Proximity";
+"Hardware Buttons" = "ปุ่มกด";
+"Earphone" = "ช่องเสียบหูฟัง";
+"Charger" = "ช่องใส่ micro USB";
+"Camera" = "กล้อง";
+"Fingerprint Scanner" = "Fingerprint Scanner";
+"Face Id" = "Face Id";
+"Face-Id Scanner" = "การใช้ด้วยใบหน้า";
+"WIFI" = "สัญญาณ WIFI";
+"GPS" = "GPS";
+"Bluetooth" = "บูลทูธ";
+"GSM" = "GSM";
+"Microphone" = "ไมโครโฟน";
+"Speaker" = "ลำโพง";
+"Vibrator" = "การสั่น";
+"SMS Verification" = "การยืนยันหมายเลขโทรศัพท์";
+"Storage" = "พื้นที่จัดเก็บ";
+"Battery" = "แบตเตอรี่";
+
+
+"Checking Speaker" = "กำลังตรวจสอบลำโพง";
+"Your phone will play some numbers out loud, and then type it in the text box provided." = "โทรศัพท์ของคุณจะส่งเสียงข้อความ จากนั้นพิมพ์ลงในกล่องข้อความที่มีให้";
+"Start" = "เริ่มต้น";
+"Skip" = "ข้าม";
+"Submit" = "ตกลง";
+"Enter Number" = "ใส่หมายเลข";
+"Speaker Test" = "ตรวจสอบลำโพง";
+"If you skip this test there would be a substantial decline in the price offered. Do you still want to skip?" = "หากคุณข้ามการทดสอบนี้ราคาที่เสนอจะลดลงอย่างมาก ยืนยันที่จะข้าม?";
+
+
+"failed to record!" = "บันทกไม่สำเร็จ";
+"Checking Microphone" = "กำลังตรวจสอบไมโครโฟน";
+"Click to start button. after that microphone will listen your voice for 4 seconds to check your microphone is working or not" = "กดเพื่อเริ่มการทดสอบ หลังจากนั้นไมโครโฟนจะเริ่มบันทึกเสียงคุณเป็นเวลา 4 วินาทีเพื่อตรวจสอบว่าไมโครโฟนของคุณใช้งานได้หรือไม่";
+"Microphone Test" = "ตรวจสอบไมโครโฟร";
+
+
+"Checking Vibrator" = "กำลังตรวจสอบการสั่น";
+"Count how many times your phone has vibrated and then type it in the text box provided" = "นับจำนวนครั้งที่โทรศัพท์ของคุณสั่นแล้วพิมพ์ลงในกล่องข้อความที่มีให้";
+"Vibrator Test" = "ตรวจสอบการสั่น";
+
+
+//"wifi_detail" = "สัญญาณ Wifi พบข้อบกพร่อง";
+"wifi_detail" = "WIFI: มีข้อบกพร่อง";
+
+
+"Checking WiFi" = "กำลังตรวจสอบ Wifi";
+"Testing WiFi" = "ทำการททดสอบ Wifi";
+"To test WIFI, turn WIFI on and connect to your preferred network then Press “START“" = "ในการทดสอบ WIFI ให้เปิด WIFI และเชื่อมต่อกับเครือข่ายที่คุณต้องการจากนั้นกด“ เริ่ม”";
+
+"I hearby acknowledge that I have read, understand and agree to the Terms and Conditions." = "ฉันได้ยินโดยรับทราบว่าฉันได้อ่านเข้าใจและยอมรับข้อกำหนดและเงื่อนไข";
+
+
+"No Data Found" = "ไม่พบข้อมูล";
+"Please Check Internet connection." = "โปรดตรวจสอบระบบเชื่อมต่ออินเทอร์เน็ต";
+"Please Enter Valid Store Token" = "โปรดกรอกข้อมูลรหัสร้านค้าที่ถูกต้อง";
+"Please Enter Store Token." = "โปรดกรอกข้อมูลรหัสร้านค้า";
+"Store Token Not Valid" = "รหัสร้านค้าไม่ถูกต้อง";
+"Trade In Online" = "ทำการแลกเปลี่ยนออนไลน์";
+"SmartExchange" = "SmartExchange";
+"Please Enter your details below" = "โปรดกรอกรายละเอียดด้านล่าง";
+"PROCEED" = "ดำเนินการ";
+"Something went wrong!!" = "มีข้อผิดพลาดบางอย่าง!!";
+"Your Trade-in value is" = "มูลค่าเครื่องของคุณคือ";
+"Do not delete" = "ห้ามลบ";
+"Factory Reset" = "การตั้งค่าโรงงาน";
+"Your Order ID is" = "คำสั่งซื้อของคุณคือ";
+"You will be contacted within 24 hours to verify your order and schedule the pick-up." = "คุณจะได้รับการติดต่อกลับภายใน 24 ชั่วโมงเพื่อยืนยันคำสั่งซื้อและกำหนดการ การรับสินค้า";
+"'SmartExchage Trade-in app' or" = "แอปพลิเคชัน SmartExchange หรือ";
+"your device before the collection." = "อุปกรณ์ของคุณก่อนการจัดเก็บ";
+"The final trade-in value will be quoted to you by our logistic personnel." = "เจ้าหน้าที่ขนส่งของเราจะทำการเสนอมูลค่า";
+"You are only required to erase and remove your passcode and accounts upon agreeing to the final trade-in value." = "คุณต้องทำการลบชื่อบัญชีผู้ใช้งานของคุณ เมื่อตกลงทำการซื้อขายในราคาที่ตกลง";
+"For any queries, please call CompAsia’s hotline at 03-7931 3417 (08:30am-06:00pm Mon - Fri)" = "หากพบข้อสงสัย สอบถามเพิ่มเติมได้ที่สายด่วน XXXXX (วันจันทร์-ศุกร์ เวลา 8:30 น. - 18:00 น.)";
+"Thank you for completing the SmartExchage Trade-in Diagnostic Test. Please walk-in to any SmartExchage stores to finalize your transaction." = "SmartExchage ทำการตรวจสอบรายการของคุณสำเร็จ โปรดเข้าไปที่สาขาเพื่อดำเนินการต่อ ขอบคุณ";
+"Please agree Terms & Conditions" = "โปรดยอมรับข้อกำหนดและเงื่อนไข";
+"Please Enter Bank Holders Name" = "โปรดกรอกชื่อบัญชีธนาคาร";
+"Please Enter Bank Account Number" = "โปรดกรอกเลขบัญชีธนาคาร";
+"Please select Bank Name" = "โปรดเลือกธนาคาร";
+"Please wait for the results to sync to the server!" = "โปรดรอสักครู่ ขณะนี้ระบบบกำลังทำการเชื่อมต่อ";
+
+
+"Enable Biometric" = "เปิดระบบพิสูจน์อัตลักษณ์";
+"Go to Settings -> Touch ID & Passcode" = "เลือกตั้งค่า -> ระบบลายนิ้วมือ & รหัส";
+"Settings" = "ตั้งค่า";
+"Biometric Authentication" = "การตรวจสอบระบบพิสูจน์อัตลักษณ์";
+
+"Version" = "เวอร์ชั่น";
+
+"Have a promo code? Click here" = "คลิกเพื่อรับส่วนลดที่นี่";
+"Total Amount" = "ราคารวม";
+"Voucher Amount" = "ส่วนลดเพิ่มเติม";
+"Remove Promo" = "นำส่วนลดออก";
+"Diagnosis Charges" = "ค่าธรรมเนียมการตรวจสอบ";
+"Estimated Amount" = "จำนวนเงินโดยประมาณ";
+"Offered Price" = "ราคาเสนอ";
+"Apply Promo" = "ส่วนลดเพิ่มเติม";
+"Enter Promo code" = "ใส่รหัสส่วนลด";
+"Cancel" = "ยกเลิก";
+"Apply" = "ใช้ส่วนลดนี้";
+
+"Locked" = "ติดล้อค";
+"Unlocked" = "ไม่ติดล้อค";
+"Previous Quotation" = "ใบเสนอราคาก่อนหน้า";
+"Home" = "บ้าน";
+"Get Upto" = "รับไม่เกิน";
+"Product Details" = "รายละเอียดสินค้า";
+"Please Enter Valid Promo Code" = "Please Enter Valid Promo Code";

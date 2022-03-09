@@ -41,6 +41,12 @@
 /* Class = "UILabel"; text = "SMART EXCHANGE"; ObjectID = "6Ox-iJ-xep"; */
 "6Ox-iJ-xep.text" = "SMART EXCHANGE";
 
+/* Class = "UIButton"; normalTitle = "Have a promo code? Click here"; ObjectID = "7At-15-umb"; */
+"7At-15-umb.normalTitle" = "Have a promo code? Click here";
+
+/* Class = "UILabel"; text = "Voucher Amount"; ObjectID = "7CT-e7-X4G"; */
+"7CT-e7-X4G.text" = "Voucher Amount";
+
 /* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "7fg-uf-owo"; */
 "7fg-uf-owo.normalTitle" = "SUBMIT";
 
@@ -64,6 +70,9 @@
 
 /* Class = "UILabel"; text = "N/A"; ObjectID = "CV5-CP-Gmj"; */
 "CV5-CP-Gmj.text" = "N/A";
+
+/* Class = "UILabel"; text = "Apple iphone"; ObjectID = "Cfq-rh-ZTU"; */
+"Cfq-rh-ZTU.text" = "Apple iphone";
 
 /* Class = "UITextView"; text = "Your take back order #PS12345 has been placed. You can now take your device to the store vendor and complete the order for payment!"; ObjectID = "DRY-fx-v6F"; */
 "DRY-fx-v6F.text" = "Your take back order #PS12345 has been placed. You can now take your device to the store vendor and complete the order for payment!";
@@ -89,11 +98,8 @@
 /* Class = "UIButton"; normalTitle = "Previous Quotation"; ObjectID = "Hyw-fg-hvA"; */
 "Hyw-fg-hvA.normalTitle" = "Previous Quotation";
 
-/* Class = "UILabel"; text = "Apple"; ObjectID = "Ic6-U4-08R"; */
-"Ic6-U4-08R.text" = "Apple";
-
-/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "JVd-JT-GyN"; */
-"JVd-JT-GyN.text" = "iPhone 11 Pro Max 256GB";
+/* Class = "UILabel"; text = "Ref Value"; ObjectID = "JVd-JT-GyN"; */
+"JVd-JT-GyN.text" = "Ref Value";
 
 /* Class = "UILabel"; text = "SMART EXCHANGE"; ObjectID = "Lf1-IQ-sfz"; */
 "Lf1-IQ-sfz.text" = "SMART EXCHANGE";
@@ -104,8 +110,14 @@
 /* Class = "UILabel"; text = "Reference Number"; ObjectID = "NFU-Dj-G1k"; */
 "NFU-Dj-G1k.text" = "Reference Number";
 
+/* Class = "UILabel"; text = "N/A"; ObjectID = "NGx-M5-8Wy"; */
+"NGx-M5-8Wy.text" = "N/A";
+
 /* Class = "UILabel"; text = "Customer"; ObjectID = "O2T-6k-K7z"; */
 "O2T-6k-K7z.text" = "Customer";
+
+/* Class = "UILabel"; text = "iPhone 11 Pro Max 256GB"; ObjectID = "O3R-BE-A5H"; */
+"O3R-BE-A5H.text" = "iPhone 11 Pro Max 256GB";
 
 /* Class = "UIButton"; normalTitle = "DONE"; ObjectID = "OOx-Xy-W15"; */
 "OOx-Xy-W15.normalTitle" = "DONE";
@@ -137,8 +149,8 @@
 /* Class = "UILabel"; text = "Trade In"; ObjectID = "VMk-Ak-YI1"; */
 "VMk-Ak-YI1.text" = "Trade In";
 
-/* Class = "UILabel"; text = "Offered Price"; ObjectID = "Y8s-0l-dYw"; */
-"Y8s-0l-dYw.text" = "Offered Price";
+/* Class = "UILabel"; text = "Total Amount"; ObjectID = "Y8s-0l-dYw"; */
+"Y8s-0l-dYw.text" = "Total Amount";
 
 /* Class = "UILabel"; text = "Display & touch screen"; ObjectID = "b1k-0W-Ksu"; */
 "b1k-0W-Ksu.text" = "Display & touch screen";
@@ -157,6 +169,9 @@
 
 /* Class = "UIButton"; normalTitle = "UPLOAD ID PROOF"; ObjectID = "dHT-05-UyX"; */
 "dHT-05-UyX.normalTitle" = "UPLOAD ID PROOF";
+
+/* Class = "UILabel"; text = "N/A"; ObjectID = "dcJ-Ab-FoY"; */
+"dcJ-Ab-FoY.text" = "N/A";
 
 /* Class = "UILabel"; text = "Welcome to SmartExchange"; ObjectID = "ecP-te-9MB"; */
 "ecP-te-9MB.text" = "Welcome to SmartExchange";
@@ -194,11 +209,11 @@
 /* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "rw4-41-yMJ"; */
 "rw4-41-yMJ.normalTitle" = "SUBMIT";
 
-/* Class = "UILabel"; text = "Order Ref "; ObjectID = "tRJ-3M-R04"; */
-"tRJ-3M-R04.text" = "Order Ref ";
+/* Class = "UILabel"; text = "N/A"; ObjectID = "tRJ-3M-R04"; */
+"tRJ-3M-R04.text" = "N/A";
 
-/* Class = "UILabel"; text = "COSMETICS"; ObjectID = "tUA-oh-CiY"; */
-"tUA-oh-CiY.text" = "COSMETICS";
+/* Class = "UILabel"; text = "Physical Condition"; ObjectID = "tUA-oh-CiY"; */
+"tUA-oh-CiY.text" = "Physical Condition";
 
 /* Class = "UILabel"; text = "By choosing reboxed you save ewaste and plant 5 trees"; ObjectID = "v0N-qs-NIW"; */
 "v0N-qs-NIW.text" = "By choosing reboxed you save ewaste and plant 5 trees";
@@ -208,6 +223,12 @@
 
 /* Class = "UIButton"; normalTitle = "CONTINUE"; ObjectID = "vdu-F6-7pT"; */
 "vdu-F6-7pT.normalTitle" = "CONTINUE";
+
+/* Class = "UIButton"; normalTitle = "HOME"; ObjectID = "wDr-K6-RDm"; */
+"wDr-K6-RDm.normalTitle" = "HOME";
+
+/* Class = "UILabel"; text = "Offered Price"; ObjectID = "wv4-jH-YSM"; */
+"wv4-jH-YSM.text" = "Offered Price";
 
 /* Class = "UILabel"; text = "iPhone"; ObjectID = "x4A-3T-wJN"; */
 "x4A-3T-wJN.text" = "iPhone";

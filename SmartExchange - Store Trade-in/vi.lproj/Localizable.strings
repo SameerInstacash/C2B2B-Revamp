@@ -1,0 +1,349 @@
+/* 
+  Localizable.strings
+  SmartExchange - Store Trade-in
+
+  Created by Sameer Khan on 05/03/22.
+  
+*/
+
+"Welcome to SmartExchange" = "Chào mừng đến với Smart Exchange";
+"IMEI/Serial:" = "IMEI / sê-ri:";
+"Store Token" = "Nhập mã cửa hàng trên Web POS";
+"Scan QR" = "Quét mã QR";
+"Previous Quotation" = "Tìm giao dịch";
+"Let's Get Started" = "Bắt đầu chẩn đoán";
+"Reference Number" = "Tài liệu tham khảo số";
+"Order details" = "Chi tiết đơn hàng";
+"Reference No" = "tài liệu tham khảo số";
+"Customer" = "Khách hàng";
+"Prefferred time" = "Thời gian ưu tiên";
+"Email" = "E-mail";
+"Physical Condition" = "Tình trạng vật lý";
+"Customer details" = "Chi tiết khách hàng";
+"YOUR QUOTE" = "BÁO GIÁ CỦA BẠN";
+"Offered Price" = "Giá chào mua";
+"Diagnosis Charges" = "Phí chẩn đoán";
+"Estimated Amount" = "Số tiền ước tính";
+"Product details" = "Thông tin chi tiết sản phẩm";
+"We will show you multiple coloured screen with maximum brightness for 8-10 seconds. Please tell us if you see a black dot click “START” to begin" = "Chúng tôi sẽ hiển thị cho bạn màn hình nhiều màu với độ sáng tối đa trong 8-10 giây. Vui lòng cho chúng tôi biết nếu bạn thấy một chấm đen, hãy nhấp vào “BẮT ĐẦU” để bắt đầu";
+"Quit Diagnosis" = "Thoát chẩn đoán";
+"Are you sure you want to quit?" = "Bạn có chắc bạn muốn thoát khỏi?";
+"Touch Screen Test" = "Kiểm tra màn hình cảm ứng";
+"Please make sure Bluetooth and GPS are enabled on your device and press begin to start the tests" = "Vui lòng đảm bảo Bluetooth, GPS và Wifi được bật trên thiết bị của bạn và nhấn bắt đầu để bắt đầu kiểm tra.";
+/////////////////////////////////////////
+"Checking Proximity Sensor" = "Kiểm tra cảm biến tiệm cận";
+"Wave your hand infront of the screen" = "Vẫy tay trước màn hình";
+"Checking Hardware Buttons" = "Kiểm tra các nút phần cứng";
+"Follow the instructions below to complete check" = "Làm theo hướng dẫn bên dưới để hoàn tất kiểm tra";
+"Press volume up button" = "Nhấn nút tăng âm lượng";
+"Press volume down button" = "Nhấn nút giảm âm lượng";
+"Checking Earphone" = "Kiểm tra tai nghe";
+"Please plug-in your earphone" = "Vui lòng cắm tai nghe của bạn";
+"Checking Charger" = "Kiểm tra bộ sạc";
+"Please plug-in your charger" = "Vui lòng cắm bộ sạc của bạn";
+"Checking Camera" = "Kiểm tra máy ảnh";
+"Get ready to smile. We’re making sure this device is selfie-ready!" = "Hãy sẵn sàng để mỉm cười. Chúng tôi đang đảm bảo thiết bị này sẵn sàng chụp ảnh tự sướng!";
+"1. Tap anywhere on the screen to autofocus" = "1. Nhấn vào bất kỳ đâu trên màn hình để tự động lấy nét";
+"2. Press capture to take a shot!" = "2. Nhấn chụp để chụp!";
+"Checking Face-Id" = "Kiểm tra khuôn mặt";
+"First, enable the face-Id function on your phone" = "Đầu tiên, hãy bật chức năng nhận dạng khuôn mặt trên điện thoại của bạn";
+"During the test place your face on the scanner as you normally would to unlock your phone" = "Trong quá trình kiểm tra, hãy đặt khuôn mặt của bạn lên máy quét như cách bạn thường làm để mở khóa điện thoại";
+"Checking fingerprint scanner" = "Kiểm tra máy quét dấu vân tay";
+"First, please enable fingerprint function" = "Đầu tiên, vui lòng kích hoạt chức năng vân tay";
+"Then you will place your finger on the fingerprint scanner like you normally would during unlock" = "Sau đó, bạn sẽ đặt ngón tay của mình trên máy quét dấu vân tay như bạn thường làm trong quá trình mở khóa";
+"Enable Biometric" = "Bật sinh trắc học";
+"Go to Settings -> Touch ID & Passcode" = "Đi tới Cài đặt -> Touch ID & Mật mã";
+"Biometric Authentication Test" = "Kiểm tra xác thực sinh trắc học";
+"WiFi Test" = "Kiểm tra WiFi";
+"Checking FlashLight" = "Kiểm tra FlashLight";
+"Count how many times your phone's flashLight blinked and then type it in the text box provided" = "Đếm số lần đèn flash của điện thoại nhấp nháy và sau đó nhập nó vào hộp văn bản được cung cấp";
+"FlashLight not working" = "FlashLight không hoạt động";
+"FlashLight Test" = "Kiểm tra FlashLight";
+"Defective" = "Khiếm khuyết";
+"Please Enter Reference Number" = "Vui lòng nhập số tham chiếu";
+"Screen Calibration" = "Hiệu chỉnh màn hình";
+"SMART DIAGNOSTICS" = "CHẨN ĐOÁN THÔNG MINH";
+"TEST RESULT SUMMARY" = "TÓM TẮT KẾT QUẢ THỬ NGHIỆM";
+"Checking Device Rotation" = "Kiểm tra xoay thiết bị";
+"Choose language" = "Chọn ngôn ngữ";
+"Change language of this app including its content." = "Thay đổi ngôn ngữ của ứng dụng này bao gồm cả nội dung của nó.";
+/////////////////////////////////////////
+"Please enter your name" = "xin hãy nhập tên của bạn";
+"Please enter your email" = "Vui lòng nhập email của bạn";
+"Please enter valid email" = "Vui lòng nhập email hợp lệ";
+"Please enter your contact no." = "Vui lòng nhập số liên lạc của bạn.";
+"Please accept terms & conditions" = "Vui lòng chấp nhận các điều khoản & điều kiện";
+"Display & Touch Screen" = "Màn hình & Màn hình cảm ứng";
+"2 -3 Minor Scratches" = "2-3 vết xước nhỏ";
+"Heavily Scratched" = "Trầy xước nặng nề";
+"Cracked" = "Mất màu";
+"Not working (Loose LCD)" = "Không làm việc";
+"Network Lock / Telco Lock" = "Máy có bị khóa SIM ?";
+"Device Body (Back Panel / Cover)" = "Thân thiết bị \n (Viền, mặt lưng & camera sau)";
+"Minor Scratches" = "Trầy xước ( có 2-3 vết xước kích thước khoảng 2mm có thể nhìn thấy được) ";
+"Heavy Scratches" = "Vết xước nặng (có nhiều vết xước kéo dài hoặc chồng chéo nhau trên thân máy có thể thấy rõ ràng) ";
+"Dented" = "Cấn móp / Oxi hóa";
+"Details Synced to the server. Please contact Store Executive for further information" = "Thông tin chi tiết đã được đồng bộ hóa với máy chủ. Vui lòng liên hệ với Điều hành cửa hàng để biết thêm thông tin";
+"Photo Id uploaded successfully!" = "Id ảnh đã được tải lên thành công!";
+"Uploading..." = "Đang tải lên...";
+"Success" = "Thành công";
+"Click on ‘Start Test” and take a picture from your camera to run auto-focus test" = "Nhấp vào ‘Bắt đầu kiểm tra’ và Chụp một ảnh để kiểm tra chức năng tự động lấy nét.";
+"Authenticate with Touch Id/ Face Id of your phone" = "Nhận diện khuôn mặt";
+
+
+
+
+
+
+
+
+"Smart Exchange" = "Thông tin máy khách hàng";
+"Please enter the following details to continue" = "Bạn có thể: \n \n1. Theo hướng dẫn đề xuất bên dưới để tiếp tục: \n - Tên: nhập 3 ký tự bất kì, ví dụ: aaa \n - Địa chỉ email: nhập chuỗi bất kì có ký tự ‘@’ và ‘.’, ví dụ: a@a.a \n - Số điện thoại: nhập 9 chữ số bất kì, ví dụ 123456789 \n - Chọn ‘Tôi đã đọc và đồng ý…’ \n - Bấm nút ‘Tiếp tục’ \n Hoặc \n 2. Nhập thông tin Khách Hàng (khi được yêu cầu bởi quản lý)";
+
+"Back_camera_auth" = "Ứng dụng này không được phép sử dụng Camera sau";
+"Error" = "Lỗi";
+"Setting" = "Cài đặt";
+"Cancel" = "Hủy bỏ";
+"Reader_not_supported_by_the_current_device" = "Trình đọc không được hỗ trợ bởi thiết bị hiện tại";
+"header_title" = "Vui lòng MỞ tất cả chức năng bên dưới để tiến hành chẩn đoán chính xác.";
+"Dead_Pixel_Test" = "Kiểm tra điểm chết";
+"dead_pixel_msg" = "Bạn có nhìn thấy bất kì đốm trắng, đốm đen, bầm hay ám ảnh không?";
+"Yes" = "Có";
+"No" = "Không";
+"retry" = "Thử lại ";
+//"skip_info" = "If you skip this test there would be a substantial decline in the price offered. Do you still want to skip?";
+"skip_info" = "Nếu Bỏ qua sẽ dẫn đến RỚT LOẠI / GIÁ. Bạn có chắc không?"; //"Nếu bạn bỏ qua bài kiểm tra này, sẽ có giảm giá. Bạn có chắc không?";
+//"Proximity_Sensor_Diagnosis" = "Chẩn đoán cảm biến tiệm cận";
+"Proximity_Sensor_Diagnosis" = "Bỏ qua cảm biến tiệm cận";
+"Checking_Network" = "Kiểm tra mạng";
+"Checking_Bluetooth" = "Kiểm tra Bluetooth";
+"Checking_WiFi" = "Kiểm tra WiFi";
+"Tests_Complete" = "Hoàn thành bài kiểm tra!";
+"internet_prompt" = "Vui lòng kiểm tra kết nối Internet.";
+"pos_info" = "Vui lòng đảm bảo rằng bạn đã nhập các chi tiết trong POS.";
+"reader_info" = "Trình đọc không được hỗ trợ bởi thiết bị hiện tại";
+"camer_permission" = "Ứng dụng này không được phép sử dụng Camera sau.";
+"setting" = "Cài đặt";
+"hardware_info" = "Chẩn đoán nút phần cứng";
+"rotation_info" = "Chẩn đoán xoay tự động";
+"portrait_mode" = "Bây giờ xoay thiết bị của bạn trở lại chế độ xem dọc";
+"landscape_mode" = "Vui lòng chuyển Thiết bị sang Chế độ xem ngang";
+"earphone_info" = "Chẩn đoán Jack tai nghe";
+"charger_info" = "Chẩn đoán bộ sạc thiết bị";
+"camera_info" = "Chẩn đoán máy ảnh";
+"fingerprint_info" = "Nhận diện Dấu vân tay"; //"Chẩn đoán máy quét dấu vân tay";
+"invalid_imei" = "Số IMEI nhập không hợp lệ";
+"invalid_serial_info" = "Số Serial/IMEI không hợp lệ";
+"imei_validation_info" = "Nhập IMEI của thiết bị. \n\n Hướng dẫn: 1. Gọi *#06# và sao chép số IMEI của thiết bị.\n 2. Trường hợp có 2 số IMEI thì bắt buộc nhập IMEI";
+"screen_failed_info" = "Kiểm tra chẩn đoán màn hình không thành công!";
+"retry_test" = "Bạn có muốn thử lại bài kiểm tra không?";
+"continue" = "Tiếp tục";
+"submit" = "Gửi đi";
+"reference_no" = "Tài liệu tham khảo số";
+"skip" = "Bỏ qua";
+"price_info" = "Chẩn đoán qua Ứng dụng đã HOÀN TẤT. \n Vui lòng trượt xuống để xem đầy đủ hướng dẫn.\n \n Để tiếp tục, bạn vui lòng: \n 1. Đăng nhập tài khoản cửa hàng tại web http://thucudoimoi.com/ \n 2. Tiến hành tìm giao dịch ở mục \"Giao dịch ĐÃ hoàn tất chẩn đoán SmartExchange\" có nút “Chụp/Tải Ảnh” \nđể tiếp tục chụp & tải hình ảnh ngoại quan thiết bị. \n\n LƯU Ý:\nBạn phải Khôi phục cài đặt gốc sau khi Khách hàng đồng ý với kết quả thu mua và tiến hành giao dịch.";
+"rota_info" = "Bật tự động xoay màn hình, sau đó nhấp vào 'Bắt đầu kiểm tra' và xoay thiết bị của bạn từ chế độ xem Dọc sang Ngang";
+"hard_btn_info" = "Vui lòng nhấn các nút hoặc phím sau trên điện thoại của bạn.";
+"Checking_GPS" = "Đang kiểm tra GPS ...";
+//"lcd" = "LCD / Kính màn hình";
+"lcd" = "Màn hình hiển thị và cảm ứng";
+//"cpbp_info" = "Thân thiết bị (Viền & mặt sau)"; //"Thân thiết bị (Bên & mặt sau)";
+"cpbp_info" = "Thân thiết bị \n (Viền, mặt lưng & camera sau)";
+"mobile_place" = "Số điện thoại";
+"email_place" = "Địa chỉ email";
+"name_place" = "Tên";
+
+//"user_details_info" = "Bạn có thể: \n \n1. Theo hướng dẫn đề xuất bên dưới để tiếp tục: \n - Tên: nhập 3 ký tự bất kì, ví dụ: aaa \n - Địa chỉ email: nhập chuỗi bất kì có ký tự ‘@’ và ‘.’, ví dụ: a@a.a \n - Số điện thoại: nhập 9 chữ số bất kì, ví dụ 123456789 \n - Chọn ‘Tôi đã đọc và đồng ý…’ \n - Bấm nút ‘Tiếp tục’ \n Hoặc \n 2. Nhập thông tin Khách Hàng (khi được yêu cầu bởi quản lý)";
+"user_details_info" = "THÔNG TIN KHÁCH HÀNG \n \n1. Nhập chính xác thông tin Khách hàng khi được yêu cầu bởi Quản lý \n\n Hoặc \n\n Nhập thông tin theo hướng dẫn: \n • Tên: ký tự bất kỳ như aaa \n • Email: bất kỳ theo định dạng a@a.a \n • Điện thoại: nhập số bất kỳ có 9 chữ số bắt đầu bằng 0";
+
+
+"user_btn_continue" = "Tiếp tục";
+"upload_btn_text" = "-";
+"schedule_btn_text" = "Lịch trình quay lại";
+//"cracked" = "Nứt (mặt kính có ít nhất một vết nứt có thể nhìn thấy rõ ràng)";
+
+//"cracked" = "Kính màn hình bị nứt hoặc bể nát nhưng cảm ứng vẫn còn sử dụng được";
+"cracked" = "Nứt vỡ, bung hở, cong vênh";
+//"Cracked" = "Thân vỏ hoặc mặt lưng bị nứt / Kính camera bị nứt, bể hoặc bụi dơ";
+"Cracked" = "Nứt vỡ, bung hở, cong vênh";
+
+"broken" = "Bị vỡ";
+//"dented" = "Lõm (có những vết cấn sâu vào vỏ máy có thể nhìn thấy rõ ràng) ";
+
+//"dented" = "Thân vỏ hoặc mặt lưng cấn móp / Sườn oxi hóa";
+//"Dented" = "Thân vỏ hoặc mặt lưng cấn móp / Sườn oxi hóa";
+"dented" = "Cấn móp / Oxi hóa";
+"Dented" = "Cấn móp / Oxi hóa";
+
+//"Not_Working" = "Sọc / Chảy mực / Ám màu / Bóng mờ / Đốm sáng / Cảm ứng chập chờn";
+"Not_Working" = "Lưu ảnh / Sọc / Chảy mực / Đốm / Ám màu / Chập chờn / Lỗi cảm ứng";
+//"flawless" = "Không xước";
+"flawless" = "Hoàn toàn không trầy xước";
+"Flawless" = "Hoàn toàn không trầy xước";
+//"Minor_Scratches" = "2-3 vết xước nhỏ (2-3 vết xước kích thước khoảng 2mm có thể nhìn thấy được)";
+//"Minor_Scratches" = "Chỉ có dưới 5 vết xước nhẹ nhỏ hơn 3mm, nhìn thẳng khó thấy";
+"Minor_Scratches" = "1-3 vết trầy nhẹ";
+//"Heavily_Scratched" = "Trầy xước nặng (nhiều vết xước sâu và nhìn thấy rất rõ ràng)";
+//"Heavily_Scratched" = "Ít nhất 1 vết trầy hoặc cấn thấy rõ (có độ gợn khi trượt móng tay qua)";
+"Heavily_Scratched" = "Trầy xước nặng";
+"device_body" = "Thân thiết bị";
+//"Phone_Locks" = "Khóa điện thoại";
+"Phone_Locks" = "TÌNH TRẠNG LƯU Ý";
+"store_token" = "Lưu trữ mã thông báo";
+"Wifi_info" = "WiFi, Bluetooth hoặc GPS: Khiếm khuyết";
+"Proximity_info" = "Cảm biến tiệm cận: Khiếm khuyết";
+"camer_info" = "Camera: Khiếm khuyết";
+"device_info" = "Sinh trắc học thiết bị: Khiếm khuyết";
+"mic_info" = "Micrô: Khiếm khuyết";
+"speakers_info" = "Diễn giả: Khiếm khuyết";
+
+
+"nfc_info" = "NFC: Khiếm khuyết";
+"vibrator_info" = "Bộ rung: Khiếm khuyết";
+"gsm_info" = "GSM: Khiếm khuyết";
+"bluetooth_info" = "Bluetooth: Khiếm khuyết";
+"gps_info" = "GPS: Khiếm khuyết";
+
+
+"rotation_skip_title" = "Bỏ qua xoay tự động";
+"rotation_info" = "Tự động xoay màn hình"; //"Tự động chuyển vùng: Khiếm khuyết";
+"hardware_info" = "Kiểm tra phím cứng"; //"Nút phần cứng: Khiếm khuyết";
+"back" = "Quay Lại";
+"Device_Status" = "Thông tin máy";
+"valid_email_err" = "Vui lòng nhập đầy đủ thông tin";
+"change_language" = "Thay đổi ngôn ngữ";
+"ol_info_text" = "Nhập vào Email để nhận đường dẫn gửi hình ảnh thẩm định tình trạng Thiết bị";
+"ol_verification_title" = "Đang Gửi";
+"ol_verification_desc" = "Bạn sẽ nhận được email từ chúng tôi, vui lòng chờ trong giây lát. \n \n Không tắt màn hình này \n Sử dụng điện thoại đại lý để chụp 6 hình ảnh của thiết bị \n Chờ thông báo thành công sau khi chụp ảnh";
+"Enable_camera" = "Cho phép Máy ảnh ";
+"Enable_photolibrary" = "Cho phép Thư viện ảnh";
+"Enable_microphone" = "Cho phép Micro";
+"Enable_location" = "Cho phép Vị trí";
+"advice" = "Lưu ý: bất kỳ chức năng nào không mở sẽ ảnh hưởng trực tiếp đến kết quả thẩm định cuối cùng.";
+"advice_additional" = "Bạn có thể mở cho phép các chức năng trong Cài đặt";
+"swipe_to_hide" = "Bạn có thể mở cho phép các chức năng trong Cài đặt";
+"imei_info" = "Nhập IMEI của thiết bị. \n\nHướng dẫn: \nGọi *#06# và sao chép số IMEI của thiết bị. \n Trường hợp có 2 số IMEI thì bắt buộc nhập IMEI 1.";
+/*
+"main_info" = "Để bắt đầu thẩm định, vui lòng nhập 'Mã cửa hàng' hoặc ấn nút 'Quét mã QR' và quét mã QR của cửa hàng. Sau đó ấn nút 'Gửi'. \n\n Để xem lại giao dịch, vui lòng ấn nút 'Tìm giao dịch'
+\n \n Lưu ý: Các tiêu chí KHÔNG thu mua: \n a. Tất cả thiết bị bị khoá nhà mạng (locked) hoặc bị khoá tài khoản (Knox/Google với Android, iCloud với Apple) \n b. Thân vỏ hoặc màn hình bị bể nát hoặc cong thấy rõ (độ cong > 50mm) \n c. Máy không nhận SIM Việt Nam";*/
+//"main_info" = "BẮT ĐẦU THẨM ĐỊNH:\n\n1. Nhập mã cửa hàng (lấy tại web POS) rồi bấm “Gửi”, hoặc\n 2.Bấm “Quét mã QR” (lấy tại web POS)\n\nLƯU Ý TRƯỚC KHI BẮT ĐẦU:\n\n• Mở Wifi, GPS, Bluetooth, GSM/3G/4G, NFC\n• Thiết lập Face ID / Touch ID\n• Mở chế độ tự động xoay màn hình\n• Không tắt chuông";
+"main_info" = "Nhập mã cửa hàng hoặc Quét mã QR\nđể bắt đầu thẩm định";
+
+"screen_info" = "Vui lòng trượt xuống để xem đầy đủ hướng dẫn. \n Nhấp vào ‘Bắt đầu kiểm tra’, sau đó dùng ngón tay vuốt tất cả ô màu trắng trở thành màu xanh lá để kiểm tra cảm ứng của màn hình. \n \n Với màn hình bị liệt cảm ứng và không thể vuốt được, hệ thống sẽ tự bỏ qua bài kiểm tra trong 40 giây kể từ lúc nhấn nút ‘Bắt đầu kiểm tra’.";
+"cust_info" = "Bạn có thể: \n \n1. Theo hướng dẫn đề xuất bên dưới để tiếp tục: \n - Tên: nhập 3 ký tự bất kì, ví dụ: aaa \n - Địa chỉ email: nhập chuỗi bất kì có ký tự ‘@’ và ‘.’, ví dụ: a@a.a \n - Số điện thoại: nhập 9 chữ số bất kì, ví dụ 123456789 \n - Chọn ‘Tôi đã đọc và đồng ý…’ \n - Bấm nút ‘Tiếp tục’ \n Hoặc \n 2. Nhập thông tin Khách Hàng (khi được yêu cầu bởi quản lý)";
+
+
+"Connect to Wifi/Internet" = "Truy cập vào Wifi / Mạng ";
+"Active Sim Card" = "Gắn SIM vào máy"; //"Kích hoạt thẻ SIM";
+"Set up Fingerprint (if applicable)" = "Thiết lập mở khoá bằng vân tay & nhận diện khuôn mặt face ID (nếu có)";
+"Enable NFC (if applicable)" = "Mở kết nối NFC (nếu có)";
+"Enable Auto-Rotate Screen" = "Mở cảm biến tự động xoay ngang màn hình";
+"Disable Silent Mode" = "Tắt chế độ Im Lặng";
+"Enable bluetooth" = "Mở kết nối bluetooth";
+
+
+// Sameer -->> 12/4/21
+"Summary of Test Results" = "Kết quả Chẩn Đoán";
+"Failed and Skipped Tests" = "Chẩn đoán Đã Thất bại hoặc bị Bỏ qua";
+"Functional Checks" = "Chẩn đoán Đã Thành công";
+"ReTry" = "Thử lại";
+
+// All Tets Name
+"Dead Pixels" = "Điểm chết";
+"Screen" = "Màn hình";
+"Rotation" ="Tự động xoay";
+"Proximity" = "Cảm biến tiệm cận";
+"Hardware Buttons" = "Nút thiết bị";
+"Earphone" = "Jack tai nghe";
+"Charger" = "Cổng sạc";
+"Camera" = "Máy ảnh";
+"Fingerprint Scanner" = "Mở khóa Vân tay";
+"Face Id" = "Face Id";
+"Face-Id Scanner" = "Quét nhận diện khuôn mặt";
+"WIFI" = "WIFI";
+"GPS" = "GPS";
+"Bluetooth" = "Bluetooth";
+"GSM" = "GSM";
+"Microphone" = "Micro";
+"Speaker" = "Loa ngoài";
+"Vibrator" = "Tính năng Rung";
+"SMS Verification" = "Xác minh số điện thoại";
+"Storage" = "Lưu trữ";
+"Battery" = "Pin";
+
+
+"Checking Speaker" = "Đang kiểm tra Loa";
+"Your phone will play some numbers out loud, and then type it in the text box provided." = "Thiết bị sẽ đọc một số chữ số, vui lòng nghe và điền vào ô trống";
+"Start" = "Bắt đầu";
+"Skip" = "Tạm dừng";
+"Submit" = "Gửi";
+"Enter Number" = "Nhập số";
+"Speaker Test" = "Kiểm tra Loa";
+"If you skip this test there would be a substantial decline in the price offered. Do you still want to skip?" = "Bỏ qua bài kiểm tra này có thể dẫn tới giá thu mua giảm mạnh. Bạn có thật sự muốn bỏ qua?";
+
+
+"failed to record!" = "ghi thất bại";
+"Checking Microphone" = "Đang kiểm tra Micro";
+"Click to start button. after that microphone will listen your voice for 4 seconds to check your microphone is working or not" = "Bấm nút bắt đầu, sau đó micro sẽ thu âm giọng của bạn trong 4 giây để kiểm tra xem micro có hoạt động không";
+"Microphone Test" = "Kiểm tra Micro";
+
+
+"Checking Vibrator" = "Đang kiểm tra chức năng Rung";
+"Count how many times your phone has vibrated and then type it in the text box provided" = "Đếm bao nhiêu lần thiết bị rung và sau đó điền vào ô trống";
+"Vibrator Test" = "Kiểm tra chức năng Rung";
+
+
+"wifi_detail" = "WIFI: không hoạt động";
+
+"Checking WiFi" = "Đang kiểm tra WIFI…";
+"Testing WiFi" = "Đang kiểm tra WIFI…";
+"To test WIFI, turn WIFI on and connect to your preferred network then Press “START“" = "Để kiểm tra WIFI, bật kết nối WIFI và kết nối vào một mạng bất kỳ, sau đó bấm “BẮT ĐẦU“";
+
+"I hearby acknowledge that I have read, understand and agree to the Terms and Conditions." = "Chọn để xác nhận đã đọc, hiểu và đồng ý các điều khoản";
+
+
+"Locked" = "CÓ LỖI"; //"CÓ";
+"Unlocked" = "KHÔNG LỖI"; //"KHÔNG";
+
+
+"No Data Found" = "Không tìm thấy dữ liệu";
+"Please Check Internet connection." = "Vui lòng kiểm tra kết nối Internet";
+"Please Enter Valid Store Token" = "Vui lòng nhập đúng Mã cửa hàng";
+"Please Enter Store Token." = "Vui lòng nhập Mã cửa hàng";
+"Store Token Not Valid" = "Mã cửa hàng không đúng";
+"Trade In Online" = "Thu cũ đổi mới Online";
+"SmartExchange" = "SmartExchange";
+"Please Enter your details below" = "Vui lòng nhập thông tin của bạn dưới đây:";
+"PROCEED" = "Tiến hành";
+"Something went wrong!!" = "Đã xảy ra lỗi!!";
+"Your Trade-in value is" = "Giá Thu cũ của bạn là";
+"Do not delete" = "Vui lòng đừng xóa";
+"Factory Reset" = "Khôi phục cài đặt gốc";
+"Your Order ID is" = "Mã đơn hàng của bạn là";
+"You will be contacted within 24 hours to verify your order and schedule the pick-up." = "Trong vòng 24h, nhân viên chúng tôi sẽ liên hệ với bạn để xác nhận đơn hàng và thời gian thu thiết bị";
+"'SmartExchage Trade-in app' or" = "Ứng dụng SmartExchange hoặc";
+"your device before the collection." = "thiết bị của bạn trước khi thu";
+"The final trade-in value will be quoted to you by our logistic personnel." = "Nhân viên vận chuyển của chúng tôi sẽ xác nhận lại giá thu với bạn.";
+"You are only required to erase and remove your passcode and accounts upon agreeing to the final trade-in value." = "Bạn chỉ cần xóa mật khẩu và gỡ các tài khoản cá nhân khỏi thiết bị sau khi đồng ý với giá thu cuối cùng";
+"For any queries, please call CompAsia’s hotline at 03-7931 3417 (08:30am-06:00pm Mon - Fri)" = "Nếu có thắc mắc, vui lòng liên hệ Hotline CompAsia: XXXXX (Thời gian làm việc: 8h30 - 16h00 từ Thứ 2 - Thứ 6)";
+"Thank you for completing the SmartExchage Trade-in Diagnostic Test. Please walk-in to any SmartExchage stores to finalize your transaction." = "Cám ơn bạn đã hoàn tất chẩn đoán tình trạng thiết bị trên Ứng dụng SmartExchange. Vui lòng đến cửa hàng SmartExchange bất kỳ để hoàn tất giao dịch.";
+"Please agree Terms & Conditions" = "Vui lòng xác nhận đồng ý Điều khoản & Điều kiện";
+"Please Enter Bank Holders Name" = "Vui lòng nhập tên Chủ tài khoản";
+"Please Enter Bank Account Number" = "Vui lòng nhập số Tài khoản Ngân hàng";
+"Please select Bank Name" = "Vui lòng nhập Tên Ngân hàng";
+"Please wait for the results to sync to the server!" = "Vui lòng đợi kết quả đồng bộ lên máy chủ!";
+
+"There is no face enrolled in the device. Please go to Device Settings -> Face ID & Passcode and enroll your face." = "CHƯA CÀI ĐẶT FACE ID !Vui lòng cài Face ID của Khách hàng và Quét đúng mặt Khách hàng";
+"There are no fingerprints enrolled in the device. Please go to Device Settings -> Touch ID & Passcode and enroll your fingerprints." = "CHƯA CÀI ĐẶT DẤU VÂN TAY! \n Vui lòng cài Dấu vân tay của Khách hàng và Quét đúng Dấu vân tay Khách hàng";
+
+"faceId_info" = "Quét Face ID thất bại";
+"faceId_skip_info" = "Để xác nhận tình trạng Face ID, hãy quét lại đúng Face ID của Khách hàng.Nếu Bỏ qua sẽ dẫn đến RỚT LOẠI / GIÁ. Bạn có chắc không?";
+"Please Enter valid email" = "Vui lòng nhập email hợp lệ";
+
+
+"Enable Biometric" = "Bật sinh trắc học";
+"Go to Settings -> Touch ID & Passcode" = "Vào Cài đặt -> Sinh trắc học & Bảo mật";
+"Settings" = "Cài đặt";
+"Biometric Authentication" = "Xác thực Sinh trắc học";
+
+"Version" = "Phiên bản";
