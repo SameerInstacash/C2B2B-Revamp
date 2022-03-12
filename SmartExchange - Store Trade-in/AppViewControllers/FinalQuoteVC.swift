@@ -289,10 +289,10 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
         self.lblTotalAmountInfo.text = self.getLocalizatioStringValue(key: "Total Amount")
         
         
-        self.btnUploadId.setTitle(self.getLocalizatioStringValue(key: "Upload Id Proof") , for: .normal)
-        self.btnTradeInOnline.setTitle(self.getLocalizatioStringValue(key: "Trade In Online") , for: .normal)
-        self.backHomeBtn.setTitle(self.getLocalizatioStringValue(key: "Home"), for: .normal)
-        self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Have a promo code? Click here") , for: .normal)
+        self.btnUploadId.setTitle(self.getLocalizatioStringValue(key: "Upload Id Proof").uppercased() , for: .normal)
+        self.btnTradeInOnline.setTitle(self.getLocalizatioStringValue(key: "Trade In Online").uppercased(), for: .normal)
+        self.backHomeBtn.setTitle(self.getLocalizatioStringValue(key: "Home").uppercased(), for: .normal)
+        self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Have a promo code? Click here").uppercased(), for: .normal)
         self.btnPromoCode.layer.cornerRadius = 5
        
         //self.lblYouCouldBe.setLineHeight(lineHeight: 3.0)
@@ -572,7 +572,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                     
                                     // SAM 18/2/22
                                     // Indonesia
-                                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                                     
                                         self.trdValue = self.convertIndonesianCurrency(String(payable))
                                         //self.trdCurrency = symbol
@@ -593,7 +593,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                     */
                                     
                                   
-                                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                                         
                                         self.diagnoseChargeView.isHidden = true
                                         self.diagnoseChargeInfoView.isHidden = true
@@ -602,7 +602,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                     
                                     // SAM 18/2/22
                                     // Indonesia
-                                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                                         
                                        
                                         self.lblEstimatedAmount.text = "\(symbolNew ?? symbol) \(self.convertIndonesianCurrency(String(payable)))"
@@ -829,11 +829,11 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     
     @IBAction func applyPromoCodeBtnClicked(_ sender: UIButton) {
         
-        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Have a promo code? Click here") {
+        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Have a promo code? Click here").uppercased() {
             
-            let alert = UIAlertController(title: self.getLocalizatioStringValue(key: "Apply Promo") , message: "", preferredStyle: UIAlertController.Style.alert)
+            let alert = UIAlertController(title: self.getLocalizatioStringValue(key: "Apply Promo").uppercased() , message: "", preferredStyle: UIAlertController.Style.alert)
             
-            let doneAction = UIAlertAction(title: self.getLocalizatioStringValue(key: "Apply") , style: .default) { (alertAction) in
+            let doneAction = UIAlertAction(title: self.getLocalizatioStringValue(key: "Apply").uppercased() , style: .default) { (alertAction) in
                 let textField = alert.textFields![0] as UITextField
                 
                 guard !(textField.text?.isEmpty ?? false) else {
@@ -849,7 +849,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                 
             }
             
-            let cancelAction = UIAlertAction(title: self.getLocalizatioStringValue(key: "Cancel"), style: .destructive) { (alertAction) in
+            let cancelAction = UIAlertAction(title: self.getLocalizatioStringValue(key: "Cancel").uppercased(), style: .destructive) { (alertAction) in
                 
             }
             
@@ -900,7 +900,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                         DispatchQueue.main.async {
                             
                             self.btnPromoCode.setTitleColor(UIColor.red, for: .normal)
-                            self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Remove Promo") , for: .normal)
+                            self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Remove Promo").uppercased() , for: .normal)
                         
                             //self.lblEstimatedAmount.text = "\(self.trdCurrency)\(json["totalAmount"].int ?? 0)"
                             //self.lblVoucherAmount.text = "+ " + "\(self.trdCurrency)\(json["voucherAmount"].string ?? "")"
@@ -927,7 +927,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                             print(langStr ?? "",pre)
                             
                             // Indonesia
-                            if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                            if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                                 
                                 if let totalAMT = json["totalAmount"].string {
                                     let totl = self.convertIndonesianCurrency(totalAMT)
@@ -1028,7 +1028,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                             //self.btnPromoCode.setTitle("Apply Promo" , for: .normal)
                             
                             self.btnPromoCode.setTitleColor(UIColor.init(named: "008F00"), for: .normal)
-                            self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Have a promo code? Click here") , for: .normal)
+                            self.btnPromoCode.setTitle(self.getLocalizatioStringValue(key: "Have a promo code? Click here").uppercased(), for: .normal)
                             
                             
                             //self.lblEstimatedAmount.text = "\(self.trdCurrency)\(json["totalAmount"].string ?? "")"
@@ -1044,7 +1044,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                             print(langStr ?? "",pre)
                             
                             // Indonesia
-                            if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                            if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                                 
                                 if let totalAMT = json["totalAmount"].string {
                                     let totl = self.convertIndonesianCurrency(totalAMT)

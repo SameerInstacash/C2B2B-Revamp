@@ -19,6 +19,7 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
     @IBOutlet weak var lblQuestionName: UILabel!
     @IBOutlet weak var cosmeticCollectionView: UICollectionView!
     @IBOutlet weak var btnContinue: UIButton!
+    @IBOutlet weak var btnPrevious: UIButton!
     
 
     override func viewDidLoad() {
@@ -46,6 +47,10 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
     
     }
     
+    @IBAction func previousBtnPressed(_ sender: UIButton) {
+    
+    }
+    
     @IBAction func continueBtnPressed(_ sender: UIButton) {
         
         if self.selectedAppCode == "" {
@@ -66,7 +71,8 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
     func setUIElements() {
         
         self.lblTitle.text = self.getLocalizatioStringValue(key: "Physical Condition")
-        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "continue"), for: .normal)
+        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue").uppercased(), for: .normal)
+        self.btnPrevious.setTitle(self.getLocalizatioStringValue(key: "Previous").uppercased(), for: .normal)
         
         
         self.setStatusBarColor(themeColor: AppThemeColor)
@@ -143,7 +149,6 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
         }
         
         print(self.selectedAppCode)
-        
         
         AppResultString = AppResultString + self.selectedAppCode + ";"
         

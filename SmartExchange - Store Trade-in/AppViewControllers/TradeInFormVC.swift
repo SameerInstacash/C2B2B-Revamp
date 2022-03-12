@@ -64,7 +64,7 @@ class TradeInFormVC: UIViewController, UITableViewDataSource, UITableViewDelegat
         self.setStatusBarColor(themeColor: AppThemeColor)
         
         self.lblPleaseEnter.text = self.getLocalizatioStringValue(key: "Please Enter your details below")
-        self.btnProceed.setTitle(self.getLocalizatioStringValue(key: "PROCEED"), for: .normal)
+        self.btnProceed.setTitle(self.getLocalizatioStringValue(key: "PROCEED").uppercased(), for: .normal)
         
     }
     

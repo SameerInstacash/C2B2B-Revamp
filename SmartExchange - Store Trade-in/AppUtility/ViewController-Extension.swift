@@ -130,7 +130,7 @@ extension UIViewController {
         dictionary.keys.forEach { key in
             
             if key != "imei_number" {
-                if key != "AppleLanguages" {
+                if key != "SelectedLanguageSymbol" {
                     if key != "AppBaseUrl" {
                         defaults.removeObject(forKey: key)
                     }

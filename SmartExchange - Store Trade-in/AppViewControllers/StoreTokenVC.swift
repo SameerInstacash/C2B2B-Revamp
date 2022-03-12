@@ -11,6 +11,7 @@ import QRCodeReader
 import SwiftyJSON
 import Alamofire
 import JGProgressHUD
+import CoreTelephony
 
 class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
         
@@ -240,12 +241,14 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
     }
     
     private func changeToLanguage(_ langCode: String) {
+        print(langCode)
+        
         if Bundle.main.preferredLocalizations.first != langCode {
             let message = self.getLocalizatioStringValue(key: "In order to change the language, the App must be closed and reopened by you.")
             let confirmAlertCtrl = UIAlertController(title: self.getLocalizatioStringValue(key: "App restart required"), message: message, preferredStyle: .alert)
             
             let confirmAction = UIAlertAction(title: self.getLocalizatioStringValue(key: "Close now"), style: .destructive) { _ in
-                UserDefaults.standard.set([langCode], forKey: "AppleLanguages")
+                UserDefaults.standard.set(langCode, forKey: "SelectedLanguageSymbol")
                 //UserDefaults.standard.set(langCode, forKey: "Vietnam")
                 UserDefaults.standard.synchronize()
                 exit(EXIT_SUCCESS)
@@ -256,6 +259,8 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
             confirmAlertCtrl.addAction(cancelAction)
             
             present(confirmAlertCtrl, animated: true, completion: nil)
+        }else {
+            print(langCode)
         }
     }
     
@@ -280,6 +285,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
             let action = UIAlertAction(title: language.strLanguageName, style: .default) { _ in
                 self.downloadSelectedLanguage(language.strLanguageUrl)
                
+                AppUserDefaults.setValue(language.strLanguageSymbol, forKey: "SelectedLanguageSymbol")
                 AppUserDefaults.setValue(language.strLanguageName, forKey: "LanguageName")
                 AppUserDefaults.setValue(language.strLanguageVersion, forKey: "LanguageVersion")
                 
@@ -397,9 +403,11 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                     self.btnLanguageSymbol.setTitle(languages[self.selectedLanguageIndex ?? 0].strLanguageSymbol, for: .normal)
                     self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
                     
-                    //DispatchQueue.main.async {
+                    if let langAvail = AppUserDefaults.value(forKey: "SelectedLanguageSymbol") as? String {
+                        print(langAvail)
+                    }else {
                         self.downloadSelectedLanguage(self.selectedLanguageDBurl ?? "")
-                    //}
+                    }
                     
                 }
                 else{
@@ -532,16 +540,16 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         self.lblImeiNumberTitle.text = self.getLocalizatioStringValue(key: "IMEI/Serial:")
         self.lblEnterStoreToken.text = self.getLocalizatioStringValue(key: "Please enter ‘Store Token’ and submit or click ‘Scan QR Code’ to begin Diagnostics. To view previous results, click on ‘Previous Quotation’")
         
-        self.btnSubmit.setTitle(self.getLocalizatioStringValue(key: "Submit"), for: .normal)
-        self.btnScanQR.setTitle(self.getLocalizatioStringValue(key: "Scan QR"), for: .normal)
-        self.btnPreviousQuote.setTitle(self.getLocalizatioStringValue(key: "Previous Quotation"), for: .normal)
-        self.btnLanguageDone.setTitle(self.getLocalizatioStringValue(key: "done"), for: .normal)
-        self.btnLanguageCancel.setTitle(self.getLocalizatioStringValue(key: "Cancel"), for: .normal)
+        self.btnSubmit.setTitle(self.getLocalizatioStringValue(key: "Submit").uppercased(), for: .normal)
+        self.btnScanQR.setTitle(self.getLocalizatioStringValue(key: "Scan QR").uppercased(), for: .normal)
+        self.btnPreviousQuote.setTitle(self.getLocalizatioStringValue(key: "Previous Quotation").uppercased(), for: .normal)
+        self.btnLanguageDone.setTitle(self.getLocalizatioStringValue(key: "done").uppercased(), for: .normal)
+        self.btnLanguageCancel.setTitle(self.getLocalizatioStringValue(key: "Cancel").uppercased(), for: .normal)
         
         
         self.lblWelcome.text = self.getLocalizatioStringValue(key: "Welcome to SmartExchange")
         self.txtFieldStoreToken.placeholder = self.getLocalizatioStringValue(key: "Store Token")
-        self.btnChangeLanguage.setTitle(self.getLocalizatioStringValue(key: "Change Language"), for: .normal)
+        self.btnChangeLanguage.setTitle(self.getLocalizatioStringValue(key: "Change Language").uppercased(), for: .normal)
         
         self.lblVersionNumber.text = self.getLocalizatioStringValue(key: "Version") + " " + (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")
         
@@ -744,6 +752,26 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
     
     func verifyUserSmartCode() {
         
+        var typeOfDevice = ""
+        if UIApplication.shared.canOpenURL(URL(string: "tel://")!) {
+        //if UIApplication.shared.canOpenURL(URL(string: "tel://1234567890")!) {
+            
+            let networkInfo = CTTelephonyNetworkInfo()
+            let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            let code: String? = carrier?.mobileNetworkCode
+            
+            if (code != nil) {
+                typeOfDevice = "gsm"
+            }
+            else {
+                typeOfDevice = "gsm"
+            }
+        }
+        else {
+            typeOfDevice = "wifi"
+        }
+        
+        
         self.view.endEditing(true)
         
         var params = [String : Any]()
@@ -758,7 +786,9 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                   //"memory" : "128",
                   //"ram" : "3073741824",
                   
-                  "storeToken" : self.storeToken]
+                  "storeToken" : self.storeToken,
+                  "deviceType" : typeOfDevice
+        ]
         
         //print("params = \(params)")
         //print(kStartSessionURL)

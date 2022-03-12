@@ -26,6 +26,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     @IBOutlet weak var lblEmail: UILabel!
     @IBOutlet weak var lblFunctionalChecks: UILabel!
     
+    @IBOutlet weak var btnHome: UIButton!
     @IBOutlet weak var btnUploadId: UIButton!
     @IBOutlet weak var quoteTableView: UITableView!
     @IBOutlet weak var quoteTableViewHeightConstraint: NSLayoutConstraint!
@@ -74,6 +75,31 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
     //MARK:- IBAction
     @IBAction func backBtnPressed(_ sender: UIButton) {
         self.navigationController?.popViewController(animated: true)
+    }
+    
+    @IBAction func backHomePressed(_ sender: UIButton) {
+        
+        AppResultJSON = JSON()
+        AppResultString = ""
+        AppHardwareQuestionsData = nil
+        hardwareQuestionsCount = 0
+        AppQuestionIndex = -1
+        self.resetAppUserDefaults()
+
+        if #available(iOS 13.0, *) {
+            
+            let scene = UIApplication.shared.connectedScenes.first
+            if let sd : SceneDelegate = (scene?.delegate as? SceneDelegate) {
+                sd.navigateToLoginScreen()
+            }
+            
+        } else {
+            // Fallback on earlier versions
+            if let appDelegate = UIApplication.shared.delegate as? AppDelegate {
+                appDelegate.navigateToLoginScreen()
+            }
+        }
+    
     }
     
     @IBAction func uploadIdBtnPressed(_ sender: UIButton) {
@@ -138,7 +164,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.lblPrefferredTimeTitle.text = self.getLocalizatioStringValue(key: "Prefferred time")
         self.lblEmailTitle.text = self.getLocalizatioStringValue(key: "Email")
         self.lblEmailTitle.text = self.getLocalizatioStringValue(key: "Functional Checks")
-        
+        self.btnHome.setTitle(self.getLocalizatioStringValue(key: "Home").uppercased(), for: .normal)
         
         self.hideKeyboardWhenTappedAroundView()
         self.setStatusBarColor(themeColor: AppThemeColor)

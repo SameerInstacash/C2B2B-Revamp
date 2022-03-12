@@ -164,7 +164,7 @@ class UserDetailVC: UIViewController {
         self.txtFieldEmail.placeholder = self.getLocalizatioStringValue(key: "Email Address")
         self.txtFieldContactNumber.placeholder = self.getLocalizatioStringValue(key: "Mobile Number")
         self.lblTnC.text = self.getLocalizatioStringValue(key: "I hearby acknowledge that I have read, understand and agree to the Terms and Conditions.")
-        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue"), for: .normal)
+        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue").uppercased(), for: .normal)
         
         
         

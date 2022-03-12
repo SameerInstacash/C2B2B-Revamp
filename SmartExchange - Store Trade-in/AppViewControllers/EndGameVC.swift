@@ -38,7 +38,7 @@ class EndGameVC: UIViewController {
         
         
         // Indonesia
-        if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+        if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
             
             let a = self.getLocalizatioStringValue(key: "Your Trade-in value is")
             let b = "\n"

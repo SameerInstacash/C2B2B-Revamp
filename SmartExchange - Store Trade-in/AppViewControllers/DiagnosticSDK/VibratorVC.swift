@@ -77,7 +77,7 @@ class VibratorVC: UIViewController {
     
         
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Vibrator")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)
@@ -93,8 +93,8 @@ class VibratorVC: UIViewController {
     // MARK:- IBActions
     @IBAction func startButtonPressed(_ sender: UIButton) {
         
-        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start") {
-            sender.setTitle(self.getLocalizatioStringValue(key: "Submit"), for: .normal)
+        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start").uppercased() {
+            sender.setTitle(self.getLocalizatioStringValue(key: "Submit").uppercased(), for: .normal)
             
             self.startTest()
         }else {
@@ -233,9 +233,9 @@ class VibratorVC: UIViewController {
           
         }
         
-        let buttonTwo = DefaultButton(title: self.getLocalizatioStringValue(key:"No")) {
+        let buttonTwo = DefaultButton(title: self.getLocalizatioStringValue(key:"No").uppercased()) {
             //Do Nothing
-            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Start"), for: .normal)
+            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Start").uppercased(), for: .normal)
             popup.dismiss(animated: true, completion: nil)
         }
         

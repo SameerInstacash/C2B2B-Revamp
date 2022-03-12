@@ -75,8 +75,8 @@ class WiFiVC: UIViewController {
     
        
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start")    , for: .normal)
-        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip")    , for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
+        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Wifi")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)
@@ -90,7 +90,7 @@ class WiFiVC: UIViewController {
     // MARK:- IBActions
     @IBAction func startButtonPressed(_ sender: UIButton) {
         
-        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start")     {
+        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start").uppercased()  {
                         
             self.wifiTimer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(runTimedCode), userInfo: nil, repeats: true)
             
@@ -104,7 +104,7 @@ class WiFiVC: UIViewController {
         
         self.count += 1
       
-        self.hud.textLabel.text = self.getLocalizatioStringValue(key: "Checking WiFi")     + "..."
+        self.hud.textLabel.text = self.getLocalizatioStringValue(key: "Checking WiFi") + "..."
         self.hud.backgroundColor = #colorLiteral(red: 0.06274510175, green: 0, blue: 0.1921568662, alpha: 0.4)
         self.hud.indicatorView = JGProgressHUDRingIndicatorView()
         self.hud.progress = Float(self.count)*0.25
@@ -196,9 +196,9 @@ class WiFiVC: UIViewController {
         
         }
         
-        let buttonTwo = DefaultButton(title: self.getLocalizatioStringValue(key: "No")    ) {
+        let buttonTwo = DefaultButton(title: self.getLocalizatioStringValue(key: "No").uppercased()) {
             //Do Nothing
-            self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start")    , for: .normal)
+            self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
             
             popup.dismiss(animated: true, completion: nil)
         }

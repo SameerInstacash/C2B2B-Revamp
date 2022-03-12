@@ -46,7 +46,7 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
     func setUIElements() {
         
         self.lblWelcome.text = self.getLocalizatioStringValue(key: "Welcome to SmartExchange")
-        self.btnStart.setTitle(self.getLocalizatioStringValue(key: "Let's Get Started"), for: .normal)
+        self.btnStart.setTitle(self.getLocalizatioStringValue(key: "Let's Get Started").uppercased(), for: .normal)
         
         self.setStatusBarColor(themeColor: AppThemeColor)
         
@@ -63,7 +63,7 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
             self.lblPrice.isHidden = false
             //self.lblPrice.text = "Get Upto" + ":" + " "+self.currencySymbol + " "+self.currentPrice
             
-            if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "id" || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+            if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
                 
                 var str = self.currentPrice
                 //var str = "50000000"
@@ -109,7 +109,7 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
             self.lblPrice.isHidden = true
         }
         
-        if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "vi" || langStr == "vi" {
+        if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
             self.infoLabel.text = "Hãy làm các bước dưới đây \n trước khi bắt đầu:"
             self.isVietnamese = true
         } else {

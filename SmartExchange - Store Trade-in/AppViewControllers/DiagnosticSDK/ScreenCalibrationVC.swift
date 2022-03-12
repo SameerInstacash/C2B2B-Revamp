@@ -191,7 +191,7 @@ class ScreenCalibrationVC: UIViewController {
         
         
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Screen Calibration")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)
@@ -203,12 +203,12 @@ class ScreenCalibrationVC: UIViewController {
         
         //self.screenImageView.loadGif(name: "final_touch")
         
-        self.guideBtn.setTitle(self.getLocalizatioStringValue(key: "Guide me"), for: .normal)
+        self.guideBtn.setTitle(self.getLocalizatioStringValue(key: "Guide me").uppercased(), for: .normal)
         self.guideBtn.setTitleColor(AppThemeColor, for: .normal)
         let guideBtnFontSize = self.guideBtn.titleLabel?.font.pointSize
         self.guideBtn.titleLabel?.font = UIFont.init(name: AppRobotoFontBold, size: guideBtnFontSize ?? 18.0)
         
-        self.startGuideBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
+        self.startGuideBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
         self.startGuideBtn.backgroundColor = AppThemeColor
         self.startGuideBtn.layer.cornerRadius = AppBtnCornerRadius
         self.startGuideBtn.setTitleColor(AppBtnTitleColor, for: .normal)

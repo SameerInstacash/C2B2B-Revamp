@@ -73,8 +73,8 @@ class BiometricVC: UIViewController {
     
         
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
-        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip"), for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
+        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Biometric Authentication")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)
@@ -103,7 +103,7 @@ class BiometricVC: UIViewController {
                     
                     
                     let langStr = Locale.current.languageCode
-                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "vi" || langStr == "vi" {
+                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
                         self.headingLbl.text = "Quét Face ID thất bại"
                         self.subHeading2Lbl.text = "Nhận diện khuôn mặt"
                     }
@@ -122,7 +122,7 @@ class BiometricVC: UIViewController {
                     
                     
                     let langStr = Locale.current.languageCode
-                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "vi" || langStr == "vi" {
+                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
                         self.headingLbl.text = "Quét Face ID thất bại"
                         self.subHeading2Lbl.text = "Nhận diện Dấu vân tay"
                     }
@@ -209,7 +209,7 @@ class BiometricVC: UIViewController {
                     
                     
                     let langStr = Locale.current.languageCode
-                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "vi" || langStr == "vi" {
+                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
                         self.headingLbl.text = "Quét Face ID thất bại"
                         self.subHeading2Lbl.text = "Nhận diện khuôn mặt"
                     }
@@ -218,7 +218,7 @@ class BiometricVC: UIViewController {
                 default:
                     
                     let langStr = Locale.current.languageCode
-                    if (UserDefaults.standard.value(forKey: "AppleLanguages") as? [String])?[0] == "vi" || langStr == "vi" {
+                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
                         self.headingLbl.text = "Quét Face ID thất bại"
                         self.subHeading2Lbl.text = "Nhận diện Dấu vân tay"
                     }
@@ -237,8 +237,8 @@ class BiometricVC: UIViewController {
     // MARK:- IBActions
     @IBAction func startButtonPressed(_ sender: UIButton) {
         
-        if sender.titleLabel?.text == self.getLocalizatioStringValue(key:"Start") {
-            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Skip"), for: .normal)
+        if sender.titleLabel?.text == self.getLocalizatioStringValue(key:"Start").uppercased() {
+            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Skip").uppercased(), for: .normal)
             
             self.startTest()
         }else {

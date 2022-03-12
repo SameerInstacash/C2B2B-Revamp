@@ -71,7 +71,7 @@ class AutoRotationVC: UIViewController {
         self.lblRotationInfo.font = UIFont.init(name: AppRobotoFontRegular, size: self.lblRotationInfo.font.pointSize)
         
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Rotation")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)
@@ -82,12 +82,12 @@ class AutoRotationVC: UIViewController {
         
         self.rotateImageView.loadGif(name: "rotation")
         
-        self.guideBtn.setTitle(self.getLocalizatioStringValue(key: "Guide me"), for: .normal)
+        self.guideBtn.setTitle(self.getLocalizatioStringValue(key: "Guide me").uppercased(), for: .normal)
         self.guideBtn.setTitleColor(AppThemeColor, for: .normal)
         let guideBtnFontSize = self.guideBtn.titleLabel?.font.pointSize
         self.guideBtn.titleLabel?.font = UIFont.init(name: AppRobotoFontBold, size: guideBtnFontSize ?? 18.0)
         
-        self.startGuideBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
+        self.startGuideBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
         self.startGuideBtn.backgroundColor = AppThemeColor
         self.startGuideBtn.layer.cornerRadius = AppBtnCornerRadius
         self.startGuideBtn.setTitleColor(AppBtnTitleColor, for: .normal)
@@ -99,7 +99,7 @@ class AutoRotationVC: UIViewController {
     // MARK:- IBActions
     @IBAction func startButtonPressed(_ sender: UIButton) {
         
-        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start") {
+        if sender.titleLabel?.text == self.getLocalizatioStringValue(key: "Start").uppercased() {
             
             // START
             
@@ -107,7 +107,7 @@ class AutoRotationVC: UIViewController {
             AppOrientationUtility.lockOrientation(.all)
 
             //AutoRotationText.text = "Please Tilt your Phone to Landscape mode."
-            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Skip"),for: .normal)
+            self.startBtn.setTitle(self.getLocalizatioStringValue(key:"Skip").uppercased(),for: .normal)
             
             NotificationCenter.default.addObserver(self, selector: #selector(self.rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
             

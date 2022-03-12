@@ -77,8 +77,8 @@ class VolumeButtonVC: UIViewController {
         self.diagnoseProgressView.progressTintColor = AppThemeColor
     
         // MultiLingual
-        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start"), for: .normal)
-        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip"), for: .normal)
+        self.startBtn.setTitle(self.getLocalizatioStringValue(key: "Start").uppercased(), for: .normal)
+        self.skipBtn.setTitle(self.getLocalizatioStringValue(key: "Skip").uppercased(), for: .normal)
         self.titleLbl.text = self.getLocalizatioStringValue(key: "Hardware Buttons")
         //self.titleLbl.text = self.getLocalizatioStringValue(key: "TECHCHECK® DIAGNOSTICS")
         self.titleLbl.font = UIFont.init(name: AppRobotoFontRegular, size: self.titleLbl.font.pointSize)

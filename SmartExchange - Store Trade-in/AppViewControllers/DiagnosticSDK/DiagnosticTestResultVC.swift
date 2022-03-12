@@ -79,7 +79,7 @@ class DiagnosticTestResultVC: UIViewController, UITableViewDelegate, UITableView
         
         // MultiLingual
         self.titleLbl.text = self.getLocalizatioStringValue(key: "TEST RESULT SUMMARY")
-        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue"), for: .normal)
+        self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue").uppercased(), for: .normal)
     }
     
     func createTableFromPassFailedTests() {
