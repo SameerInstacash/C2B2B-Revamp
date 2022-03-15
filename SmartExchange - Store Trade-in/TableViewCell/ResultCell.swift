@@ -21,7 +21,7 @@ class ResultCell: UITableViewCell {
         self.lblQuestion.textAlignment = .left
         
         self.lblAnswer.setLineHeight(lineHeight: 3.0)
-        self.lblAnswer.textAlignment = .left
+        self.lblAnswer.textAlignment = .right
         
     }
 

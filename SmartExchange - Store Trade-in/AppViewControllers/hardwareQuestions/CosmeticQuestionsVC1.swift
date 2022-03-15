@@ -11,9 +11,9 @@ import AlamofireImage
 class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UICollectionViewDelegateFlowLayout {
     
     var arrQuestionAnswer : Questions?
-    var TestDiagnosis: (() -> Void)?
-    var questionInd = 0
+    var TestDiagnosisForward: (() -> Void)?
     var selectedAppCode = ""
+    var selectedCellIndex = -1
     
     @IBOutlet weak var lblTitle: UILabel!
     @IBOutlet weak var lblQuestionName: UILabel!
@@ -30,6 +30,12 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated)
+        
+        if AppQuestionIndex == 0 {
+            self.btnPrevious.isHidden = true
+        }else {
+            self.btnPrevious.isHidden = false
+        }
         
         if (self.arrQuestionAnswer?.specificationValue?.count ?? 0) > 0 {
             //self.lblQuestionName.text = arrQuestionAnswer?.specificationName
@@ -48,7 +54,18 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
     }
     
     @IBAction func previousBtnPressed(_ sender: UIButton) {
-    
+        
+        arrAppQuestionsAppCodes?.remove(at: AppQuestionIndex-1)
+        print("arrQuestionsAppCodes are :", arrAppQuestionsAppCodes ?? [])
+        
+        hardwareQuestionsCount += 2
+        AppQuestionIndex -= 2
+        
+        
+        guard let didFinishRetryDiagnosis = self.TestDiagnosisForward else { return }
+        didFinishRetryDiagnosis()
+        self.dismiss(animated: false, completion: nil)
+        
     }
     
     @IBAction func continueBtnPressed(_ sender: UIButton) {
@@ -57,9 +74,13 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
             self.showaAlert(message: self.getLocalizatioStringValue(key: "Please select one option"))
         }else {
             
-            AppResultString = AppResultString + self.selectedAppCode + ";"
+            arrAppQuestionsAppCodes?.append(self.selectedAppCode)
+            print("arrQuestionsAppCodes are :", arrAppQuestionsAppCodes ?? [])
             
-            guard let didFinishRetryDiagnosis = self.TestDiagnosis else { return }
+            // 14/3/22
+            //AppResultString = AppResultString + self.selectedAppCode + ";"
+            
+            guard let didFinishRetryDiagnosis = self.TestDiagnosisForward else { return }
             didFinishRetryDiagnosis()
             self.dismiss(animated: false, completion: nil)
         }
@@ -74,9 +95,7 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
         self.btnContinue.setTitle(self.getLocalizatioStringValue(key: "Continue").uppercased(), for: .normal)
         self.btnPrevious.setTitle(self.getLocalizatioStringValue(key: "Previous").uppercased(), for: .normal)
         
-        
         self.setStatusBarColor(themeColor: AppThemeColor)
-        
         self.btnContinue.layer.cornerRadius = AppBtnCornerRadius
     }
     
@@ -108,8 +127,8 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
             
             //let str = answer?.value?.removingPercentEncoding
             let str = self.getLocalizatioStringValue(key: answer?.value?.removingPercentEncoding ?? "")
-            print("str 1 is", str)
-            print("str 11 is", answer?.value ?? "answer?.value")
+            //print("str 1 is", str)
+            //print("str 11 is", answer?.value ?? "answer?.value")
             lblIconName.text = str.replacingOccurrences(of: "+", with: " ")
             
             if let qImage = self.arrQuestionAnswer?.specificationValue?[indexPath.item].image {
@@ -124,8 +143,8 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
             
             //let str = answer?.value?.removingPercentEncoding
             let str = self.getLocalizatioStringValue(key: answer?.value?.removingPercentEncoding ?? "")
-            print("str 2 is", str)
-            print("str 22 is", answer?.value ?? "answer?.value")
+            //print("str 2 is", str)
+            //print("str 22 is", answer?.value ?? "answer?.value")
             lblIconName.text = str.replacingOccurrences(of: "+", with: " ")
             
             if let qImage = self.arrQuestionAnswer?.conditionValue?[indexPath.item].image {
@@ -136,6 +155,14 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
          
         }
         
+        
+        if self.selectedCellIndex == indexPath.item {
+            cosmeticCell1.layer.borderWidth = 1.0
+            cosmeticCell1.layer.borderColor = AppThemeColor.cgColor
+        }else {
+            cosmeticCell1.layer.borderWidth = 0.0
+            cosmeticCell1.layer.borderColor = UIColor.clear.cgColor
+        }
         
         return cosmeticCell1
     }
@@ -148,13 +175,18 @@ class CosmeticQuestionsVC1: UIViewController, UICollectionViewDataSource, UIColl
             self.selectedAppCode = self.arrQuestionAnswer?.conditionValue?[indexPath.item].appCode ?? ""
         }
         
-        print(self.selectedAppCode)
+        print("self.selectedAppCode is:-", self.selectedAppCode)
         
+        self.selectedCellIndex = indexPath.item
+        self.cosmeticCollectionView.reloadData()
+        
+        /* 14/3/22
         AppResultString = AppResultString + self.selectedAppCode + ";"
         
-        guard let didFinishRetryDiagnosis = self.TestDiagnosis else { return }
+        guard let didFinishRetryDiagnosis = self.TestDiagnosisForward else { return }
         didFinishRetryDiagnosis()
         self.dismiss(animated: false, completion: nil)
+        */
     }
     
     func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {

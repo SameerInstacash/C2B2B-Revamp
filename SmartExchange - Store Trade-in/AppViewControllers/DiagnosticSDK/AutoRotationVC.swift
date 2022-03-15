@@ -112,7 +112,7 @@ class AutoRotationVC: UIViewController {
             NotificationCenter.default.addObserver(self, selector: #selector(self.rotated), name: UIDevice.orientationDidChangeNotification, object: nil)
             
             self.lblRotationInfo.isHidden = false
-            self.lblRotationInfo.text = "landscape_mode"
+            self.lblRotationInfo.text = self.getLocalizatioStringValue(key: "Please switch the Device to Landscape View.")
             
         }else {
             
@@ -237,7 +237,7 @@ class AutoRotationVC: UIViewController {
             //AutoRotationText.text = "Please Tilt your Phone back to Portrait mode."
             //AutoRotationImageView.image = UIImage(named: "portrait_image")!
             
-            self.lblRotationInfo.text = "Now rotate your device back to Portrait view."
+            self.lblRotationInfo.text = self.getLocalizatioStringValue(key:"Now rotate your device back to Portrait view.") 
         }
         
         if hasStarted == true {

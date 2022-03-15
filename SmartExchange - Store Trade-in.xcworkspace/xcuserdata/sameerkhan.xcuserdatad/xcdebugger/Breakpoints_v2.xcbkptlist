@@ -7,48 +7,32 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "60A55F92-935F-4FF7-9787-2E09624A5D35"
+            uuid = "E89751CC-FF4B-4A36-A543-A23BDFA2A127"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "SmartExchange - Store Trade-in/AppViewControllers/hardwareQuestions/CosmeticQuestionsVC1.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "151"
-            endingLineNumber = "151"
-            landmarkName = "collectionView(_:didSelectItemAt:)"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "previousBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "5F7C9445-8D19-4CC3-9CA7-6C6609D9B16B"
+            uuid = "363997A4-D3AA-446C-845D-392BF993D34B"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "SmartExchange - Store Trade-in/AppViewControllers/HomeVC.swift"
+            filePath = "SmartExchange - Store Trade-in/AppViewControllers/hardwareQuestions/CosmeticQuestionsVC1.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "382"
-            endingLineNumber = "382"
-            landmarkName = "CosmeticHardwareQuestions()"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "1FFF8D14-FEDB-4D70-B318-2CAC625E313C"
-            shouldBeEnabled = "Yes"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "SmartExchange - Store Trade-in/AppViewControllers/HomeVC.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "384"
-            endingLineNumber = "384"
-            landmarkName = "CosmeticHardwareQuestions()"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "continueBtnPressed(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

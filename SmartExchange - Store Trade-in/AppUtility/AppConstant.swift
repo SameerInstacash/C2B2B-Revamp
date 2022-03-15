@@ -39,6 +39,8 @@ var hardwareQuestionsCount = 0
 var AppQuestionIndex = -1
 
 var AppHardwareQuestionsData : CosmeticQuestions?
+var arrAppHardwareQuestions: [Questions]?
+var arrAppQuestionsAppCodes : [String]?
 
 // ***** App Theme Color ***** //
 var AppThemeColorHexString : String?

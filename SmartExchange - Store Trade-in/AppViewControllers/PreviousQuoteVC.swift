@@ -59,7 +59,7 @@ class PreviousQuoteVC: UIViewController {
         
         self.lblTitle.text = self.getLocalizatioStringValue(key: "SMART EXCHANGE")
         self.lblRefNumTitle.text = self.getLocalizatioStringValue(key: "Reference Number")
-        self.txtFieldRefNum.placeholder = self.getLocalizatioStringValue(key: "Store Token")
+        self.txtFieldRefNum.placeholder = self.getLocalizatioStringValue(key: "Store token")
         self.btnSubmit.setTitle(self.getLocalizatioStringValue(key: "Submit").uppercased(), for: .normal)
         
         self.hideKeyboardWhenTappedAroundView()

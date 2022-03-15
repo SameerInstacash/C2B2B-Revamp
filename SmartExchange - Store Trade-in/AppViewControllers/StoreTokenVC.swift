@@ -283,7 +283,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         for language in arrCountrylanguages {
             
             let action = UIAlertAction(title: language.strLanguageName, style: .default) { _ in
-                self.downloadSelectedLanguage(language.strLanguageUrl)
+                self.downloadSelectedLanguage(language.strLanguageUrl, language.strLanguageSymbol)
                
                 AppUserDefaults.setValue(language.strLanguageSymbol, forKey: "SelectedLanguageSymbol")
                 AppUserDefaults.setValue(language.strLanguageName, forKey: "LanguageName")
@@ -400,13 +400,15 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                     AppUserDefaults.setValue(languages[self.selectedLanguageIndex ?? 0].strLanguageName, forKey: "LanguageName")
                     AppUserDefaults.setValue(languages[self.selectedLanguageIndex ?? 0].strLanguageVersion, forKey: "LanguageVersion")
                     
-                    self.btnLanguageSymbol.setTitle(languages[self.selectedLanguageIndex ?? 0].strLanguageSymbol, for: .normal)
-                    self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
+                    //self.btnLanguageSymbol.setTitle(languages[self.selectedLanguageIndex ?? 0].strLanguageSymbol, for: .normal)
+                    //self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
                     
                     if let langAvail = AppUserDefaults.value(forKey: "SelectedLanguageSymbol") as? String {
-                        print(langAvail)
+                        print("langAvail is :-",langAvail)
+                        self.btnLanguageSymbol.setTitle(langAvail, for: .normal)
+                        self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
                     }else {
-                        self.downloadSelectedLanguage(self.selectedLanguageDBurl ?? "")
+                        self.downloadSelectedLanguage(self.selectedLanguageDBurl ?? "", languages[self.selectedLanguageIndex ?? 0].strLanguageSymbol)
                     }
                     
                 }
@@ -454,7 +456,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                             self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
                             
                             DispatchQueue.main.async {
-                                self.downloadSelectedLanguage(self.selectedLanguageDBurl ?? "")
+                                self.downloadSelectedLanguage(self.selectedLanguageDBurl ?? "", lang.strLanguageSymbol)
                             }
                             
                         }
@@ -472,7 +474,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         
     }
     
-    func downloadSelectedLanguage(_ strUrl : String) {
+    func downloadSelectedLanguage(_ strUrl: String, _ strLangSymbol: String) {
         
         if reachability?.connection.description != "No Connection" {
             
@@ -507,7 +509,14 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                                 DispatchQueue.main.async {
                                     self.saveLocalizationString(json)
                                     //AppUserDefaults.setCountryLanguage(data: json)
+                                    
+                                    self.view.layoutSubviews()
+                                    self.view.layoutIfNeeded()
+                                    self.view.setNeedsDisplay()
                                     self.changeLanguageOfUI()
+                                                                        
+                                    self.btnLanguageSymbol.setTitle(strLangSymbol, for: .normal)
+                                    self.btnLanguageSymbol.backgroundColor = #colorLiteral(red: 0, green: 0.5607843137, blue: 0, alpha: 1)
                                 }
                             }
                             
@@ -548,7 +557,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         
         
         self.lblWelcome.text = self.getLocalizatioStringValue(key: "Welcome to SmartExchange")
-        self.txtFieldStoreToken.placeholder = self.getLocalizatioStringValue(key: "Store Token")
+        self.txtFieldStoreToken.placeholder = self.getLocalizatioStringValue(key: "Store token")
         self.btnChangeLanguage.setTitle(self.getLocalizatioStringValue(key: "Change Language").uppercased(), for: .normal)
         
         self.lblVersionNumber.text = self.getLocalizatioStringValue(key: "Version") + " " + (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")

@@ -39,6 +39,8 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
     //MARK:- IBAction
     @IBAction func startBtnPressed(_ sender: UIButton) {
         self.DeadPixelTest()
+        
+        //self.TestResultScreen()
     }
     
     //MARK:- Custom Methods
@@ -375,12 +377,19 @@ extension HomeVC {
         hardwareQuestionsCount -= 1
         AppQuestionIndex += 1
         
-        vc.TestDiagnosis = {
+        // To Handle forward case
+        vc.TestDiagnosisForward = {
             DispatchQueue.main.async() {
                
                 if hardwareQuestionsCount > 0 {
                     self.CosmeticHardwareQuestions()
                 }else {
+                    
+                    for appCode in arrAppQuestionsAppCodes ?? [] {
+                        AppResultString = AppResultString + appCode + ";"
+                        print("AppResultString is :", AppResultString)
+                    }
+                                        
                     let vc = self.storyboard?.instantiateViewController(withIdentifier: "UserDetailVC") as! UserDetailVC
                     self.navigationController?.pushViewController(vc, animated: true)
                 }
@@ -389,19 +398,23 @@ extension HomeVC {
         }
         
         vc.modalPresentationStyle = .overFullScreen
-        vc.questionInd = AppQuestionIndex
         
-        //vc.arrQuestionAnswer = AppHardwareQuestionsData?.msg?.questions?[AppQuestionIndex]
-        
+        if arrAppHardwareQuestions?[AppQuestionIndex].isInput == "1" {
+            vc.arrQuestionAnswer = arrAppHardwareQuestions?[AppQuestionIndex]
+            self.present(vc, animated: true, completion: nil)
+        }else {
+            self.CosmeticHardwareQuestions()
+        }
+           
+        /*
         if AppHardwareQuestionsData?.msg?.questions?[AppQuestionIndex].isInput == "1" {
             vc.arrQuestionAnswer = AppHardwareQuestionsData?.msg?.questions?[AppQuestionIndex]
             self.present(vc, animated: true, completion: nil)
         }else {
             self.CosmeticHardwareQuestions()
         }
-        
-        //self.present(vc, animated: true, completion: nil)
-        
+        */
+                
     }
 
 

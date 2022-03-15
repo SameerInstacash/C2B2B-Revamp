@@ -163,7 +163,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.lblCustomerTitle.text = self.getLocalizatioStringValue(key: "Customer")
         self.lblPrefferredTimeTitle.text = self.getLocalizatioStringValue(key: "Prefferred time")
         self.lblEmailTitle.text = self.getLocalizatioStringValue(key: "Email")
-        self.lblEmailTitle.text = self.getLocalizatioStringValue(key: "Functional Checks")
+        self.lblFunctionalChecks.text = self.getLocalizatioStringValue(key: "Functional Checks")
         self.btnHome.setTitle(self.getLocalizatioStringValue(key: "Home").uppercased(), for: .normal)
         
         self.hideKeyboardWhenTappedAroundView()

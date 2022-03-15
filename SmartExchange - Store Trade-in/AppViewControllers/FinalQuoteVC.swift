@@ -423,21 +423,34 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                     arrItem = item?.components(separatedBy: "->") ?? []
                                     
                                     if arrItem.count > 1 {
+                                        
+                                        let quest = arrItem[0].replacingOccurrences(of: "'", with: "")
+                                        let answ = arrItem[1].replacingOccurrences(of: "'", with: "")
+                                        self.arrQuestion.append(self.getLocalizatioStringValue(key: quest))
+                                        self.arrAnswer.append(self.getLocalizatioStringValue(key: answ))
                                     
-                                        self.arrQuestion.append(arrItem[0].replacingOccurrences(of: "'", with: ""))
-                                        self.arrAnswer.append(arrItem[1].replacingOccurrences(of: "'", with: ""))
+                                        //self.arrQuestion.append(arrItem[0].replacingOccurrences(of: "'", with: ""))
+                                        //self.arrAnswer.append(arrItem[1].replacingOccurrences(of: "'", with: ""))
                                     
                                     }else {
                                         
                                         let pre = self.arrAnswer.last
-                                        let val = (pre ?? "") + " & " + arrItem[0]
+                                        //let val = (pre ?? "") + " & " + arrItem[0]
+                                        
+                                        let val = self.getLocalizatioStringValue(key: (pre ?? "")) + " & " + self.getLocalizatioStringValue(key: arrItem[0])
                                         let key = self.arrQuestion.last
                                         
                                         self.arrQuestion.removeLast()
                                         self.arrAnswer.removeLast()
                                         
-                                        self.arrQuestion.append(key?.replacingOccurrences(of: "'", with: "") ?? "")
-                                        self.arrAnswer.append(val.replacingOccurrences(of: "& '", with: ""))
+                                        let quest = key?.replacingOccurrences(of: "'", with: "") ?? ""
+                                        let answ = val.replacingOccurrences(of: "& '", with: "")
+                                        self.arrQuestion.append(self.getLocalizatioStringValue(key: quest))
+                                        self.arrAnswer.append(answ)
+                                        
+                                        
+                                        //self.arrQuestion.append(key?.replacingOccurrences(of: "'", with: "") ?? "")
+                                        //self.arrAnswer.append(val.replacingOccurrences(of: "& '", with: ""))
                                         
                                     }
                                 }

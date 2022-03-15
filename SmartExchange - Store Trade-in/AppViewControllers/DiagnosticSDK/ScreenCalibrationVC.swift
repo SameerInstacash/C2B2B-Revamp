@@ -57,18 +57,28 @@ class ScreenCalibrationVC: UIViewController {
         
         AppOrientationUtility.lockOrientation(.portrait)
         
+        // 1
+        self.configureAudioSessionCategory()
+        self.checkAudio()
+        
+        // 2
+        self.checkVibrator()
+        
+        // 3
+        self.checkMicrophone()
+        
+        /*
         DispatchQueue.main.async {
-            self.configureAudioSessionCategory()
-            self.checkAudio()
+            
         }
                     
         DispatchQueue.main.asyncAfter(deadline: .now() + 0.5) {
-            self.checkVibrator()
+            
         }
         
         DispatchQueue.main.asyncAfter(deadline: .now() + 1.0) {
-            self.checkMicrophone()
-        }
+            
+        }*/
         
     }
     

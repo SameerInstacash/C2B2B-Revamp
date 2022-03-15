@@ -435,12 +435,27 @@ class DiagnosticTestResultVC: UIViewController, UITableViewDelegate, UITableView
                     
                     if json["status"] == "Success" {
                         
+                        
                         AppHardwareQuestionsData = CosmeticQuestions.init(json: json)
-    
+                     
+                        /*
                         if (AppHardwareQuestionsData?.msg?.questions?.count ?? 0) > 0 {
                             hardwareQuestionsCount = AppHardwareQuestionsData?.msg?.questions?.count ?? 0
                         }else {
                             
+                        }
+                        */
+                        
+                        arrAppHardwareQuestions = [Questions]()
+                        arrAppQuestionsAppCodes = [String]()
+                        
+                        for enableQuestion in AppHardwareQuestionsData?.msg?.questions ?? [] {
+                            if enableQuestion.isInput == "1" {
+                                arrAppHardwareQuestions?.append(enableQuestion)
+                                //print("AppHardwareQuestions are ", arrAppHardwareQuestions ?? [])
+                                hardwareQuestionsCount += 1
+                                print("hardwareQuestionsCount is ", hardwareQuestionsCount)
+                            }
                         }
                         
                         guard let didFinishDiagnosis = self.testResultTestDiagnosis else { return }
