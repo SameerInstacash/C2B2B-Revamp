@@ -876,8 +876,8 @@
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="yZy-Yd-tDX">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="528"/>
                                 <subviews>
-                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DwV-CS-AHb">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="576"/>
+                                    <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DwV-CS-AHb" customClass="shadowCornerView" customModule="SmartExchange___Store_Trade_in" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="596"/>
                                         <subviews>
                                             <button hidden="YES" opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2XL-iB-PHA">
                                                 <rect key="frame" x="295" y="20" width="60" height="60"/>
@@ -925,7 +925,7 @@
                                                 <nil key="highlightedColor"/>
                                             </label>
                                             <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iIa-qh-V84" customClass="shadowCornerView" customModule="SmartExchange___Store_Trade_in" customModuleProvider="target">
-                                                <rect key="frame" x="20" y="221" width="335" height="335"/>
+                                                <rect key="frame" x="20" y="221" width="335" height="345"/>
                                                 <subviews>
                                                     <stackView opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="tcc-Np-4zs">
                                                         <rect key="frame" x="20" y="30" width="295" height="80"/>
@@ -1056,7 +1056,7 @@
                                                     <constraint firstItem="tcc-Np-4zs" firstAttribute="top" secondItem="iIa-qh-V84" secondAttribute="top" constant="30" id="aT3-Qh-ZU8"/>
                                                     <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="200" id="iY6-Pd-QiG"/>
                                                     <constraint firstItem="n90-8Q-unv" firstAttribute="leading" secondItem="iIa-qh-V84" secondAttribute="leading" constant="20" id="ka7-Ua-o9p"/>
-                                                    <constraint firstAttribute="bottom" secondItem="n90-8Q-unv" secondAttribute="bottom" constant="20" id="tpO-05-SMi"/>
+                                                    <constraint firstAttribute="bottom" secondItem="n90-8Q-unv" secondAttribute="bottom" constant="30" id="tpO-05-SMi"/>
                                                 </constraints>
                                                 <userDefinedRuntimeAttributes>
                                                     <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
@@ -1080,9 +1080,14 @@
                                             <constraint firstItem="iIa-qh-V84" firstAttribute="top" secondItem="26D-hS-epl" secondAttribute="bottom" constant="20" id="hUE-1I-J1S"/>
                                             <constraint firstAttribute="trailing" secondItem="26D-hS-epl" secondAttribute="trailing" constant="20" id="lKL-h3-8js"/>
                                             <constraint firstItem="26D-hS-epl" firstAttribute="top" secondItem="AzM-xO-JIm" secondAttribute="bottom" constant="10" id="tox-UW-hIa"/>
-                                            <constraint firstAttribute="bottom" secondItem="iIa-qh-V84" secondAttribute="bottom" constant="20" id="wIW-vn-eal"/>
+                                            <constraint firstAttribute="bottom" secondItem="iIa-qh-V84" secondAttribute="bottom" constant="30" id="wIW-vn-eal"/>
                                             <constraint firstItem="RE2-ay-IFK" firstAttribute="leading" secondItem="DwV-CS-AHb" secondAttribute="leading" constant="10" id="wiA-nm-V8E"/>
                                         </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
                                     </view>
                                 </subviews>
                                 <constraints>
@@ -1524,8 +1529,25 @@
                                     <fontDescription key="fontDescription" name="Roboto-Regular" family="Roboto" pointSize="26"/>
                                 </variation>
                             </label>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JOp-Cl-a1d">
-                                <rect key="frame" x="20" y="311" width="335" height="291"/>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8b-9O-Mzc">
+                                <rect key="frame" x="20" y="612" width="335" height="45"/>
+                                <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="4Iz-ST-r01">
+                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
+                                    </constraint>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
+                                <state key="normal" title="LET'S GET STARTED"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
+                                </variation>
+                                <connections>
+                                    <action selector="startBtnPressed:" destination="gqm-YO-ycV" eventType="touchUpInside" id="ecG-AC-TOq"/>
+                                </connections>
+                            </button>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="JOp-Cl-a1d">
+                                <rect key="frame" x="20" y="313" width="335" height="291"/>
                                 <color key="backgroundColor" red="0.95686274509803915" green="0.95686274509803915" blue="0.95686274509803915" alpha="1" colorSpace="calibratedRGB"/>
                                 <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="1" minimumInteritemSpacing="0.0" id="uMs-0L-4yf">
                                     <size key="itemSize" width="166" height="178"/>
@@ -1580,23 +1602,6 @@
                                     <outlet property="delegate" destination="gqm-YO-ycV" id="ZOq-RC-kbg"/>
                                 </connections>
                             </collectionView>
-                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="i8b-9O-Mzc">
-                                <rect key="frame" x="20" y="612" width="335" height="45"/>
-                                <color key="backgroundColor" red="0.0" green="0.56078431370000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="45" id="4Iz-ST-r01">
-                                        <variation key="heightClass=regular-widthClass=regular" constant="55"/>
-                                    </constraint>
-                                </constraints>
-                                <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="18"/>
-                                <state key="normal" title="LET'S GET STARTED"/>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <fontDescription key="fontDescription" name="Roboto-Bold" family="Roboto" pointSize="24"/>
-                                </variation>
-                                <connections>
-                                    <action selector="startBtnPressed:" destination="gqm-YO-ycV" eventType="touchUpInside" id="ecG-AC-TOq"/>
-                                </connections>
-                            </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="y6F-Zf-BX9"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

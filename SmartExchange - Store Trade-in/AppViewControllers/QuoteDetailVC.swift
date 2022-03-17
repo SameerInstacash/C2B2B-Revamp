@@ -232,11 +232,17 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
                     arrItem = item?.components(separatedBy: "->") ?? []
                     
                     if arrItem.count > 1 {
-                        self.arrQuestion.append(arrItem[0])
-                        self.arrAnswer.append(arrItem[1])
+                        //self.arrQuestion.append(arrItem[0])
+                        //self.arrAnswer.append(arrItem[1])
+                        
+                        self.arrQuestion.append(self.getLocalizatioStringValue(key: arrItem[0]))
+                        self.arrAnswer.append(self.getLocalizatioStringValue(key: arrItem[1]))
+                        
                     }else {
                         let pre = self.arrAnswer.last
-                        let val = (pre ?? "") + " & " + arrItem[0]
+                        //let val = (pre ?? "") + " & " + arrItem[0]
+                        
+                        let val = self.getLocalizatioStringValue(key: (pre ?? "")) + " & " + self.getLocalizatioStringValue(key: arrItem[0])
                         let key = self.arrQuestion.last
                         
                         self.arrQuestion.removeLast()

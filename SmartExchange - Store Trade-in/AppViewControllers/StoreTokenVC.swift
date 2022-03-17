@@ -510,9 +510,6 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                                     self.saveLocalizationString(json)
                                     //AppUserDefaults.setCountryLanguage(data: json)
                                     
-                                    self.view.layoutSubviews()
-                                    self.view.layoutIfNeeded()
-                                    self.view.setNeedsDisplay()
                                     self.changeLanguageOfUI()
                                                                         
                                     self.btnLanguageSymbol.setTitle(strLangSymbol, for: .normal)
