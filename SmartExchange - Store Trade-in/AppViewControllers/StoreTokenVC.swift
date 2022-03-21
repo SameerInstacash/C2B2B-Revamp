@@ -44,6 +44,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
     var storeToken: String = ""
     
     var isPriceShow = false
+    var isQRScan = false
    
     var holdLanguageIndex : Int?
     var selectedLanguageIndex : Int?
@@ -159,6 +160,13 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         
         readerVC.completionBlock = { (result: QRCodeReaderResult?) in
             if let result = result {
+                
+                guard !self.isQRScan else {
+                    print("isQRScan is : \(self.isQRScan)")
+                    self.isQRScan = !self.isQRScan
+                    return
+                }
+                self.isQRScan = true
                 
                 print("result is : \(result.value)")
                 self.storeToken = String(result.value)
@@ -816,6 +824,8 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
                 do {
                     let json = try JSON(data: responseData.data ?? Data())
                     print(json)
+                    
+                    self.isQRScan = false
                     
                     if json["status"] == "Success" {
                         

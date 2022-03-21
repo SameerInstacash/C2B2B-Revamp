@@ -29,7 +29,7 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     //@IBOutlet weak var lblQuoteAmount: UILabel!
     //@IBOutlet weak var btnFinish: UIButton!
     
-    
+    @IBOutlet weak var priceInfoView: UIView!
     @IBOutlet weak var lblPriceInfo: UILabel!
     
     @IBOutlet weak var lblOfferedPriceInfo: UILabel!
@@ -170,6 +170,8 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     @IBAction func tradeInOnlineBtnPressed(_ sender: UIButton) {
+        
+        AppUserDefaults.set(false, forKey: "UploadId")
     
         let vc = self.storyboard?.instantiateViewController(withIdentifier: "TradeInFormVC") as! TradeInFormVC
         vc.tradeOrderId = self.currentOrderId
@@ -182,6 +184,8 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
     
     @IBAction func backToHomeBtnClicked(_ sender: UIButton) {
+        
+        AppUserDefaults.set(false, forKey: "UploadId")
         
         AppResultJSON = JSON()
         AppResultString = ""
@@ -277,6 +281,13 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     }
   
     func setUIElements() {
+        
+        let langStr = Locale.current.languageCode
+        if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "VI") || langStr == "vi" {
+            self.priceInfoView.isHidden = false
+        }else {
+            self.priceInfoView.isHidden = true
+        }
         
         self.lblTitle.text = self.getLocalizatioStringValue(key: "SMART EXCHANGE")
         self.lblPriceInfo.text = self.getLocalizatioStringValue(key: "price_info")
@@ -804,6 +815,9 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                     if json["status"] == "Success" {
                         
                         DispatchQueue.main.async() {
+                            
+                            AppUserDefaults.set(true, forKey: "UploadId")
+                            
                             //self.showaAlert(message: self.getLocalizatioStringValue(key: "Photo Id uploaded successfully!"))
                             
                             self.showAlert(title: self.getLocalizatioStringValue(key: "Success") , message: self.getLocalizatioStringValue(key: "Photo Id uploaded successfully!") , alertButtonTitles: [self.getLocalizatioStringValue(key: "Ok")], alertButtonStyles: [.default], vc: self) { index in

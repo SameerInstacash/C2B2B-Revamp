@@ -546,13 +546,13 @@ class ScreenCalibrationVC: UIViewController {
                         //self.createRecorder()
                         
                         AppUserDefaults.setValue(true, forKey: "Microphone")
-                        AppResultJSON["Microphone"].int = 1
+                        AppResultJSON["MIC"].int = 1
                         
                     } else {
                         // failed to record!
                         
                         AppUserDefaults.setValue(false, forKey: "Microphone")
-                        AppResultJSON["Microphone"].int = 0
+                        AppResultJSON["MIC"].int = 0
                         
                         if !AppResultString.contains("CISS08;") {
                             AppResultString = AppResultString + "CISS08;"
@@ -565,7 +565,7 @@ class ScreenCalibrationVC: UIViewController {
             // failed to record!
             
             AppUserDefaults.setValue(false, forKey: "Microphone")
-            AppResultJSON["Microphone"].int = 0
+            AppResultJSON["MIC"].int = 0
             
             if !AppResultString.contains("CISS08;") {
                 AppResultString = AppResultString + "CISS08;"

@@ -157,6 +157,13 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
   
     func setUIElements() {
         
+        if let isUploadPhoto = AppUserDefaults.value(forKey: "UploadId") as? Bool {
+            self.btnUploadId.isHidden = isUploadPhoto
+        }else {
+            self.btnUploadId.isHidden = true
+        }
+        
+        
         self.lblTitle.text = self.getLocalizatioStringValue(key: "SMART EXCHANGE")
         self.lblOrderDetail.text = self.getLocalizatioStringValue(key: "Order details")
         self.lblReferenceIdTitle.text = self.getLocalizatioStringValue(key: "Reference No")
@@ -165,6 +172,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         self.lblEmailTitle.text = self.getLocalizatioStringValue(key: "Email")
         self.lblFunctionalChecks.text = self.getLocalizatioStringValue(key: "Functional Checks")
         self.btnHome.setTitle(self.getLocalizatioStringValue(key: "Home").uppercased(), for: .normal)
+        self.btnUploadId.setTitle(self.getLocalizatioStringValue(key: "Upload Id Proof").uppercased() , for: .normal)
         
         self.hideKeyboardWhenTappedAroundView()
         self.setStatusBarColor(themeColor: AppThemeColor)
@@ -295,7 +303,7 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
         webService.responseJSON { (responseData) in
             
             self.hud.dismiss()
-            //print(responseData.value as? [String:Any] ?? [:])
+            print(responseData.value as? [String:Any] ?? [:])
             
             switch responseData.result {
             case .success(_):
@@ -306,6 +314,9 @@ class QuoteDetailVC: UIViewController, UITableViewDelegate, UITableViewDataSourc
                     if json["status"] == "Success" {
                         
                         DispatchQueue.main.async() {
+                            
+                            AppUserDefaults.set(true, forKey: "UploadId")
+                            
                             self.showaAlert(message: self.getLocalizatioStringValue(key: "Photo Id uploaded successfully!"))
                         }
                         

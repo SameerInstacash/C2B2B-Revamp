@@ -134,7 +134,7 @@ class PreviousQuoteVC: UIViewController {
                     let json = try JSON(data: responseData.data ?? Data())
                     
                     if json["status"] == "Success" {
-                        
+                        print("json is :",json)
                         let vc = self.storyboard?.instantiateViewController(withIdentifier: "QuoteDetailVC") as! QuoteDetailVC
                         vc.QuoteJSON = json
                         vc.orderId = self.txtFieldRefNum.text ?? ""

@@ -132,7 +132,9 @@ extension UIViewController {
             if key != "imei_number" {
                 if key != "SelectedLanguageSymbol" {
                     if key != "AppBaseUrl" {
-                        defaults.removeObject(forKey: key)
+                        if key != "UploadId" {
+                            defaults.removeObject(forKey: key)
+                        }
                     }
                 }
                 

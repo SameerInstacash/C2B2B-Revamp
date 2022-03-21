@@ -64,7 +64,7 @@ class MicroPhoneVC: UIViewController, AVAudioRecorderDelegate, RecorderDelegate 
                         
                         self.showAlert(title: self.getLocalizatioStringValue(key: "Error"), message: self.getLocalizatioStringValue(key: "failed to record!"), alertButtonTitles: [self.getLocalizatioStringValue(key: "OK")], alertButtonStyles: [.default], vc: self) { (index) in
                             
-                            AppResultJSON["Microphone"].int = 0
+                            AppResultJSON["MIC"].int = 0
                             AppUserDefaults.setValue(false, forKey: "Microphone")
                             
                             if !AppResultString.contains("CISS08;") {
@@ -83,7 +83,7 @@ class MicroPhoneVC: UIViewController, AVAudioRecorderDelegate, RecorderDelegate 
             
             self.showAlert(title: self.getLocalizatioStringValue(key: "Error"), message: self.getLocalizatioStringValue(key: "failed to record!"), alertButtonTitles: [self.getLocalizatioStringValue(key: "OK")], alertButtonStyles: [.default], vc: self) { (index) in
                 
-                AppResultJSON["Microphone"].int = 0
+                AppResultJSON["MIC"].int = 0
                 AppUserDefaults.setValue(false, forKey: "Microphone")
                 
                 if !AppResultString.contains("CISS08;") {
@@ -254,7 +254,7 @@ class MicroPhoneVC: UIViewController, AVAudioRecorderDelegate, RecorderDelegate 
 
         if success {
             
-            AppResultJSON["Microphone"].int = 1
+            AppResultJSON["MIC"].int = 1
             AppUserDefaults.setValue(true, forKey: "Microphone")
             
             if AppResultString.contains("CISS08;") {
@@ -265,7 +265,7 @@ class MicroPhoneVC: UIViewController, AVAudioRecorderDelegate, RecorderDelegate 
             
         } else {
             
-            AppResultJSON["Microphone"].int = 0
+            AppResultJSON["MIC"].int = 0
             AppUserDefaults.setValue(false, forKey: "Microphone")
             
             if !AppResultString.contains("CISS08;") {
@@ -334,7 +334,7 @@ class MicroPhoneVC: UIViewController, AVAudioRecorderDelegate, RecorderDelegate 
         // Create buttons
         let buttonOne = CancelButton(title: self.getLocalizatioStringValue(key:"Yes")) {
 
-            AppResultJSON["Microphone"].int = -1
+            AppResultJSON["MIC"].int = -1
             AppUserDefaults.setValue(false, forKey: "Microphone")
             
             if !AppResultString.contains("CISS08;") {
