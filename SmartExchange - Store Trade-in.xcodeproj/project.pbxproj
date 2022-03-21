@@ -1214,6 +1214,7 @@
 				CODE_SIGN_ENTITLEMENTS = "SmartExchange - Store Trade-in/SmartExchange - Store Trade-in.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 150;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEVELOPMENT_TEAM = FPA74MVT87;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "SmartExchange - Store Trade-in/Info.plist";
