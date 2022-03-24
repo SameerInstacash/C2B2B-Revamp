@@ -13,6 +13,11 @@
 			</array>
 		</dict>
 	</array>
+	<key>NSAppTransportSecurity</key>
+	<dict>
+		<key>NSAllowsArbitraryLoads</key>
+		<true/>
+	</dict>
 	<key>UIAppFonts</key>
 	<array>
 		<string>Roboto-Medium.ttf</string>
@@ -46,36 +51,5 @@
 	<string>UIStatusBarStyleLightContent</string>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>NSAppTransportSecurity</key>
-	<dict>
-		<key>NSAllowsArbitraryLoads</key>
-		<true/>
-	</dict>
-	<key>NSBluetoothAlwaysUsageDescription</key>
-	<string>Bluetooth permission required for Diagnosing the bluetooth hardware.</string>
-	<key>NSCalendarsUsageDescription</key>
-	<string>Calendar permission required for showing date</string>
-	<key>NSContactsUsageDescription</key>
-	<string>Contacts permission required for fetch contacts</string>
-	<key>NSCameraUsageDescription</key>
-	<string>The Camera is required to scan QR codes and To complete the Camera test.</string>
-	<key>NSFaceIDUsageDescription</key>
-	<string>To Check if the FaceId sensors are really working by authenticating using FaceId</string>
-	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
-	<string>This app requires access to your location when the screen is on and the app is displayed to complete the GPS Test</string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>This app requires access to your location when the screen is on and the app is displayed to complete the GPS Test</string>
-	<key>NSLocationUsageDescription</key>
-	<string>This app requires access to your location when the screen is on and the app is displayed to complete the GPS Test</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>This app requires access to your location when the screen is on and the app is displayed to complete the GPS Test</string>
-	<key>NSMicrophoneUsageDescription</key>
-	<string>Microphone permission required to complete the Mic and Speaker test</string>
-	<key>NSPhotoLibraryAddUsageDescription</key>
-	<string>Photo library access required to complete the camera test</string>
-	<key>NSPhotoLibraryUsageDescription</key>
-	<string>Photo library access required to save a picture clicked by you to complete the camera test </string>
-	<key>UIUserInterfaceStyle</key>
-	<string>Light</string>
 </dict>
 </plist>

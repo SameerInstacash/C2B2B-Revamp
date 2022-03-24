@@ -767,22 +767,22 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
     func verifyUserSmartCode() {
         
         var typeOfDevice = ""
-        if UIApplication.shared.canOpenURL(URL(string: "tel://")!) {
-        //if UIApplication.shared.canOpenURL(URL(string: "tel://1234567890")!) {
+        
+        if UIDevice.current.model.hasPrefix("iPad") {
             
             let networkInfo = CTTelephonyNetworkInfo()
             let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
-            let code: String? = carrier?.mobileNetworkCode
+            let code: String? = carrier?.isoCountryCode
             
             if (code != nil) {
                 typeOfDevice = "gsm"
             }
             else {
-                typeOfDevice = "gsm"
+                typeOfDevice = "wifi"
             }
-        }
-        else {
-            typeOfDevice = "wifi"
+            
+        }else {
+            typeOfDevice = "gsm"
         }
         
         

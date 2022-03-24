@@ -272,6 +272,49 @@ class BackgroundTestsVC: UIViewController, CBCentralManagerDelegate, CLLocationM
                         
                     }
                     
+                    
+                    
+                    // ***** 24/10/21
+                    // ***** TO CHECK GSM TEST WHEN E-SIM AVAILABLE ***** //
+                    
+                    // First, check if the currentRadioAccessTechnology is nil
+                    // It means that no physical Sim card is inserted
+                    let telephonyInfo = CTTelephonyNetworkInfo()
+                    
+                    if #available(iOS 12.0, *) {
+                        if telephonyInfo.serviceCurrentRadioAccessTechnology == nil {
+                            //if telephonyInfo.currentRadioAccessTechnology == nil {
+                            
+                            // Next, on iOS 12 only, you can check the number of services connected
+                            // With the new serviceCurrentRadioAccessTechnology property
+                            
+                            if let radioTechnologies =
+                                telephonyInfo.serviceCurrentRadioAccessTechnology, !radioTechnologies.isEmpty {
+                                // One or more radio services has been detected,
+                                // the user has one (ore more) eSim package connected to a network
+                                
+                                AppResultJSON["GSM"].int = 1
+                                AppUserDefaults.setValue(true, forKey: "GSM")
+                                                                
+                            }
+                            
+                        }
+                    } else {
+                        // Fallback on earlier versions
+                    }
+                    
+                    if #available(iOS 12.0, *) {
+                        if let countryCode = CTTelephonyNetworkInfo().serviceSubscriberCellularProviders?.values.first(where: { $0.isoCountryCode != nil }) {
+                            print("Country Code : \(countryCode)")
+                            
+                            AppResultJSON["GSM"].int = 1
+                            AppUserDefaults.setValue(true, forKey: "GSM")
+                            
+                        }
+                    }
+                    
+                    // ***** TO CHECK GSM TEST WHEN E-SIM AVAILABLE ***** //
+                    
                 }else {
                     
                     AppResultJSON["GSM"].int = -2
@@ -606,26 +649,44 @@ extension BackgroundTestsVC {
 
     func checkGSM() -> Bool {
         
-        if UIApplication.shared.canOpenURL(NSURL(string: "tel://")! as URL) {
-            // Check if iOS Device supports phone calls
-            // User will get an alert error when they will try to make a phone call in airplane mode
+        if UIDevice.current.model.hasPrefix("iPad") {
             
+            // iPad Case
+            let networkInfo = CTTelephonyNetworkInfo()
+            let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            let code: String? = carrier?.isoCountryCode
             
-            if let mnc = CTTelephonyNetworkInfo().subscriberCellularProvider?.mobileNetworkCode, !mnc.isEmpty {
-                // iOS Device is capable for making calls
-                self.isCapableToCall = true
-            } else {
-                // Device cannot place a call at this time. SIM might be removed
-                //self.isCapableToCall = false
+            if (code != nil) {
                 self.isCapableToCall = true
             }
-        } else {
-            // iOS Device is not capable for making calls
-            self.isCapableToCall = false
+            else {
+                self.isCapableToCall = false
+            }
+            return self.isCapableToCall
+            
+        }else {
+            
+            // iPhone Case
+            if UIApplication.shared.canOpenURL(NSURL(string: "tel://")! as URL) {
+                // Check if iOS Device supports phone calls
+                // User will get an alert error when they will try to make a phone call in airplane mode
+                
+                if let mnc = CTTelephonyNetworkInfo().subscriberCellularProvider?.mobileNetworkCode, !mnc.isEmpty {
+                    // iOS Device is capable for making calls
+                    self.isCapableToCall = true
+                } else {
+                    // Device cannot place a call at this time. SIM might be removed
+                    //self.isCapableToCall = false
+                    self.isCapableToCall = true
+                }
+            } else {
+                // iOS Device is not capable for making calls
+                self.isCapableToCall = false
+            }
+            return self.isCapableToCall
+            
         }
-        
-        print(isCapableToCall)
-        return self.isCapableToCall
+            
         
     }
     
