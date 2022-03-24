@@ -37,6 +37,7 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
     @IBOutlet weak var btnLanguageDone: UIButton!
     @IBOutlet weak var btnLanguageCancel: UIButton!
     
+    
     let reachability: Reachability? = Reachability()
     let hud = JGProgressHUD()
     var arrStoreUrlData = [StoreUrlData]()
@@ -566,18 +567,13 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         self.btnChangeLanguage.setTitle(self.getLocalizatioStringValue(key: "Change Language").uppercased(), for: .normal)
         
         self.lblVersionNumber.text = self.getLocalizatioStringValue(key: "Version") + " " + (Bundle.main.infoDictionary?["CFBundleShortVersionString"] as? String ?? "")
-        
+    
     }
     
     func setUIElements() {
                 
         self.resetAppUserDefaults()
                
-        DispatchQueue.main.async {
-            self.bottomContentView.roundCorners(corners: [.topLeft,.topRight], radius: 10.0)
-        }
-        
-        
         self.hideKeyboardWhenTappedAroundView()
         self.setStatusBarColor(themeColor: AppThemeColor)
         
