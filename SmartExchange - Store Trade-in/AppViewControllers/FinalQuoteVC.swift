@@ -45,6 +45,9 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
     @IBOutlet weak var diagnoseChargeInfoView: UIView!
     @IBOutlet weak var diagnoseChargeView: UIView!
     
+    @IBOutlet weak var estimatedPriceInfoView: UIView!
+    @IBOutlet weak var estimatedPriceView: UIView!
+    
     @IBOutlet weak var quoteTableView: UITableView!
     @IBOutlet weak var quoteTableViewHeightConstraint: NSLayoutConstraint!
     
@@ -557,9 +560,13 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                     
                                     self.lblDiagnosisChargeInfo.isHidden = true
                                     self.lblDiagnosisAmount.isHidden = true
+                                    self.diagnoseChargeInfoView.isHidden = true
+                                    self.diagnoseChargeView.isHidden = true
                                     
                                     self.lblEstimatedPriceInfo.isHidden = true
                                     self.lblEstimatedAmount.isHidden = true
+                                    self.estimatedPriceInfoView.isHidden = true
+                                    self.estimatedPriceView.isHidden = true
                                     
                                     
                                     if json["deviceStatus"].stringValue == "" {
@@ -567,8 +574,26 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                         self.lblOfferedAmount.isHidden = true
                                     }
                                     
-                                    self.lblOfferedPriceInfo.text = "Device_Status"
-                                    self.lblOfferedAmount.text = json["deviceStatus"].stringValue
+                                    //self.lblOfferedPriceInfo.text = "Device_Status"
+                                    //self.lblOfferedAmount.text = json["deviceStatus"].stringValue
+                                    
+                                    
+                                    let langStr = Locale.current.languageCode
+                                    let pre = Locale.preferredLanguages[0]
+                                    print(langStr ?? "",pre)
+                                    
+                                    
+                                    // SAM 29/3/22
+                                    // Indonesia
+                                    if (UserDefaults.standard.value(forKey: "SelectedLanguageSymbol") as? String == "ID") || langStr == "id" || UserDefaults.standard.value(forKey: "currentCountry") as? String == "ID" {
+                                    
+                                        self.lblOfferedPriceInfo.text = self.getLocalizatioStringValue(key: "Grade")
+                                        self.lblOfferedAmount.text = json["deviceStatus"].stringValue
+                                        
+                                    }else {
+                                        self.lblOfferedPriceInfo.text = self.getLocalizatioStringValue(key: "Device Status")
+                                        self.lblOfferedAmount.text = json["deviceStatus"].stringValue
+                                    }
 
                                 }else{
                                     

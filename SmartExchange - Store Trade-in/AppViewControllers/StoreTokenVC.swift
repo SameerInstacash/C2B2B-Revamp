@@ -767,7 +767,8 @@ class StoreTokenVC: UIViewController, QRCodeReaderViewControllerDelegate, UIColl
         if UIDevice.current.model.hasPrefix("iPad") {
             
             let networkInfo = CTTelephonyNetworkInfo()
-            let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            //let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            let carrier: CTCarrier? = networkInfo.serviceSubscriberCellularProviders?.first?.value
             let code: String? = carrier?.isoCountryCode
             
             if (code != nil) {

@@ -653,7 +653,9 @@ extension BackgroundTestsVC {
             
             // iPad Case
             let networkInfo = CTTelephonyNetworkInfo()
-            let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            //let carrier: CTCarrier? = networkInfo.subscriberCellularProvider
+            let carrier: CTCarrier? = networkInfo.serviceSubscriberCellularProviders?.first?.value
+            
             let code: String? = carrier?.isoCountryCode
             
             if (code != nil) {
