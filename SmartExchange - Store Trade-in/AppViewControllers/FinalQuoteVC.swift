@@ -590,9 +590,13 @@ class FinalQuoteVC: UIViewController, UITableViewDelegate, UITableViewDataSource
                                         self.lblOfferedPriceInfo.text = self.getLocalizatioStringValue(key: "Grade")
                                         self.lblOfferedAmount.text = json["deviceStatus"].stringValue
                                         
+                                        self.lblTotalAmount.text = "\(symbolNew ?? symbol) \(self.convertIndonesianCurrency(String(payable)))"
+                                        
                                     }else {
                                         self.lblOfferedPriceInfo.text = self.getLocalizatioStringValue(key: "Device Status")
                                         self.lblOfferedAmount.text = json["deviceStatus"].stringValue
+                                        
+                                        self.lblTotalAmount.text =  "\(symbolNew ?? symbol) \(Int(payable))"
                                     }
 
                                 }else{

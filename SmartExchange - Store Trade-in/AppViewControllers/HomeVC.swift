@@ -36,6 +36,11 @@ class HomeVC: UIViewController, UICollectionViewDataSource, UICollectionViewDele
         self.setUIElements()
     }
     
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+       
+    }
+    
     //MARK:- IBAction
     @IBAction func startBtnPressed(_ sender: UIButton) {
         self.DeadPixelTest()

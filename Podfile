@@ -23,6 +23,8 @@ target 'SmartExchange - Store Trade-in' do
     pod 'Alamofire'
     pod 'AlamofireImage'
     pod 'DropDown'
+    
+    pod 'NewRelicAgent'
 
   target 'SmartExchange - Store Trade-inTests' do
     inherit! :search_paths

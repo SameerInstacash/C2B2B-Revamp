@@ -111,6 +111,7 @@ PODS:
     - nanopb/encode (= 2.30908.0)
   - nanopb/decode (2.30908.0)
   - nanopb/encode (2.30908.0)
+  - NewRelicAgent (7.3.4)
   - PopupDialog (1.1.1):
     - DynamicBlurView (~> 4.0)
   - PromisesObjC (2.0.0)
@@ -131,6 +132,7 @@ DEPENDENCIES:
   - INTULocationManager
   - JGProgressHUD
   - Luminous
+  - NewRelicAgent
   - PopupDialog
   - QRCodeReader.swift
   - SwiftGifOrigin
@@ -160,6 +162,7 @@ SPEC REPOS:
     - leveldb-library
     - Luminous
     - nanopb
+    - NewRelicAgent
     - PopupDialog
     - PromisesObjC
     - QRCodeReader.swift
@@ -189,12 +192,13 @@ SPEC CHECKSUMS:
   leveldb-library: 50c7b45cbd7bf543c81a468fe557a16ae3db8729
   Luminous: b64626df5d551c8bd4c49d8b4dae8e57256a7a79
   nanopb: a0ba3315591a9ae0a16a309ee504766e90db0c96
+  NewRelicAgent: d0d9b04bdb4694ad8d97619db7a4a542e2333e8b
   PopupDialog: 720c92befd8bc23c13442254945213db5612f149
   PromisesObjC: 68159ce6952d93e17b2dfe273b8c40907db5ba58
   QRCodeReader.swift: 373a389fe9a22d513c879a32a6f647c58f4ef572
   SwiftGifOrigin: fbd6cf37afcfcf97a5c3db996ddc0492e5c5c145
   SwiftyJSON: 2f33a42c6fbc52764d96f13368585094bfd8aa5e
 
-PODFILE CHECKSUM: c9e7af9420f5ed60e6f776e4eee733d02a7e5421
+PODFILE CHECKSUM: cfebf72aa61f23dd792851e81306414a256568b3
 
 COCOAPODS: 1.11.2

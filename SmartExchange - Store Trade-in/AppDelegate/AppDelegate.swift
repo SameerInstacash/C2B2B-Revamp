@@ -7,6 +7,7 @@
 
 import UIKit
 import FirebaseCore
+import NewRelic
 
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -15,11 +16,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         
+        NewRelic.start(withApplicationToken: "eu01xx1be6f63ef5f2b71bb764cf7b89d723023cfe-NRMA")
+        
         sleep(2)
         FirebaseApp.configure()
         
         //Intercom.setApiKey("ios_sdk-877b0a9a1daaef87e1fe73862fe33dab0e14912f", forAppId:"nv6ywlh7")
-        
         
         return true
     }
